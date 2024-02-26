@@ -19,7 +19,7 @@ de chaque lettre initiale.
 • SEO
 • Gestion de projets / DevOps
 • English
-Général
+##Général
 1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels 
 permettant ce contexte
 2) Qu’est-ce qu’un algorithme ?
@@ -41,8 +41,8 @@ exemple d’utilisation en PHP
 15) Définir la partie « front-end » et « back-end » d’une application
 16) Définir le contrôle de version ? Qu’est-ce que Git ?
 17) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
-Page 2 sur 6
-Front-end
+
+##Front-end
 1) Définir HTML
 2) Définir CSS
 3) Définir Javascript
@@ -62,7 +62,8 @@ identifiant spécifique ?
 16) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
 17) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
 Donner la différence entre ces 2 méthodes
-UX / UI
+
+##UX / UI
 1) Quelle est la différence entre UX Design et UI Design ?
 2) Qu’est-ce qu’un wireframe ?
 3) Qu’est-ce qu’un prototype ?
@@ -89,8 +90,8 @@ Programmation orientée objet (POO)
 15) Qu’est-ce qu’un « autoload » ?
 16) Comment appelle-t-on en français les « getters » et les « setters » ?
 17) Qu’est-ce que la sérialisation en PHP ?
-Page 3 sur 6
-Architecture 
+
+##Architecture 
 1) Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le 
 serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer 
 la différence
@@ -137,8 +138,8 @@ f. Trier les résultats d’une requête SELECT
 g. Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
 h. Concaténer 2 chaînes de caractères 
 17) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
-Page 4 sur 6
-Symfony
+
+##Symfony
 1) Qu’est-ce que Symfony ?
 2) Sur quel langage de programmation et design pattern repose Symfony ?
 3) Quelle est la dernière version en date de Symfony ?
@@ -161,7 +162,8 @@ Sécurité
 8) Qu’est-ce qu’une politique de mots de passe forts ?
 9) Qu’est-ce que l’hameçonnage ?
 10) Définir la « validation des entrées »
-RGPD
+    
+##RGPD
 1) Qu’est-ce que le RGPD ?
 2) Quel est son objectif principal ?
 3) Quelle est la date d’entrée en vigueur du RGPD ?
@@ -172,8 +174,8 @@ RGPD
 8) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
 9) Quels sont les droits des utilisateurs selon le RGPD ?
 10) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
-Page 5 sur 6
-SEO
+
+##SEO
 1) Qu’est-ce que le SEO ?
 2) Quel est l’objectif principal du SEO ?
 3) Existe-t-il plusieurs types de référencement ? Lesquels ?
@@ -204,8 +206,8 @@ Gestion de projets / DevOps
 14) Quelle est l'unité de code testée lors d'un test unitaire ?
 15) Quelles sont les caractéristiques d'un bon test unitaire ?
 16) Qu'est-ce qu'une assertion dans un test unitaire ?
-Page 6 sur 6
-English
+
+##English
 1) What does JavaScript enable you to do on a website ?
 a. Add interactive behavior and dynamic content
 b. Define the layout and design of web pages
