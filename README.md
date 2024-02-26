@@ -1,6 +1,5 @@
 # Glossaire
 
-Page 1 sur 6
 GLOSSAIRE / QUIZ
 Ce glossaire est prévu pour valider les connaissances après chaque exercice clé de votre formation. 
 L’idée est de réussir à définir les différentes notions en une à 3 phrases maximum et d’adopter le 
@@ -21,26 +20,45 @@ de chaque lettre initiale.
 • English
  ##  Général
 1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels 
-permettant ce contexte
+permettant ce contexte?
+   Pour exécuter un script PHP, il faut installer Laragon.
+
 2) Qu’est-ce qu’un algorithme ?
+   C'est une écriture qui permet de traduire une donnée dans un language codé.
+
 3) Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+   Une variable est un élément de codage qui peut prendre différentes valeurs.
+
 4) Qu’est-ce que la portée d’une variable ?
+   La portée d'une variable correspond à l'espace du script dans laquelle elle va être accessible. 
+
 5) Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
-6) Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation
+   Une constante contient toujours la même valeur. A la différence d'une variable qui peut changer ou varier.
+
+6) Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation?
+
 7) Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
 et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
-8) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
-9) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
+   Les différents types primitifs que l'on peut associer à une variable en PHP sont:
+   null.
+   bool.
+   int.
+   float (nombre à virgule flottante)
+   string.
+   array.
+
+9) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+10) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
 exemple pour chacune d’entre elles
-10) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
-11) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
+12) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+13) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP
-12) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
-13) Quelle est la différence entre les instructions « require » et « include » en PHP
-14) Comment effectuer une redirection en PHP ?
-15) Définir la partie « front-end » et « back-end » d’une application
-16) Définir le contrôle de version ? Qu’est-ce que Git ?
-17) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+14) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+15) Quelle est la différence entre les instructions « require » et « include » en PHP
+16) Comment effectuer une redirection en PHP ?
+17) Définir la partie « front-end » et « back-end » d’une application
+18) Définir le contrôle de version ? Qu’est-ce que Git ?
+19) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
  ##  Front-end
 1) Définir HTML
