@@ -62,13 +62,13 @@ et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 10) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
 exemple pour chacune d’entre elles
 
-
 11) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
         $nbCaracteres = strlen($chaineDeCaracteres);
 
 12) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP
-
+    Les sessions permettent de stocker des données individuelles pour chaque utilisateur en utilisant un identifiant de session unique.
+    La fonction qui permet de démarrer une session PHP est session_start()
 
 13) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
     C'est un petit fichier que l'on enregistre sur l'ordinateur du visiteur.
@@ -76,11 +76,22 @@ exemple d’utilisation en PHP
 
 14) Quelle est la différence entre les instructions « require » et « include » en PHP
 
-17) Comment effectuer une redirection en PHP ?
-18) Définir la partie « front-end » et « back-end » d’une application
-19) Définir le contrôle de version ? Qu’est-ce que Git ?
-20) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+15) Comment effectuer une redirection en PHP ?
 
+
+16) Définir la partie « front-end » et « back-end » d’une application
+    Le "front-end" est la partie d'un site web que les utilisateurs voient.
+    Le "back-end" est la partie en arrière plan qui permet de faire fonctionner le "front-end".
+ 
+17) Définir le contrôle de version ? Qu’est-ce que Git ?
+    C’est un logiciel qui permet d’enregistrer, de suivre et de gérer plusieurs versions d’un fichier ou d’un code source.
+    Il permet d’établir un historique de toutes les modifications effectuées sur un fichier.
+    Git est un exemple de logiciel de gestion de versions (Version Control System).
+
+19) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+    Il s'agit d'un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site web,
+    Exemple: WordPress et Shopify
+    
  ##  Front-end
 1) Définir HTML
 2) Définir CSS
