@@ -38,8 +38,13 @@ permettant ce contexte?
    Une constante contient toujours la même valeur. A la différence d'une variable qui peut changer ou varier.
 
 6) Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation?
+   Elles sont écrites en majuscules et commencent toutes par un underscore $_GET et $_POST
+   Les superglobales sont toutes des array.
+   Ces variables sont automatiquement créées par PHP à chaque fois qu'une page est chargée. Ces variables existent
+   sur toutes les pages et sont accessibles partout : au milieu de 
+   code, au début, dans les fonctions etc...
 
-7) Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
+8) Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
 et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
    Les différents types primitifs que l'on peut associer à une variable en PHP sont:
    null.
@@ -50,24 +55,31 @@ et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
    array.
 
 9) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+   Il existe 2 types de tabeau:
+   - les tableaux à index numériques
+   - les tableaux associatifs
 
 10) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
 exemple pour chacune d’entre elles
 
 
-12) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+11) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
         $nbCaracteres = strlen($chaineDeCaracteres);
 
-13) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
+12) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP
 
-14) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 
-15) Quelle est la différence entre les instructions « require » et « include » en PHP
-16) Comment effectuer une redirection en PHP ?
-17) Définir la partie « front-end » et « back-end » d’une application
-18) Définir le contrôle de version ? Qu’est-ce que Git ?
-19) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+13) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+    C'est un petit fichier que l'on enregistre sur l'ordinateur du visiteur.
+    Ce fichier contient du texte et permet d'enregistrer des informations sur le visiteur.
+
+14) Quelle est la différence entre les instructions « require » et « include » en PHP
+
+17) Comment effectuer une redirection en PHP ?
+18) Définir la partie « front-end » et « back-end » d’une application
+19) Définir le contrôle de version ? Qu’est-ce que Git ?
+20) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
  ##  Front-end
 1) Définir HTML
