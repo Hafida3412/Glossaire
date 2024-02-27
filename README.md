@@ -88,29 +88,67 @@ exemple d’utilisation en PHP
     Il permet d’établir un historique de toutes les modifications effectuées sur un fichier.
     Git est un exemple de logiciel de gestion de versions (Version Control System).
 
-19) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+18) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
     Il s'agit d'un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site web,
     Exemple: WordPress et Shopify
     
  ##  Front-end
 1) Définir HTML
+  (HyperText Markup Language)
+  Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure.
+
 2) Définir CSS
+  (Cascading Style Sheets)
+  C'est un langage informatique qui permet de mettre en forme des pages web.
+
 3) Définir Javascript
+   C'est un langage de programmation qui permet de créer du contenu de façon dynamique, de contrôler le contenu multimédia,
+   d'animer des images...Il est utilisé en complément de HTML et CSS.
+
 4) Définir JSON. Dans quel contexte ce format est-il utilisé ?
+   (JavaScript Objet Notation)
+
 5) Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+
 6) Qu’est-ce qu’un sélecteur CSS ?
+   Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web
+   pour leur appliquer une règle CSS.
+
 7) Quelle balise HTML permet de créer un lien hypertexte ?
+   <a href=".........."</a>
+   
 8) Qu’est-ce qu’une requête AJAX ?
-9) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
+
+
+11) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
 identifiant spécifique ?
-10) Définir le responsive design
-11) Qu’est-ce que le templating ?
-12) Qu’est-ce qu’une fonction anonyme en Javascript ?
-13) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
-14) Qu’est-ce qu’un « media query » ?
-15) Qu’est-ce qu’un pseudo élément en CSS ?
-16) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
-17) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
+    Le sélecteur de classe commence par un point . et sélectionne tout élément du document auquel cette classe est appliquée. 
+    Un sélecteur d'ID commence par un # , il est utilisé de la même manière qu'un sélecteur de classe.
+    En revanche, l'ID ne peut être utilisé qu'une seule fois par document.
+
+13) Définir le responsive design
+    Ce design permet de modifier la mise en page d'un site afin que le contenu s'adapte à n'importe quel écran.
+    Exemple: smartphone, tablette, ordinateur, TV...
+
+14) Qu’est-ce que le templating ?
+
+
+15) Qu’est-ce qu’une fonction anonyme en Javascript ?
+
+
+16) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+
+
+17) Qu’est-ce qu’un « media query » ?
+    Le "media query" permet de changer le design d’un site Internet pour qu'il s'adapte à l’écran d'un autre appareil.
+
+18) Qu’est-ce qu’un pseudo élément en CSS ?
+
+
+19) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+
+
+20) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
 Donner la différence entre ces 2 méthodes
 
  ##  UX / UI
