@@ -21,13 +21,15 @@ de chaque lettre initiale.
  ##  Général
 1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels 
 permettant ce contexte?
-   Pour exécuter un script PHP, il faut installer Laragon.
+   Pour exécuter un script PHP, il faut installer Laragon ou XAMMPP.
 
 2) Qu’est-ce qu’un algorithme ?
-   C'est une écriture qui permet de traduire une donnée dans un language codé.
+   C'est la description d'une suite d'étapes permettant d'obtenir un résultat à partir d'éléments fournis au départ.
+   Exemple: une recette de cuisine est un algorithme permettant d'obtenir un plat à partir d'ingrédients.
 
 3) Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
-   Une variable est un élément de codage qui peut prendre différentes valeurs.
+   Une variable est un élément mesurable qui peut prendre différentes valeurs.
+   Exemple: taille, âge, poids...
 
 4) Qu’est-ce que la portée d’une variable ?
    La portée d'une variable correspond à l'espace du script dans laquelle elle va être accessible. 
@@ -48,12 +50,19 @@ et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
    array.
 
 9) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+
 10) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
 exemple pour chacune d’entre elles
+
+
 12) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+        $nbCaracteres = strlen($chaineDeCaracteres);
+
 13) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP
+
 14) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+
 15) Quelle est la différence entre les instructions « require » et « include » en PHP
 16) Comment effectuer une redirection en PHP ?
 17) Définir la partie « front-end » et « back-end » d’une application
