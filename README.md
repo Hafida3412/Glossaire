@@ -281,23 +281,74 @@ a. Analyse, conception et réalisation
 b. Planification, exécution et contrôle
 c. Création, modification et suppression
 3) Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+  Le MCD est un schéma clair qui montrent comment les données sont liées entre elles. Il décrit les entités(=objets), 
+  leurs propriétés (=données) et leurs relations. C'est une base de travail avant de créer une base de données.
+
 4) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+
+
 5) Donner la définition des mots suivants :
 a. Entité
+ C'est comme un petit dossier où vous pouvez ranger des informations similaires. 
+ -> exemple: l'entité "clients"contiendrait des info telles que le nom, l'adresse... 
+
 b. Relation
+ Elle permet de lier 2 entités. Elle porte un nom, c'est généralement un verbe.
+
 c. Cardinalité
+  Les cardinalités définissent les relations entre les entités. Ce sont des couples de valeurs exprimées sous forme de 
+  nombre(0, 1, n)
+
 d. Clé primaire / clé étrangère
+1.La clé primaire est utilisée pour identifier de manière unique chaque ligne dans une table de base de données.
+2.La clé étrangère permet de récupérer des données de plusieurs tables en même temps.
+
 6) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+
+
 7) Qu’est-ce qu’une base de données ?
+   C'est un endroit où on peut stocker et organiser des informations de manière structurée.
+   C'est comme une grande bibliothèqte numérique où on peut ranger des livres (=données) pour les retrouver facilement 
+   plus tard. Elles sont essentielles pour les applications Web, les systèmes de gestion...
+
+
 8) Définir les notions suivantes :
 a. SQL
+   Structured Query Language: « langage de requêtes structurées »
+   Il permet de :
+   -> Rechercher, ajouter, modifier ou supprimer des données dans les bases de données relationnelles.
+   -> Créer et modifier l’organisation des données dans la base de données.
+   -> Commencer et terminer des transactions.
+   -> Autoriser ou interdire l’accès à certaines données pour certaines personnes.
+
+
 b. MySQL
-c. SGBD (donner 2 exemples de SGBD)
-9) Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de 
-lignes appelées ___ et de colonnes appelées ___
+   -> MySQL est un système de gestion de bases de données relationnelles (RDBMS).
+   -> Il implémente le standard SQL et permet de stocker des données dans des tables.
+   -> MySQL est open source et est souvent utilisé dans les applications web.
+   -> Il est disponible pour différentes plateformes telles que Linux, Microsoft Windows, Mac OS X et Solaris.
+  
+   SQL est le langage utilisé pour travailler avec les données dans les bases de données, tandis que MySQL est un produit 
+   de base de données qui met en œuvre ce langage.
+   MySQL est souvent privilégié pour sa rapidité et son efficacité dans les applications nécessitant des performances élevées
+
+c. SGBD (donner 2 exemples de SGBD) = Systèmes de Gestion de Bases de Données
+   -> MySQL
+   -> Oracle
+
+
+9) Dans une base de données, les données sont stockées dans des TABLES (chaque table représente un type d'entité: exemple: table de commandes). Celles-ci sont constituées de 
+lignes appelées ENREGISTREMENT (=lignes dans une table) et de colonnes appelées ATTRIBUTS (=colonne dans une table)
+
+
 10) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+
+
 11) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+
+
 12) A quoi sert une vue dans une base de données ?
+
 13) Qu’est-ce que l’intégrité référentielle dans une base de données ?
 14) Quelles sont les fonctions d’agrégation en SQL ?
 15) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
