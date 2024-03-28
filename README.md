@@ -61,6 +61,53 @@ et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 
 10) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
 exemple pour chacune d’entre elles
+  
+   - Il existe 3 principales structures de contrôle:
+   
+   1.Séquence: c'est la structure de base. Les instructions sont exécutées les unes après les autres de manière  
+   linéaire.
+   -> exemple:
+   // Calcul de la somme de deux nombres:
+      $a = 3;
+      $b = 1;
+      $somme = $a + $b;
+      echo "La somme est : $somme";
+
+   2.Sélection (ou condition): elle permet de prendre des décisions en fonction des conditions
+     -> exemple avec une structure conditionnelle simple:
+      // Vérification si un nombre est positif ou négatif
+         $nombre = -2;
+         if ($nombre >= 0) {
+         echo "Le nombre est positif.";
+         } else {
+         echo "Le nombre est négatif.";
+         }
+
+     -> exemple avec une structure conditionnelle alternative (ou “si-sinon”)
+     // Vérification si un nombre est pair ou impair
+        $nombre = 7;
+        if ($nombre % 2 == 0) {
+        echo "Le nombre est pair.";
+        } else {
+        echo "Le nombre est impair.";
+        }
+   
+   3.Répétition (ou boucle): la répétition permet d’exécuter un bloc d’instructions plusieurs fois.
+     -> Exemple avec une boucle “tant que” 
+     // Affichage des nombres de 1 à 5
+        $i = 1;
+        while ($i <= 5) {
+        echo $i;
+        $i++;
+        }
+    
+     -> Exemple avec une boucle “pour” 
+     // Affichage des carrés des nombres de 1 à 5
+        for ($i = 1; $i <= 5; $i++) {
+        $carre = $i ** 2;
+        echo "Le carré de $i est : $carre";
+        }
+
 
 11) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
         $nbCaracteres = strlen($chaineDeCaracteres);
@@ -68,16 +115,36 @@ exemple pour chacune d’entre elles
 12) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP
     Les sessions permettent de stocker des données individuelles pour chaque utilisateur en utilisant un identifiant de session unique.
-    La fonction qui permet de démarrer une session PHP est session_start()
+    La fonction qui permet de démarrer une session PHP est: session_start()
+  
+   -> exemple:
+    // Démarrer la session
+       session_start();
+
+    // Stocker des données dans la session
+       $_SESSION['nom'] = 'Jean Dupont';
+       $_SESSION['age'] = 35;
+
+    // Récupérer des données de la session
+       echo 'Nom : ' . $_SESSION['nom'];
+       echo 'Age : ' . $_SESSION['age'];
+       ?>
+
 
 13) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
     C'est un petit fichier que l'on enregistre sur l'ordinateur du visiteur.
     Ce fichier contient du texte et permet d'enregistrer des informations sur le visiteur.
 
-14) Quelle est la différence entre les instructions « require » et « include » en PHP
-
+14) Quelle est la différence entre les instructions « require » et « include » en PHP 
+    Elles sont utilisées pou inclure des fichiers externes dans un script.
+    Lorsque nous utilisons <<include>>, si le fichier n'est pas trouvé, il affiche un avertissement et continue 
+    l'exécution du script.
+    Lorsque nous utilisons <<require>>, si le fichier n'est pas trouvé, PHP génère une erreur fatale et arrête
+    l'exécution du script.
+   
 15) Comment effectuer une redirection en PHP ?
-
+    Pour que la redirection fonctionne, il faut placer le lien url de la nouvelle page dans le header avant tout code 
+    HTML(ou texte) 
 
 16) Définir la partie « front-end » et « back-end » d’une application
     Le "front-end" est la partie d'un site web que les utilisateurs voient.
@@ -89,7 +156,9 @@ exemple d’utilisation en PHP
     Git est un exemple de logiciel de gestion de versions (Version Control System).
 
 18) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
-    Il s'agit d'un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site web,
+    (CMS = Content Management System: système de gestion de contenu)
+    Il s'agit d'un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site 
+    web.
     Exemple: WordPress et Shopify
     
  ##  Front-end
@@ -107,17 +176,24 @@ exemple d’utilisation en PHP
 
 4) Définir JSON. Dans quel contexte ce format est-il utilisé ?
    (JavaScript Objet Notation)
+   -> Le JSON est un format de texte inspiré de la syntaxe des objets JavaScript.
+      Il permet de stocker des données de manière organisée et lisible par les humains.
+      Les données sont présentées sous forme de paires clé/valeur.
 
-5) Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+   -> Le JSON est couramment utilisé pour transmettre des données entre un serveur et un client web.
+      Par exemple, lorsque vous consultez une page web, le serveur peut envoyer des données au format JSON pour que 
+      votre navigateur puisse les afficher.
 
-6) Qu’est-ce qu’un sélecteur CSS ?
+6) Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+
+7) Qu’est-ce qu’un sélecteur CSS ?
    Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web
    pour leur appliquer une règle CSS.
 
-7) Quelle balise HTML permet de créer un lien hypertexte ?
+8) Quelle balise HTML permet de créer un lien hypertexte ?
    <a href=".........."</a>
    
-8) Qu’est-ce qu’une requête AJAX ?
+9) Qu’est-ce qu’une requête AJAX ?
 
 
 11) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
@@ -137,6 +213,15 @@ identifiant spécifique ?
 
 
 16) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+    On utilise la méthode push()
+      // Exemple : Initialisation d'un tableau
+         let monTableau = [1, 2, 3];
+
+      // Ajout d'un élément à la fin du tableau
+         monTableau.push(4);
+
+     // Affichage du tableau mis à jour
+        console.log(monTableau); // Affiche [1, 2, 3, 4]
 
 
 17) Qu’est-ce qu’un « media query » ?
