@@ -136,7 +136,7 @@ exemple d’utilisation en PHP
     Ce fichier contient du texte et permet d'enregistrer des informations sur le visiteur.
 
 14) Quelle est la différence entre les instructions « require » et « include » en PHP 
-    Elles sont utilisées pou inclure des fichiers externes dans un script.
+    Elles sont utilisées pour inclure des fichiers externes dans un script.
     Lorsque nous utilisons <<include>>, si le fichier n'est pas trouvé, il affiche un avertissement et continue 
     l'exécution du script.
     Lorsque nous utilisons <<require>>, si le fichier n'est pas trouvé, PHP génère une erreur fatale et arrête
@@ -194,6 +194,11 @@ exemple d’utilisation en PHP
    <a href=".........."</a>
    
 9) Qu’est-ce qu’une requête AJAX ?
+   Le concept Ajax permet de faire une requête HTTP sans recharger toute la page.
+   Le principal bénéfice de cette requête est d’économiser de la bande passante et de limiter le temps d’attente lorsqu’une
+   ou plusieurs informations de notre page web doivent être mises à jour par un serveur.
+   AJAX est un outil puissant pour créer des applications web plus interactives et réactives, en permettant des échanges de
+   données avec le serveur sans perturber l’expérience de l’utilisateur. 
 
 
 11) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
@@ -210,9 +215,14 @@ identifiant spécifique ?
 
 
 15) Qu’est-ce qu’une fonction anonyme en Javascript ?
+    C'est une fonction sans nom.
+    Exemple: (function () {
+    // ... code à exécuter ici ...
+      });
+    Elle est pratique pour exécuter du code qui n’est utilisé qu’à un seul endroit dans notre script et qui ne sera pas réutilisé ailleurs.
+    Elle permet de gagner du temps et de rendre notre code plus clair en évitant d’encombrer l’espace avec des noms inutiles.
 
-
-16) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+17) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
     On utilise la méthode push()
       // Exemple : Initialisation d'un tableau
          let monTableau = [1, 2, 3];
@@ -224,16 +234,17 @@ identifiant spécifique ?
         console.log(monTableau); // Affiche [1, 2, 3, 4]
 
 
-17) Qu’est-ce qu’un « media query » ?
+18) Qu’est-ce qu’un « media query » ?
     Le "media query" permet de changer le design d’un site Internet pour qu'il s'adapte à l’écran d'un autre appareil.
 
-18) Qu’est-ce qu’un pseudo élément en CSS ?
+19) Qu’est-ce qu’un pseudo élément en CSS ?
+    Un pseudo-élément en CSS est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé.
+    Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur1.
+    
+20) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
 
 
-19) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
-
-
-20) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
+21) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
 Donner la différence entre ces 2 méthodes
 
  ##  UX / UI
