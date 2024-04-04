@@ -185,15 +185,20 @@ exemple d’utilisation en PHP
       votre navigateur puisse les afficher.
 
 6) Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+   JavaScript côté serveur, souvent réalisé avec Node.js, permet d’exécuter du code JavaScript sur un serveur, plutôt que dans
+   le navigateur. Cela signifie que vous pouvez utiliser JavaScript pour créer des pages web dynamiques, interagir avec une base de données
+   , gérer des fichiers sur le serveur, et plus encore. Node.js utilise la machine virtuelle V8 de Google Chrome pour interpréter le JavaScript,
+    ce qui le rend rapide et efficace. En résumé, cela permet aux développeurs d’utiliser le même langage de programmation pour le front-end
+   et le back-end.
 
-7) Qu’est-ce qu’un sélecteur CSS ?
+8) Qu’est-ce qu’un sélecteur CSS ?
    Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web
    pour leur appliquer une règle CSS.
 
-8) Quelle balise HTML permet de créer un lien hypertexte ?
+9) Quelle balise HTML permet de créer un lien hypertexte ?
    <a href=".........."</a>
    
-9) Qu’est-ce qu’une requête AJAX ?
+10) Qu’est-ce qu’une requête AJAX ?
    Le concept Ajax permet de faire une requête HTTP sans recharger toute la page.
    Le principal bénéfice de cette requête est d’économiser de la bande passante et de limiter le temps d’attente lorsqu’une
    ou plusieurs informations de notre page web doivent être mises à jour par un serveur.
@@ -212,9 +217,12 @@ identifiant spécifique ?
     Exemple: smartphone, tablette, ordinateur, TV...
 
 14) Qu’est-ce que le templating ?
+    Le templating, ou moteur de templates, est une façon de présenter des données en utilisant des modèles prédéfinis.
+    Exemple: Imaginez que vous avez une lettre type et que vous voulez remplacer certains mots par des informations spécifiques à chaque fois que vous l’envoyez.
+    Le templating permet de faire cela automatiquement pour des sites web ou des applications, en insérant des données dynamiques (comme le nom d’un
+    utilisateur) dans un format fixe (comme une page web). Cela facilite la mise à jour et la maintenance du contenu
 
-
-15) Qu’est-ce qu’une fonction anonyme en Javascript ?
+16) Qu’est-ce qu’une fonction anonyme en Javascript ?
     C'est une fonction sans nom.
     Exemple: (function () {
     // ... code à exécuter ici ...
