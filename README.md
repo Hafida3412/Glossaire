@@ -18,6 +18,7 @@ de chaque lettre initiale.
 • SEO
 • Gestion de projets / DevOps
 • English
+
  ##  Général
 1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels 
 permettant ce contexte?
@@ -326,7 +327,24 @@ Les différents types de visibilité sont :
 - Private : la propriété ou la méthode ne peut être accédée que depuis l'intérieur de la classe où elle est déclarée. Les classes héritées de cette classe ne peuvent pas y accéder.
 
 8) Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+Par exemple, dans une classe "Personne", on pourrait définir un constructeur comme suit :
+public class Personne {
+    private String nom;
+    private int age;
+    // Constructeur de la classe Personne
+    public Personne(String nom, int age) {
+        this.nom = nom;
+        this.age = age;
+    }
+    // Autres méthodes de la classe Personne
+}
+Lorsqu'un nouvel objet "Personne" est créé en utilisant ce constructeur, les valeurs passées en paramètres seront utilisées pour initialiser les propriétés "nom" et "age" de l'objet.
+
 9) Qu’est-ce que l’encapsulation ?
+L'encapsulation c'est comme mettre les informations d'une personne dans une boîte verrouillée. On ne peut pas y accéder directement, il faut passer par des règles spécifiques (méthodes) pour les modifier ou les consulter. Cela permet de protéger les données et d'éviter qu'elles soient modifiées de manière non contrôlée.
+
+Un exemple d'encapsulation peut être une classe "Personne" qui contient des attributs privés tels que le nom et l'âge, et des méthodes publiques pour accéder et modifier ces attributs, par exemple une méthode "getNom()" pour récupérer le nom d'une personne et une méthode "setAge(int age)" pour modifier son âge. Ainsi, les données de la personne sont encapsulées à l'intérieur de la classe "Personne" et ne peuvent être manipulées directement de l'extérieur de la classe.
+
 10) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
 11) Définir l’opérateur de résolution de portée
 12) Définir une méthode / propriété statique
