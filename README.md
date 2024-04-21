@@ -250,10 +250,20 @@ identifiant spécifique ?
     Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur1.
     
 20) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+    C'est un framework de développement web qui permet de créer rapidement et facilement des sites web responsives.
+    Il contient des composants et des styles prédéfinis qui facilitent la conception et la mise en page des pages web.
+    Exemples équivalents:
+   - Foundation : un autre framework de développement web populaire
+   - Materialize : un framework basé sur le design Material de Google
+   - Bulma : un framework CSS moderne et léger
 
-
-21) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
+22) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
 Donner la différence entre ces 2 méthodes
+- La méthode GET envoie les données à traiter via l'URL, ce qui signifie que les données seront visibles dans l'URL.
+Cette méthode est généralement utilisée pour les requêtes de lecture de données.
+
+- La méthode POST envoie les données à traiter dans le corps de la requête HTTP, ce qui signifie que les données ne sont pas visibles dans l'URL.
+Cette méthode est généralement utilisée pour les requêtes de création ou de modification de données sensibles.
 
  ##  UX / UI
 1) Quelle est la différence entre UX Design et UI Design ?
@@ -264,24 +274,69 @@ Donner la différence entre ces 2 méthodes
 6) Qu’est-ce qu’une grille de mise en page ?
 7) Qu’est-ce que la notion d’affordance en UX Design ?
 8) Qu’est-ce qu’un « mobile first design » ?
+
 Programmation orientée objet (POO)
 1) Donner une définition de la programmation orientée objet 
+La programmation orientée objet est une méthode de programmation qui consiste à regrouper des informations et des actions liées ensemble dans des objets.
+Ces objets peuvent avoir des caractéristiques spécifiques, appelées attributs, et des actions qu'ils peuvent réaliser, appelées méthodes.
+Par exemple, un objet 'voiture' peut avoir comme attributs sa couleur, sa marque, son modèle, etc. et comme méthodes 'démarrer', 'accélérer' et 'freiner'.
+
+En utilisant la programmation orientée objet, les programmeurs peuvent organiser leur code de manière plus logique et structurée,
+ce qui permet de mieux gérer et comprendre les programmes informatiques. Cela rend également plus facile la réutilisation du code, 
+ce qui signifie que des parties de code peuvent être utilisées plusieurs fois dans différents endroits du programme.
+
 2) Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
+Une classe en POO est comme une boîte à outils qui contient des outils (attributs) et des actions que tu peux faire avec ces outils (méthodes).
+
+class Personne { // propriétés de la classe public $nom; public $prenom; public $age;
+// constructeur de la classe
+public function __construct($nom, $prenom, $age) {
+    $this->nom = $nom;
+    $this->prenom = $prenom;
+    $this->age = $age;
+}
+
+// méthode de la classe
+public function afficherInfos() {
+    echo "Nom : " . $this->nom . "<br>";
+    echo "Prénom : " . $this->prenom . "<br>";
+    echo "Age : " . $this->age . "<br>";
+}
+}
+
+//instancier un objet de la classe Personne $personne1 = new Personne("Doe", "John", 30);
+
+// appeler la méthode afficherInfos pour afficher les informations de la personne $personne1->afficherInfos();
+
 3) Qu’est-ce qu’un objet ?
+En programmation orientée objet (POO), un objet est une instance d'une classe. Une classe est un modèle ou un plan pour créer des objets.
+Les objets sont des entités qui contiennent des données (attributs) et des méthodes (fonctions) qui agissent sur ces données.
+
+Par exemple, si vous avez une classe "Voiture", un objet "voiture1" créé à partir de cette classe aurait des attributs tels que la couleur, la marque et le modèle, ainsi que des méthodes pour démarrer la voiture, accélérer, freiner, etc.
+
 4) Définir la notion de propriété / attribut / méthode
-5) Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citerles différentstypes de visibilité
-6) Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
-7) Qu’est-ce que l’encapsulation ?
-8) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
-9) Définir l’opérateur de résolution de portée
-10) Définir une méthode / propriété statique
-11) Définir le polymorphisme en POO
-12) Définir une méthode / classe abstraite ?
-13) Définir le chaînage de méthodes
-14) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
-15) Qu’est-ce qu’un « autoload » ?
-16) Comment appelle-t-on en français les « getters » et les « setters » ?
-17) Qu’est-ce que la sérialisation en PHP ?
+En programmation orientée objet, on utilise des propriétés pour garder des informations sur un objet, des attributs pour décrire cet objet
+et des méthodes pour dire à l'objet comment se comporter. Ces idées aident à bien représenter les objets dans un programme informatique.
+
+6) Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
+La visibilité d'une propriété ou d'une méthode d'une classe en programmation détermine si celle-ci peut être accédée depuis l'extérieur de la classe.
+Les différents types de visibilité sont :
+- Public : la propriété ou la méthode peut être accédée depuis n'importe quel endroit dans le programme, que ce soit à l'intérieur ou à l'extérieur de la classe.
+- Protected : la propriété ou la méthode peut être accédée à l'intérieur de la classe où elle est déclarée, ainsi que dans les classes héritées de celle-ci.
+- Private : la propriété ou la méthode ne peut être accédée que depuis l'intérieur de la classe où elle est déclarée. Les classes héritées de cette classe ne peuvent pas y accéder.
+
+8) Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+9) Qu’est-ce que l’encapsulation ?
+10) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+11) Définir l’opérateur de résolution de portée
+12) Définir une méthode / propriété statique
+13) Définir le polymorphisme en POO
+14) Définir une méthode / classe abstraite ?
+15) Définir le chaînage de méthodes
+16) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+17) Qu’est-ce qu’un « autoload » ?
+18) Comment appelle-t-on en français les « getters » et les « setters » ?
+19) Qu’est-ce que la sérialisation en PHP ?
 
  ##  Architecture 
 1) Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le 
@@ -294,7 +349,7 @@ la différence
 6) Existe-t-il des variantes à l’architecture MVC ?
 7) Qu’est-ce qu’une API ? Définir l’architecture REST
 Modélisation / Base de données
-1) Qu’est-ce que la modélisation de données ? Définir la méthode Merise
+1) Qu’est-ce que la modélisation de données ? Définir la méthode Merise1
 2) Quelles sont les 3 étapes principales de la méthode Merise ?
 a. Analyse, conception et réalisation
 b. Planification, exécution et contrôle
