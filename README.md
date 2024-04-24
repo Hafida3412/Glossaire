@@ -42,11 +42,11 @@ permettant ce contexte?
    Elles sont écrites en majuscules et commencent toutes par un underscore $_GET et $_POST
    Les superglobales sont toutes des array.
    Ces variables sont automatiquement créées par PHP à chaque fois qu'une page est chargée. Ces variables existent
-   sur toutes les pages et sont accessibles partout : au milieu de 
-   code, au début, dans les fonctions etc...
+   sur toutes les pages et sont accessibles partout :
+   au milieu de code, au début, dans les fonctions etc...
 
-8) Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
-et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+7) Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
+   et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
    Les différents types primitifs que l'on peut associer à une variable en PHP sont:
    null.
    bool.
@@ -55,12 +55,12 @@ et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
    string.
    array.
 
-9) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+8) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
    Il existe 2 types de tabeau:
    - les tableaux à index numériques
    - les tableaux associatifs
 
-10) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
+9) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
 exemple pour chacune d’entre elles
   
    - Il existe 3 principales structures de contrôle:
@@ -110,10 +110,10 @@ exemple pour chacune d’entre elles
         }
 
 
-11) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+10) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
         $nbCaracteres = strlen($chaineDeCaracteres);
 
-12) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
+11) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP
     Les sessions permettent de stocker des données individuelles pour chaque utilisateur en utilisant un identifiant de session unique.
     La fonction qui permet de démarrer une session PHP est: session_start()
@@ -132,31 +132,31 @@ exemple d’utilisation en PHP
        ?>
 
 
-13) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+12) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
     C'est un petit fichier que l'on enregistre sur l'ordinateur du visiteur.
     Ce fichier contient du texte et permet d'enregistrer des informations sur le visiteur.
 
-14) Quelle est la différence entre les instructions « require » et « include » en PHP 
+13) Quelle est la différence entre les instructions « require » et « include » en PHP 
     Elles sont utilisées pour inclure des fichiers externes dans un script.
     Lorsque nous utilisons <<include>>, si le fichier n'est pas trouvé, il affiche un avertissement et continue 
     l'exécution du script.
     Lorsque nous utilisons <<require>>, si le fichier n'est pas trouvé, PHP génère une erreur fatale et arrête
     l'exécution du script.
    
-15) Comment effectuer une redirection en PHP ?
+14) Comment effectuer une redirection en PHP ?
     Pour que la redirection fonctionne, il faut placer le lien url de la nouvelle page dans le header avant tout code 
     HTML(ou texte) 
 
-16) Définir la partie « front-end » et « back-end » d’une application
+15) Définir la partie « front-end » et « back-end » d’une application
     Le "front-end" est la partie d'un site web que les utilisateurs voient.
     Le "back-end" est la partie en arrière plan qui permet de faire fonctionner le "front-end".
  
-17) Définir le contrôle de version ? Qu’est-ce que Git ?
+16) Définir le contrôle de version ? Qu’est-ce que Git ?
     C’est un logiciel qui permet d’enregistrer, de suivre et de gérer plusieurs versions d’un fichier ou d’un code source.
     Il permet d’établir un historique de toutes les modifications effectuées sur un fichier.
     Git est un exemple de logiciel de gestion de versions (Version Control System).
 
-18) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+17) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
     (CMS = Content Management System: système de gestion de contenu)
     Il s'agit d'un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site 
     web.
