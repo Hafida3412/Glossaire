@@ -396,7 +396,7 @@ d. Clé primaire / clé étrangère
 2.La clé étrangère permet de récupérer des données de plusieurs tables en même temps.
 
 6) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
-
+La relation "Many To Many" est modélisée par une table intermédiaire qui facilite la gestion des associations entre les entités concernées.
 
 7) Qu’est-ce qu’une base de données ?
    C'est un endroit où on peut stocker et organiser des informations de manière structurée.
@@ -434,17 +434,17 @@ lignes appelées ENREGISTREMENT (=lignes dans une table) et de colonnes appelée
 
 
 10) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+Les bases de données relationnelles stockent des données sous forme de tables liées entre elles par des clés étrangères, suivent le modèle ACID et conviennent aux données structurées et aux relations complexes. Les bases de données non relationnelles stockent des données de manière flexible, sont conçues pour être hautement évolutives et adaptées aux données semi-structurées ou non structurées. Elles ne suivent pas nécessairement le modèle ACID et sont adaptées aux environnements nécessitant une haute performance et disponibilité.
+
+12) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
 
 
-11) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+13) A quoi sert une vue dans une base de données ?
 
-
-12) A quoi sert une vue dans une base de données ?
-
-13) Qu’est-ce que l’intégrité référentielle dans une base de données ?
-14) Quelles sont les fonctions d’agrégation en SQL ?
-15) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
-16) Quelles sont les clauses qui permettent de :
+14) Qu’est-ce que l’intégrité référentielle dans une base de données ?
+15) Quelles sont les fonctions d’agrégation en SQL ?
+16) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
+17) Quelles sont les clauses qui permettent de :
 a. Insérer un nouvel enregistrement dans une table
 b. Modifier un enregistrement dans une table
 c. Supprimer un enregistrement dans une table
@@ -453,7 +453,7 @@ e. Filtrer les résultats d’une requête SQL
 f. Trier les résultats d’une requête SELECT
 g. Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
 h. Concaténer 2 chaînes de caractères 
-17) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+18) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
  ## Symfony
 1) Qu’est-ce que Symfony ?
