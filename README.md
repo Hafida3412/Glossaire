@@ -373,19 +373,28 @@ Une classe abstraite est une classe qui contient au moins une méthode abstraite
 d'autres classes qui vont en hériter et implémenter les méthodes abstraites.
 
 20) Définir le chaînage de méthodes
+C'est une technique qui consiste à appeler plusieurs méthodes d'un objet les unes après les autres dans une seule instruction. Cela permet de simplifier
+le code et d'améliorer la lisibilité en évitant la répétition de code.
 
+22) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+La méthode __toString() est une méthode spéciale en programmation orientée objet (POO) qui permet de définir comment un objet doit se comporter lorsqu'il
+est converti en chaîne de caractères. Elle est appelée automatiquement lorsque l'objet est utilisé dans un contexte où une chaîne de caractères est attendue.
 
-21) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
-
+Il existe d'autres méthodes magiques en POO, telles que __construct() pour le constructeur de la classe, __destruct() pour le destructeur, __get() et __set() 
+pour la surcharge des accesseurs, etc. Ces méthodes sont appelées automatiquement dans certaines circonstances spécifiques.
 
 22) Qu’est-ce qu’un « autoload » ?
+L'autoload est une fonctionnalité qui permet de charger automatiquement les classes ou les fichiers nécessaires au bon fonctionnement d'un programme.
+Cela évite d'avoir à inclure manuellement chaque classe ou fichier à chaque fois qu'ils sont nécessaires, ce qui simplifie le processus de développement
+et rend le code plus clair et facile à maintenir.
 
+24) Comment appelle-t-on en français les « getters » et les « setters » ?
+On appelle les « getters » des « accesseurs » et les « setters » des « mutateurs ».
 
-23) Comment appelle-t-on en français les « getters » et les « setters » ?
-
-
-24) Qu’est-ce que la sérialisation en PHP ?
-
+25) Qu’est-ce que la sérialisation en PHP ?
+La sérialisation en PHP est le processus de conversion d'objets ou de tableaux en une chaîne de caractères afin de les stocker ou de les transférer plus facilement.
+Cela permet de transformer des données complexes en une forme simple qui peut être utilisée ultérieurement. La désérialisation est l'opération inverse qui consiste
+à convertir la chaîne de caractères en objet ou en tableau d'origine.
 
  ##  Architecture 
 1) Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le 
