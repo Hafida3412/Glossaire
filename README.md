@@ -346,15 +346,46 @@ L'encapsulation c'est comme mettre les informations d'une personne dans une boî
 Un exemple d'encapsulation peut être une classe "Personne" qui contient des attributs privés tels que le nom et l'âge, et des méthodes publiques pour accéder et modifier ces attributs, par exemple une méthode "getNom()" pour récupérer le nom d'une personne et une méthode "setAge(int age)" pour modifier son âge. Ainsi, les données de la personne sont encapsulées à l'intérieur de la classe "Personne" et ne peuvent être manipulées directement de l'extérieur de la classe.
 
 10) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
-11) Définir l’opérateur de résolution de portée
-12) Définir une méthode / propriété statique
-13) Définir le polymorphisme en POO
-14) Définir une méthode / classe abstraite ?
-15) Définir le chaînage de méthodes
-16) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
-17) Qu’est-ce qu’un « autoload » ?
-18) Comment appelle-t-on en français les « getters » et les « setters » ?
-19) Qu’est-ce que la sérialisation en PHP ?
+Étendre une classe en POO signifie hériter des propriétés et des méthodes d'une classe principale pour les réutiliser dans une classe fille.
+Le concept clé mis en œuvre est l'héritage.
+Par exemple, si une classe Animal possède des propriétés comme nom et couleur, et des méthodes comme manger et dormir,
+on peut créer une classe Chien qui étend la classe Animal et qui possède en plus des méthodes aboyer et courir.
+Ainsi, la classe Chien pourra utiliser les propriétés et méthodes de la classe Animal en plus de ses propres fonctionnalités.
+
+12) Définir l’opérateur de résolution de portée
+L'opérateur de résolution de portée, souvent noté "::", permet d'accéder aux membres d'une classe ou d'un objet dans un programme orienté objet.
+Cela signifie qu'on peut utiliser cet opérateur pour appeler des fonctions ou des variables définies dans une classe à partir d'une autre partie du programme.
+Cela permet d'organiser et de structurer le code de manière plus claire et de limiter les conflits entre différents éléments d'un programme.
+
+14) Définir une méthode / propriété statique
+Une méthode ou propriété statique est une fonction ou une variable spécifique à une classe qui peut être appelée ou utilisée sans avoir besoin d'instancier
+un objet de cette classe.
+Cela signifie que la méthode ou propriété statique est partagée entre toutes les instances de la classe et peut être appelée directement en utilisant le nom de la classe.
+
+16) Définir le polymorphisme en POO
+C'est un concept qui permet à un objet de se comporter de différentes manières, en fonction du contexte dans lequel il est utilisé.
+Cela signifie qu'un même nom de méthode peut avoir des implémentations différentes dans différentes classes.
+Cela permet d'écrire un code plus générique et flexible, car on peut utiliser un objet de différentes manières sans avoir à connaître sa classe exacte.
+
+18) Définir une méthode / classe abstraite ?
+Une méthode abstraite est une méthode qui n'a pas de corps ou d'implémentation dans une classe, mais qui doit être définie dans les classes qui en héritent.
+Une classe abstraite est une classe qui contient au moins une méthode abstraite et qui ne peut pas être instanciée directement, mais qui sert de modèle pour
+d'autres classes qui vont en hériter et implémenter les méthodes abstraites.
+
+20) Définir le chaînage de méthodes
+
+
+21) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+
+
+22) Qu’est-ce qu’un « autoload » ?
+
+
+23) Comment appelle-t-on en français les « getters » et les « setters » ?
+
+
+24) Qu’est-ce que la sérialisation en PHP ?
+
 
  ##  Architecture 
 1) Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le 
