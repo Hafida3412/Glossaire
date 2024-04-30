@@ -448,19 +448,34 @@ comment les actions doivent être effectuées. Elle repose sur l'utilisation d'U
 
 
 Modélisation / Base de données
+
 1) Qu’est-ce que la modélisation de données ? Définir la méthode Merise1
-2) Quelles sont les 3 étapes principales de la méthode Merise ?
+La modélisation de données est le processus de création de modèles qui représentent la manière dont les données sont organisées et
+structurées dans une base de données. La méthode Merise est une approche de modélisation de données qui consiste à diviser le processus
+en trois étapes principales :
+- le modèle conceptuel des données,
+- le modèle logique des données et
+- le modèle physique des données.
+Ces modèles permettent de décrire de manière claire et précise la structure des données et les relations entre elles.
+
+3) Quelles sont les 3 étapes principales de la méthode Merise ?
 a. Analyse, conception et réalisation
 b. Planification, exécution et contrôle
 c. Création, modification et suppression
-3) Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
-  Le MCD est un schéma clair qui montrent comment les données sont liées entre elles. Il décrit les entités(=objets), 
-  leurs propriétés (=données) et leurs relations. C'est une base de travail avant de créer une base de données.
-
-4) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
 
 
-5) Donner la définition des mots suivants :
+4) Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+Le MCD est un schéma clair qui montrent comment les données sont liées entre elles. Il décrit les entités(=objets), 
+leurs propriétés (=données) et leurs relations. C'est une base de travail avant de créer une base de données.
+
+
+5) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+Le modèle logique de données (MLD) en Merise est une représentation abstraite des données d'un système informatique,
+indépendante du système de gestion de base de données utilisé. Il décrit les entités, les relations entre les entités,
+les attributs des entités, ainsi que les contraintes et les règles métier liées aux données. En d'autres termes, le MLD
+permet de modéliser les données d'un système de manière logique et structurée afin de faciliter leur manipulation et leur gestion.
+
+7) Donner la définition des mots suivants :
 a. Entité
  C'est comme un petit dossier où vous pouvez ranger des informations similaires. 
  -> exemple: l'entité "clients"contiendrait des info telles que le nom, l'adresse... 
