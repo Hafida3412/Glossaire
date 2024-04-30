@@ -533,14 +533,34 @@ lignes appelées ENREGISTREMENT (=lignes dans une table) et de colonnes appelée
 Les bases de données relationnelles stockent des données sous forme de tables liées entre elles par des clés étrangères, suivent le modèle ACID et conviennent aux données structurées et aux relations complexes. Les bases de données non relationnelles stockent des données de manière flexible, sont conçues pour être hautement évolutives et adaptées aux données semi-structurées ou non structurées. Elles ne suivent pas nécessairement le modèle ACID et sont adaptées aux environnements nécessitant une haute performance et disponibilité.
 
 12) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+Une jointure dans une base de données est une opération qui permet de combiner des données provenant de deux tables différentes en fonction d'une condition commune entre les deux. Il existe plusieurs types de jointures, les principales sont :
 
+- Jointure interne : Elle ne renvoie que les lignes des tables qui ont une correspondance dans les deux tables.
+- Jointure externe : Elle renvoie les lignes des tables, même celles qui n'ont pas de correspondance dans l'autre table.
+- Jointure gauche : Elle renvoie toutes les lignes de la table de gauche et les lignes correspondantes dans la table de droite.
+- Jointure droite : Elle renvoie toutes les lignes de la table de droite et les lignes correspondantes dans la table de gauche.
 
 13) A quoi sert une vue dans une base de données ?
+Une vue dans une base de données permet de voir les données d'une ou plusieurs tables de manière organisée et structure, et de manipuler ces données plus facilement.
+On peut aussi limiter l'accès à certaines données en cachant des champs ou en ne montrant que certaines lignes qui correspondent à des critères spécifiques.
 
-14) Qu’est-ce que l’intégrité référentielle dans une base de données ?
-15) Quelles sont les fonctions d’agrégation en SQL ?
-16) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
-17) Quelles sont les clauses qui permettent de :
+15) Qu’est-ce que l’intégrité référentielle dans une base de données ?
+L'intégrité référentielle en base de données consiste à s'assurer que les liens entre les différentes tables sont respectés.
+Par exemple, si une table contient une clé étrangère qui fait référence à une clé primaire dans une autre table, il est important que la valeur de
+la clé étrangère corresponde toujours à une valeur existante dans la clé primaire. Cela permet d'éviter les erreurs et les incohérences dans les
+données de la base de données.
+
+17) Quelles sont les fonctions d’agrégation en SQL ?
+En SQL, les fonctions d'agrégation sont utilisées pour effectuer des calculs sur un ensemble de valeurs, telles que la somme, la moyenne, le maximum, le minimum, etc.
+Elles permettent de regrouper et de résumer les données d'une table en fonction de critères spécifiques, comme par exemple regrouper les ventes par mois ou par catégorie.
+Les fonctions d'agrégation sont souvent utilisées avec la clause GROUP BY pour regrouper les données avant d'appliquer les calculs.
+
+19) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
+Le terme CRUD est un acronyme pour Create, Read, Update et Delete. Il fait référence aux opérations de base que l'on peut effectuer sur une base de données :
+créer des données, lire des données, mettre à jour des données et supprimer des données.
+Ces opérations permettent de gérer les informations stockées dans une base de données de manière simple et efficace.
+
+21) Quelles sont les clauses qui permettent de :
 a. Insérer un nouvel enregistrement dans une table
 b. Modifier un enregistrement dans une table
 c. Supprimer un enregistrement dans une table
@@ -549,7 +569,7 @@ e. Filtrer les résultats d’une requête SQL
 f. Trier les résultats d’une requête SELECT
 g. Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
 h. Concaténer 2 chaînes de caractères 
-18) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+22) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
  ## Symfony
 1) Qu’est-ce que Symfony ?
