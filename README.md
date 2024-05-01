@@ -475,7 +475,7 @@ indépendante du système de gestion de base de données utilisé. Il décrit le
 les attributs des entités, ainsi que les contraintes et les règles métier liées aux données. En d'autres termes, le MLD
 permet de modéliser les données d'un système de manière logique et structurée afin de faciliter leur manipulation et leur gestion.
 
-7) Donner la définition des mots suivants :
+6) Donner la définition des mots suivants :
 a. Entité
  C'est comme un petit dossier où vous pouvez ranger des informations similaires. 
  -> exemple: l'entité "clients"contiendrait des info telles que le nom, l'adresse... 
@@ -491,16 +491,16 @@ d. Clé primaire / clé étrangère
 1.La clé primaire est utilisée pour identifier de manière unique chaque ligne dans une table de base de données.
 2.La clé étrangère permet de récupérer des données de plusieurs tables en même temps.
 
-6) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+7) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
 La relation "Many To Many" est modélisée par une table intermédiaire qui facilite la gestion des associations entre les entités concernées.
 
-7) Qu’est-ce qu’une base de données ?
+8) Qu’est-ce qu’une base de données ?
    C'est un endroit où on peut stocker et organiser des informations de manière structurée.
    C'est comme une grande bibliothèqte numérique où on peut ranger des livres (=données) pour les retrouver facilement 
    plus tard. Elles sont essentielles pour les applications Web, les systèmes de gestion...
 
 
-8) Définir les notions suivantes :
+9) Définir les notions suivantes :
 a. SQL
    Structured Query Language: « langage de requêtes structurées »
    Il permet de :
@@ -525,11 +525,11 @@ c. SGBD (donner 2 exemples de SGBD) = Systèmes de Gestion de Bases de Données
    -> Oracle
 
 
-9) Dans une base de données, les données sont stockées dans des TABLES (chaque table représente un type d'entité: exemple: table de commandes). Celles-ci sont constituées de 
+10) Dans une base de données, les données sont stockées dans des TABLES (chaque table représente un type d'entité: exemple: table de commandes). Celles-ci sont constituées de 
 lignes appelées ENREGISTREMENT (=lignes dans une table) et de colonnes appelées ATTRIBUTS (=colonne dans une table)
 
 
-10) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+11) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
 Les bases de données relationnelles stockent des données sous forme de tables liées entre elles par des clés étrangères, suivent le modèle ACID et conviennent aux données structurées et aux relations complexes. Les bases de données non relationnelles stockent des données de manière flexible, sont conçues pour être hautement évolutives et adaptées aux données semi-structurées ou non structurées. Elles ne suivent pas nécessairement le modèle ACID et sont adaptées aux environnements nécessitant une haute performance et disponibilité.
 
 12) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
@@ -544,23 +544,23 @@ Une jointure dans une base de données est une opération qui permet de combiner
 Une vue dans une base de données permet de voir les données d'une ou plusieurs tables de manière organisée et structure, et de manipuler ces données plus facilement.
 On peut aussi limiter l'accès à certaines données en cachant des champs ou en ne montrant que certaines lignes qui correspondent à des critères spécifiques.
 
-15) Qu’est-ce que l’intégrité référentielle dans une base de données ?
+14) Qu’est-ce que l’intégrité référentielle dans une base de données ?
 L'intégrité référentielle en base de données consiste à s'assurer que les liens entre les différentes tables sont respectés.
 Par exemple, si une table contient une clé étrangère qui fait référence à une clé primaire dans une autre table, il est important que la valeur de
 la clé étrangère corresponde toujours à une valeur existante dans la clé primaire. Cela permet d'éviter les erreurs et les incohérences dans les
 données de la base de données.
 
-17) Quelles sont les fonctions d’agrégation en SQL ?
+15) Quelles sont les fonctions d’agrégation en SQL ?
 En SQL, les fonctions d'agrégation sont utilisées pour effectuer des calculs sur un ensemble de valeurs, telles que la somme, la moyenne, le maximum, le minimum, etc.
 Elles permettent de regrouper et de résumer les données d'une table en fonction de critères spécifiques, comme par exemple regrouper les ventes par mois ou par catégorie.
 Les fonctions d'agrégation sont souvent utilisées avec la clause GROUP BY pour regrouper les données avant d'appliquer les calculs.
 
-19) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
+16) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
 Le terme CRUD est un acronyme pour Create, Read, Update et Delete. Il fait référence aux opérations de base que l'on peut effectuer sur une base de données :
 créer des données, lire des données, mettre à jour des données et supprimer des données.
 Ces opérations permettent de gérer les informations stockées dans une base de données de manière simple et efficace.
 
-21) Quelles sont les clauses qui permettent de :
+17) Quelles sont les clauses qui permettent de :
 a. Insérer un nouvel enregistrement dans une table
 b. Modifier un enregistrement dans une table
 c. Supprimer un enregistrement dans une table
@@ -569,7 +569,8 @@ e. Filtrer les résultats d’une requête SQL
 f. Trier les résultats d’une requête SELECT
 g. Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
 h. Concaténer 2 chaînes de caractères 
-22) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+
+18) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
  ## Symfony
 1) Qu’est-ce que Symfony ?
