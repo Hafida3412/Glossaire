@@ -185,21 +185,21 @@ exemple d’utilisation en PHP
       Par exemple, lorsque vous consultez une page web, le serveur peut envoyer des données au format JSON pour que 
       votre navigateur puisse les afficher.
 
-6) Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+5) Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
    JavaScript côté serveur, souvent réalisé avec Node.js, permet d’exécuter du code JavaScript sur un serveur, plutôt que dans
    le navigateur. Cela signifie que vous pouvez utiliser JavaScript pour créer des pages web dynamiques, interagir avec une base de données
    , gérer des fichiers sur le serveur, et plus encore. Node.js utilise la machine virtuelle V8 de Google Chrome pour interpréter le JavaScript,
     ce qui le rend rapide et efficace. En résumé, cela permet aux développeurs d’utiliser le même langage de programmation pour le front-end
    et le back-end.
 
-8) Qu’est-ce qu’un sélecteur CSS ?
+6) Qu’est-ce qu’un sélecteur CSS ?
    Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web
    pour leur appliquer une règle CSS.
 
-9) Quelle balise HTML permet de créer un lien hypertexte ?
+7) Quelle balise HTML permet de créer un lien hypertexte ?
    <a href=".........."</a>
    
-10) Qu’est-ce qu’une requête AJAX ?
+8) Qu’est-ce qu’une requête AJAX ?
    Le concept Ajax permet de faire une requête HTTP sans recharger toute la page.
    Le principal bénéfice de cette requête est d’économiser de la bande passante et de limiter le temps d’attente lorsqu’une
    ou plusieurs informations de notre page web doivent être mises à jour par un serveur.
@@ -207,23 +207,23 @@ exemple d’utilisation en PHP
    données avec le serveur sans perturber l’expérience de l’utilisateur. 
 
 
-11) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
+9) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
 identifiant spécifique ?
     Le sélecteur de classe commence par un point . et sélectionne tout élément du document auquel cette classe est appliquée. 
     Un sélecteur d'ID commence par un # , il est utilisé de la même manière qu'un sélecteur de classe.
     En revanche, l'ID ne peut être utilisé qu'une seule fois par document.
 
-13) Définir le responsive design
+10) Définir le responsive design
     Ce design permet de modifier la mise en page d'un site afin que le contenu s'adapte à n'importe quel écran.
     Exemple: smartphone, tablette, ordinateur, TV...
 
-14) Qu’est-ce que le templating ?
+11) Qu’est-ce que le templating ?
     Le templating, ou moteur de templates, est une façon de présenter des données en utilisant des modèles prédéfinis.
     Exemple: Imaginez que vous avez une lettre type et que vous voulez remplacer certains mots par des informations spécifiques à chaque fois que vous l’envoyez.
     Le templating permet de faire cela automatiquement pour des sites web ou des applications, en insérant des données dynamiques (comme le nom d’un
     utilisateur) dans un format fixe (comme une page web). Cela facilite la mise à jour et la maintenance du contenu
 
-16) Qu’est-ce qu’une fonction anonyme en Javascript ?
+12) Qu’est-ce qu’une fonction anonyme en Javascript ?
     C'est une fonction sans nom.
     Exemple: (function () {
     // ... code à exécuter ici ...
@@ -231,7 +231,7 @@ identifiant spécifique ?
     Elle est pratique pour exécuter du code qui n’est utilisé qu’à un seul endroit dans notre script et qui ne sera pas réutilisé ailleurs.
     Elle permet de gagner du temps et de rendre notre code plus clair en évitant d’encombrer l’espace avec des noms inutiles.
 
-17) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+13) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
     On utilise la méthode push()
       // Exemple : Initialisation d'un tableau
          let monTableau = [1, 2, 3];
@@ -243,14 +243,14 @@ identifiant spécifique ?
         console.log(monTableau); // Affiche [1, 2, 3, 4]
 
 
-18) Qu’est-ce qu’un « media query » ?
+14) Qu’est-ce qu’un « media query » ?
     Le "media query" permet de changer le design d’un site Internet pour qu'il s'adapte à l’écran d'un autre appareil.
 
-19) Qu’est-ce qu’un pseudo élément en CSS ?
+15) Qu’est-ce qu’un pseudo élément en CSS ?
     Un pseudo-élément en CSS est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé.
     Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur1.
     
-20) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+16) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
     C'est un framework de développement web qui permet de créer rapidement et facilement des sites web responsives.
     Il contient des composants et des styles prédéfinis qui facilitent la conception et la mise en page des pages web.
     Exemples équivalents:
@@ -258,7 +258,7 @@ identifiant spécifique ?
    - Materialize : un framework basé sur le design Material de Google
    - Bulma : un framework CSS moderne et léger
 
-22) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
+17) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
 Donner la différence entre ces 2 méthodes
 - La méthode GET envoie les données à traiter via l'URL, ce qui signifie que les données seront visibles dans l'URL.
 Cette méthode est généralement utilisée pour les requêtes de lecture de données.
@@ -641,14 +641,38 @@ Protéger les données personnelles des citoyens de l'Union européenne.
 
 4) Quelle est la date d’entrée en vigueur du RGPD ?
    En mai 2018
-6) Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
-7) En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
-8) Quel est le consentement valide selon le RPGD ?
-9) Qu’est-ce qu’une politique de confidentialité ?
-10) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
-11) Quels sont les droits des utilisateurs selon le RGPD ?
-12) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
 
+5) Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
+En cas de non-respect du RGPD, les sanctions possibles incluent des avertissements, des mises en demeure, des restrictions sur le traitement des données,
+des amendes administratives pouvant aller jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires annuel mondial de l'organisme, et des actions
+en justice pour obtenir réparation du préjudice. Il est crucial pour les organismes de se conformer au RGPD pour éviter ces conséquences sévères.
+
+6) En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
+La Commission nationale de l'informatique et des libertés (CNIL) 
+
+7) Quel est le consentement valide selon le RPGD ?
+Le consentement valide selon le RGPD doit être donné librement, spécifiquement, de manière éclairée et univoque par la personne concernée, et doit être explicite. Les organisations doivent s'assurer de recueillir un tel consentement pour se conformer à la législation sur la protection des données.
+
+8) Qu’est-ce qu’une politique de confidentialité ?
+C'est un document qui informe les individus sur la manière dont une organisation collecte, stocke et protège leurs informations personnelles.
+Elle est souvent utilisée sur les sites internet, les applications et les plateformes en ligne. Les entreprises doivent respecter leur propre politique
+de confidentialité et se conformer aux lois en vigueur en matière de protection des données.
+
+9) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+Le RGPD stipule que les données personnelles ne doivent être conservées que le temps nécessaire à leur finalité et impose aux entreprises de déterminer une
+durée de conservation raisonnable en fonction de divers critères. Il est essentiel de définir une politique de conservation des données pour respecter les principes
+de minimisation et de limitation de la durée de conservation.
+
+10) Quels sont les droits des utilisateurs selon le RGPD ?
+Le droit d'accès, le droit de rectification, le droit à l'effacement, le droit à la limitation du traitement, le droit à la portabilité des données, le droit d'opposition et le droit de ne pas faire l'objet d'une décision individuelle automatisée. Ces droits visent à protéger la vie privée des utilisateurs et à leur donner plus de contrôle sur leurs informations personnelles.
+
+11) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+Les organisations doivent réfléchir soigneusement à quelles données elles collectent, pourquoi elles en ont besoin et pendant combien de temps elles doivent les conserver.
+Elles doivent également informer les individus de la manière dont leurs données seront utilisées et obtenir leur consentement avant de collecter leurs données.
+
+En appliquant le principe de minimisation des données, les organisations peuvent réduire les risques de violation de la vie privée et de fuite de données, tout en renforçant la confiance des individus dans la manière dont leurs données sont traitées. Il s'agit d'un élément clé de la conformité au RGPD et de la protection efficace des données personnelles.
+ 
+ 
  ## SEO
 1) Qu’est-ce que le SEO ?
 2) Quel est l’objectif principal du SEO ?
