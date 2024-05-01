@@ -634,15 +634,20 @@ Sécurité
     
  ## RGPD
 1) Qu’est-ce que le RGPD ?
+Règlement Général sur la Protection des Données
+
 2) Quel est son objectif principal ?
-3) Quelle est la date d’entrée en vigueur du RGPD ?
-4) Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
-5) En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
-6) Quel est le consentement valide selon le RPGD ?
-7) Qu’est-ce qu’une politique de confidentialité ?
-8) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
-9) Quels sont les droits des utilisateurs selon le RGPD ?
-10) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+Protéger les données personnelles des citoyens de l'Union européenne.
+
+4) Quelle est la date d’entrée en vigueur du RGPD ?
+   En mai 2018
+6) Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
+7) En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
+8) Quel est le consentement valide selon le RPGD ?
+9) Qu’est-ce qu’une politique de confidentialité ?
+10) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+11) Quels sont les droits des utilisateurs selon le RGPD ?
+12) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
 
  ## SEO
 1) Qu’est-ce que le SEO ?
