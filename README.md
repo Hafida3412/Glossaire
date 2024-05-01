@@ -277,6 +277,7 @@ Cette méthode est généralement utilisée pour les requêtes de création ou d
 8) Qu’est-ce qu’un « mobile first design » ?
 
 Programmation orientée objet (POO)
+
 1) Donner une définition de la programmation orientée objet 
 La programmation orientée objet est une méthode de programmation qui consiste à regrouper des informations et des actions liées ensemble dans des objets.
 Ces objets peuvent avoir des caractéristiques spécifiques, appelées attributs, et des actions qu'ils peuvent réaliser, appelées méthodes.
@@ -319,14 +320,14 @@ Par exemple, si vous avez une classe "Voiture", un objet "voiture1" créé à pa
 En programmation orientée objet, on utilise des propriétés pour garder des informations sur un objet, des attributs pour décrire cet objet
 et des méthodes pour dire à l'objet comment se comporter. Ces idées aident à bien représenter les objets dans un programme informatique.
 
-6) Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
+5) Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
 La visibilité d'une propriété ou d'une méthode d'une classe en programmation détermine si celle-ci peut être accédée depuis l'extérieur de la classe.
 Les différents types de visibilité sont :
 - Public : la propriété ou la méthode peut être accédée depuis n'importe quel endroit dans le programme, que ce soit à l'intérieur ou à l'extérieur de la classe.
 - Protected : la propriété ou la méthode peut être accédée à l'intérieur de la classe où elle est déclarée, ainsi que dans les classes héritées de celle-ci.
 - Private : la propriété ou la méthode ne peut être accédée que depuis l'intérieur de la classe où elle est déclarée. Les classes héritées de cette classe ne peuvent pas y accéder.
 
-8) Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+6) Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
 Par exemple, dans une classe "Personne", on pourrait définir un constructeur comme suit :
 public class Personne {
     private String nom;
@@ -340,58 +341,58 @@ public class Personne {
 }
 Lorsqu'un nouvel objet "Personne" est créé en utilisant ce constructeur, les valeurs passées en paramètres seront utilisées pour initialiser les propriétés "nom" et "age" de l'objet.
 
-9) Qu’est-ce que l’encapsulation ?
+7) Qu’est-ce que l’encapsulation ?
 L'encapsulation c'est comme mettre les informations d'une personne dans une boîte verrouillée. On ne peut pas y accéder directement, il faut passer par des règles spécifiques (méthodes) pour les modifier ou les consulter. Cela permet de protéger les données et d'éviter qu'elles soient modifiées de manière non contrôlée.
 
 Un exemple d'encapsulation peut être une classe "Personne" qui contient des attributs privés tels que le nom et l'âge, et des méthodes publiques pour accéder et modifier ces attributs, par exemple une méthode "getNom()" pour récupérer le nom d'une personne et une méthode "setAge(int age)" pour modifier son âge. Ainsi, les données de la personne sont encapsulées à l'intérieur de la classe "Personne" et ne peuvent être manipulées directement de l'extérieur de la classe.
 
-10) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+8) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
 Étendre une classe en POO signifie hériter des propriétés et des méthodes d'une classe principale pour les réutiliser dans une classe fille.
 Le concept clé mis en œuvre est l'héritage.
 Par exemple, si une classe Animal possède des propriétés comme nom et couleur, et des méthodes comme manger et dormir,
 on peut créer une classe Chien qui étend la classe Animal et qui possède en plus des méthodes aboyer et courir.
 Ainsi, la classe Chien pourra utiliser les propriétés et méthodes de la classe Animal en plus de ses propres fonctionnalités.
 
-12) Définir l’opérateur de résolution de portée
+9) Définir l’opérateur de résolution de portée
 L'opérateur de résolution de portée, souvent noté "::", permet d'accéder aux membres d'une classe ou d'un objet dans un programme orienté objet.
 Cela signifie qu'on peut utiliser cet opérateur pour appeler des fonctions ou des variables définies dans une classe à partir d'une autre partie du programme.
 Cela permet d'organiser et de structurer le code de manière plus claire et de limiter les conflits entre différents éléments d'un programme.
 
-14) Définir une méthode / propriété statique
+10) Définir une méthode / propriété statique
 Une méthode ou propriété statique est une fonction ou une variable spécifique à une classe qui peut être appelée ou utilisée sans avoir besoin d'instancier
 un objet de cette classe.
 Cela signifie que la méthode ou propriété statique est partagée entre toutes les instances de la classe et peut être appelée directement en utilisant le nom de la classe.
 
-16) Définir le polymorphisme en POO
+11) Définir le polymorphisme en POO
 C'est un concept qui permet à un objet de se comporter de différentes manières, en fonction du contexte dans lequel il est utilisé.
 Cela signifie qu'un même nom de méthode peut avoir des implémentations différentes dans différentes classes.
 Cela permet d'écrire un code plus générique et flexible, car on peut utiliser un objet de différentes manières sans avoir à connaître sa classe exacte.
 
-18) Définir une méthode / classe abstraite ?
+12) Définir une méthode / classe abstraite ?
 Une méthode abstraite est une méthode qui n'a pas de corps ou d'implémentation dans une classe, mais qui doit être définie dans les classes qui en héritent.
 Une classe abstraite est une classe qui contient au moins une méthode abstraite et qui ne peut pas être instanciée directement, mais qui sert de modèle pour
 d'autres classes qui vont en hériter et implémenter les méthodes abstraites.
 
-20) Définir le chaînage de méthodes
+13) Définir le chaînage de méthodes
 C'est une technique qui consiste à appeler plusieurs méthodes d'un objet les unes après les autres dans une seule instruction. Cela permet de simplifier
 le code et d'améliorer la lisibilité en évitant la répétition de code.
 
-22) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+14) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
 La méthode __toString() est une méthode spéciale en programmation orientée objet (POO) qui permet de définir comment un objet doit se comporter lorsqu'il
 est converti en chaîne de caractères. Elle est appelée automatiquement lorsque l'objet est utilisé dans un contexte où une chaîne de caractères est attendue.
 
 Il existe d'autres méthodes magiques en POO, telles que __construct() pour le constructeur de la classe, __destruct() pour le destructeur, __get() et __set() 
 pour la surcharge des accesseurs, etc. Ces méthodes sont appelées automatiquement dans certaines circonstances spécifiques.
 
-22) Qu’est-ce qu’un « autoload » ?
+15) Qu’est-ce qu’un « autoload » ?
 L'autoload est une fonctionnalité qui permet de charger automatiquement les classes ou les fichiers nécessaires au bon fonctionnement d'un programme.
 Cela évite d'avoir à inclure manuellement chaque classe ou fichier à chaque fois qu'ils sont nécessaires, ce qui simplifie le processus de développement
 et rend le code plus clair et facile à maintenir.
 
-24) Comment appelle-t-on en français les « getters » et les « setters » ?
+16) Comment appelle-t-on en français les « getters » et les « setters » ?
 On appelle les « getters » des « accesseurs » et les « setters » des « mutateurs ».
 
-25) Qu’est-ce que la sérialisation en PHP ?
+17) Qu’est-ce que la sérialisation en PHP ?
 La sérialisation en PHP est le processus de conversion d'objets ou de tableaux en une chaîne de caractères afin de les stocker ou de les transférer plus facilement.
 Cela permet de transformer des données complexes en une forme simple qui peut être utilisée ultérieurement. La désérialisation est l'opération inverse qui consiste
 à convertir la chaîne de caractères en objet ou en tableau d'origine.
@@ -423,22 +424,22 @@ Il divise une application en trois composants : le modèle, qui gère les donné
 et le contrôleur, qui traite les actions de l'utilisateur et met à jour le modèle. Cette séparation des responsabilités permet de
 rendre le code plus modulaire, maintenable et évolutif.
 
-5) Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
+4) Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
 - Le modèle (Model) : C'est la couche qui représente les données de l'application et la logique métier. Elle traite les requêtes et les modifications des données.
 - La vue (View) : C'est la couche qui affiche les données au utilisateur et gère l'interface graphique de l'application.
 - Le contrôleur (Controller) : C'est la couche qui fait le lien entre le modèle et la vue. Il récupère les requêtes de l'utilisateur, traite les données en conséquence,
 et décide quelle vue afficher.
 
-6) Quels sont les avantages de l’architecture MVC ?
+5) Quels sont les avantages de l’architecture MVC ?
 L'architecture MVC permet de séparer clairement les différents éléments d'une application : le modèle qui représente les données, la vue qui affiche ces données à l'utilisateur et le contrôleur qui gère les interactions entre le modèle et la vue. Cela facilite la maintenance, la réutilisation du code et la collaboration entre les développeurs. De plus, cela permet une meilleure organisation du code et une plus grande flexibilité dans le développement de l'application.
 
-7) Existe-t-il des variantes à l’architecture MVC ?
+6) Existe-t-il des variantes à l’architecture MVC ?
 Oui, il existe des variantes à l'architecture MVC, telles que MVVM (Modèle-Vue-VueModèle) et MVP (Modèle-Vue-Présentateur).
 Ces variantes sont des adaptations de l'architecture MVC pour répondre à des besoins spécifiques ou pour améliorer la séparation
 des préoccupations dans une application.
 Elles sont utilisées dans le développement de logiciels pour organiser le code de manière claire et modulaire.
 
-9) Qu’est-ce qu’une API ? Définir l’architecture REST
+7) Qu’est-ce qu’une API ? Définir l’architecture REST
 Une API est un ensemble de règles et de conventions qui permettent à des logiciels différents de communiquer entre eux.
 Cela permet d'échanger des données et de fonctionner ensemble de manière harmonieuse.
 
@@ -458,24 +459,24 @@ en trois étapes principales :
 - le modèle physique des données.
 Ces modèles permettent de décrire de manière claire et précise la structure des données et les relations entre elles.
 
-3) Quelles sont les 3 étapes principales de la méthode Merise ?
+2) Quelles sont les 3 étapes principales de la méthode Merise ?
 a. Analyse, conception et réalisation
 b. Planification, exécution et contrôle
 c. Création, modification et suppression
 
 
-4) Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+3) Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
 Le MCD est un schéma clair qui montrent comment les données sont liées entre elles. Il décrit les entités(=objets), 
 leurs propriétés (=données) et leurs relations. C'est une base de travail avant de créer une base de données.
 
 
-5) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+4) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
 Le modèle logique de données (MLD) en Merise est une représentation abstraite des données d'un système informatique,
 indépendante du système de gestion de base de données utilisé. Il décrit les entités, les relations entre les entités,
 les attributs des entités, ainsi que les contraintes et les règles métier liées aux données. En d'autres termes, le MLD
 permet de modéliser les données d'un système de manière logique et structurée afin de faciliter leur manipulation et leur gestion.
 
-6) Donner la définition des mots suivants :
+5) Donner la définition des mots suivants :
 a. Entité
  C'est comme un petit dossier où vous pouvez ranger des informations similaires. 
  -> exemple: l'entité "clients"contiendrait des info telles que le nom, l'adresse... 
@@ -491,16 +492,16 @@ d. Clé primaire / clé étrangère
 1.La clé primaire est utilisée pour identifier de manière unique chaque ligne dans une table de base de données.
 2.La clé étrangère permet de récupérer des données de plusieurs tables en même temps.
 
-7) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+6) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
 La relation "Many To Many" est modélisée par une table intermédiaire qui facilite la gestion des associations entre les entités concernées.
 
-8) Qu’est-ce qu’une base de données ?
+7) Qu’est-ce qu’une base de données ?
    C'est un endroit où on peut stocker et organiser des informations de manière structurée.
    C'est comme une grande bibliothèqte numérique où on peut ranger des livres (=données) pour les retrouver facilement 
    plus tard. Elles sont essentielles pour les applications Web, les systèmes de gestion...
 
 
-9) Définir les notions suivantes :
+8) Définir les notions suivantes :
 a. SQL
    Structured Query Language: « langage de requêtes structurées »
    Il permet de :
@@ -525,14 +526,14 @@ c. SGBD (donner 2 exemples de SGBD) = Systèmes de Gestion de Bases de Données
    -> Oracle
 
 
-10) Dans une base de données, les données sont stockées dans des TABLES (chaque table représente un type d'entité: exemple: table de commandes). Celles-ci sont constituées de 
+9) Dans une base de données, les données sont stockées dans des TABLES (chaque table représente un type d'entité: exemple: table de commandes). Celles-ci sont constituées de 
 lignes appelées ENREGISTREMENT (=lignes dans une table) et de colonnes appelées ATTRIBUTS (=colonne dans une table)
 
 
-11) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+10) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
 Les bases de données relationnelles stockent des données sous forme de tables liées entre elles par des clés étrangères, suivent le modèle ACID et conviennent aux données structurées et aux relations complexes. Les bases de données non relationnelles stockent des données de manière flexible, sont conçues pour être hautement évolutives et adaptées aux données semi-structurées ou non structurées. Elles ne suivent pas nécessairement le modèle ACID et sont adaptées aux environnements nécessitant une haute performance et disponibilité.
 
-12) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+11) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
 Une jointure dans une base de données est une opération qui permet de combiner des données provenant de deux tables différentes en fonction d'une condition commune entre les deux. Il existe plusieurs types de jointures, les principales sont :
 
 - Jointure interne : Elle ne renvoie que les lignes des tables qui ont une correspondance dans les deux tables.
@@ -540,37 +541,72 @@ Une jointure dans une base de données est une opération qui permet de combiner
 - Jointure gauche : Elle renvoie toutes les lignes de la table de gauche et les lignes correspondantes dans la table de droite.
 - Jointure droite : Elle renvoie toutes les lignes de la table de droite et les lignes correspondantes dans la table de gauche.
 
-13) A quoi sert une vue dans une base de données ?
+12) A quoi sert une vue dans une base de données ?
 Une vue dans une base de données permet de voir les données d'une ou plusieurs tables de manière organisée et structure, et de manipuler ces données plus facilement.
 On peut aussi limiter l'accès à certaines données en cachant des champs ou en ne montrant que certaines lignes qui correspondent à des critères spécifiques.
 
-14) Qu’est-ce que l’intégrité référentielle dans une base de données ?
+13) Qu’est-ce que l’intégrité référentielle dans une base de données ?
 L'intégrité référentielle en base de données consiste à s'assurer que les liens entre les différentes tables sont respectés.
 Par exemple, si une table contient une clé étrangère qui fait référence à une clé primaire dans une autre table, il est important que la valeur de
 la clé étrangère corresponde toujours à une valeur existante dans la clé primaire. Cela permet d'éviter les erreurs et les incohérences dans les
 données de la base de données.
 
-15) Quelles sont les fonctions d’agrégation en SQL ?
+14) Quelles sont les fonctions d’agrégation en SQL ?
 En SQL, les fonctions d'agrégation sont utilisées pour effectuer des calculs sur un ensemble de valeurs, telles que la somme, la moyenne, le maximum, le minimum, etc.
 Elles permettent de regrouper et de résumer les données d'une table en fonction de critères spécifiques, comme par exemple regrouper les ventes par mois ou par catégorie.
 Les fonctions d'agrégation sont souvent utilisées avec la clause GROUP BY pour regrouper les données avant d'appliquer les calculs.
 
-16) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
+15) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
 Le terme CRUD est un acronyme pour Create, Read, Update et Delete. Il fait référence aux opérations de base que l'on peut effectuer sur une base de données :
 créer des données, lire des données, mettre à jour des données et supprimer des données.
 Ces opérations permettent de gérer les informations stockées dans une base de données de manière simple et efficace.
 
-17) Quelles sont les clauses qui permettent de :
+16) Quelles sont les clauses qui permettent de :
 a. Insérer un nouvel enregistrement dans une table
-b. Modifier un enregistrement dans une table
-c. Supprimer un enregistrement dans une table
-d. Supprimer la base de données
-e. Filtrer les résultats d’une requête SQL
-f. Trier les résultats d’une requête SELECT
-g. Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
-h. Concaténer 2 chaînes de caractères 
+On utilise généralement la clause INSERT INTO. On spécifie le nom de la table dans laquelle on veut insérer les données, puis on précise les valeurs à insérer dans chaque colonne de la table. Par exemple :
 
-18) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+INSERT INTO nom_table (colonne1, colonne2, colonne3) VALUES (valeur1, valeur2, valeur3);
+
+Cette requête permet d'ajouter un nouvel enregistrement dans la table "nom_table" en spécifiant les valeurs à insérer dans les colonnes "colonne1", "colonne2" et "colonne3".
+
+b. Modifier un enregistrement dans une table
+Pour modifier un enregistrement dans une table, il faut utiliser la clause SQL "UPDATE" suivie du nom de la table et des colonnes que l'on souhaite modifier. 
+Ensuite, on utilise la clause "SET" pour spécifier les nouvelles valeurs pour chaque colonne. 
+On peut également ajouter une clause "WHERE" pour spécifier les enregistrements à modifier en fonction de certaines conditions.
+
+c. Supprimer un enregistrement dans une table
+Il faut utiliser la clause DELETE FROM suivi du nom de la table et de la clause WHERE pour spécifier les critères de suppression. 
+Par exemple, DELETE FROM table_nom WHERE condition_de_suppression.
+
+d. Supprimer la base de données
+Il existe deux types de clauses pour supprimer une base de données:
+- Clauses DROP DATABASE : Ces clauses permettent de supprimer complètement une base de données et tous ses objets (tables, index, procédures stockées, etc.).
+- Clauses DROP TABLE : Ces clauses permettent de supprimer uniquement une table spécifique de la base de données, sans supprimer la base de données elle-même.
+
+e. Filtrer les résultats d’une requête SQL:
+-> on utilise les clauses WHERE et HAVING.
+
+- La clause WHERE permet de spécifier des critères de sélection pour les lignes à récupérer dans une table. Par exemple, on peut filtrer les résultats en définissant une condition comme "WHERE nom = 'Dupont'".
+
+- La clause HAVING permet de filtrer les résultats d'une requête qui contient une fonction d'agrégation comme SUM, AVG, COUNT, etc.
+Par exemple, on peut utiliser la clause HAVING pour filtrer les résultats en spécifiant une condition sur le résultat d'une fonction d'agrégation
+comme "HAVING SUM(quantite) > 100".
+
+f. Trier les résultats d’une requête SELECT
+Pour trier les résultats d'une requête SELECT, on utilise la clause ORDER BY. 
+Cette clause permet de spécifier sur quelle colonne ou ensemble de colonnes les résultats doivent être triés, et aussi dans quel ordre (croissant ou décroissant). 
+Par exemple, ORDER BY nom ASC triera les résultats par ordre alphabétique croissant du champ nom.
+
+g. Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
+Pour regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique, on utilise la clause GROUP BY dans la requête SQL. 
+Cette clause permet de spécifier la colonne sur laquelle on souhaite regrouper les données. 
+Une fois regroupées, on peut utiliser des fonctions d'agrégation comme COUNT, SUM, AVG, etc. pour obtenir des informations sur les groupes de données.
+
+h. Concaténer 2 chaînes de caractères 
+Pour concaténer deux chaînes de caractères, vous pouvez utiliser l'opérateur de concaténation "+" qui permet de les mettre bout à bout. 
+Par exemple, si vous avez deux chaînes "Bonjour" et "monde", en les concaténant avec l'opérateur "+", vous obtiendrez la chaîne "Bonjourmonde".
+
+17) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
  ## Symfony
 1) Qu’est-ce que Symfony ?
