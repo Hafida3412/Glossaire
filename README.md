@@ -722,15 +722,24 @@ privilégiez les tirets pour séparer les mots et maintenez des URLs cohérentes
 affecter le référencement.
 
 20) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
+Le maillage interne d'un site web consiste en la structure des liens internes entre les différentes pages, ce qui aide les moteurs de recherche à indexer et classer les pages.
+Il favorise le transfert de pertinence et de popularité entre les pages, améliorant ainsi le référencement et l'expérience utilisateur.
+En résumé, le maillage interne est essentiel pour l'optimisation du site, son référencement et la navigation des visiteurs.
 
+22) Qu'est-ce que l'optimisation des images pour le référencement ?
+L'optimisation des images pour le référencement vise à améliorer la visibilité et la pertinence des images sur un site web afin d'optimiser leur référencement dans
+les moteurs de recherche. Cela implique l'optimisation du balisage des images, la compression des fichiers, le choix de noms de fichiers pertinents et des dimensions
+adaptées, ainsi que la création de sitemaps dédiés aux images. Cette pratique permet d'améliorer le positionnement des images dans les résultats de recherche et d'attirer
+plus de trafic qualifié sur le site.
 
-21) Qu'est-ce que l'optimisation des images pour le référencement ?
-
-
-22) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
-
+24) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+Un plan de site (sitemap) est un fichier XML qui répertorie toutes les pages d'un site web et indique leur structure, leur organisation et leurs liens entre elles.
+Il permet aux moteurs de recherche de comprendre en profondeur le contenu du site et de l'indexer de manière plus efficace.
+Un plan de site bien conçu est essentiel pour optimiser le référencement d'un site web en aidant les moteurs de recherche à indexer efficacement son contenu et à
+le classer plus efficacement dans les résultats de recherche.
 
 Gestion de projets / DevOps
+
 1) Qu’est-ce que la gestion de projet ?
 
 
