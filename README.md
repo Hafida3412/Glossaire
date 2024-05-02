@@ -675,34 +675,102 @@ En appliquant le principe de minimisation des données, les organisations peuven
  
  ## SEO
 1) Qu’est-ce que le SEO ?
+Search Engine Optimization
+
 2) Quel est l’objectif principal du SEO ?
-3) Existe-t-il plusieurs types de référencement ? Lesquels ?
-4) Qu’est-ce que la densité de mots-clés en SEO ?
-5) Qu’est-ce qu’une balise « alt » ?
-6) Qu’est-ce que la balise « meta description » ?
-7) Qu’est-ce que le « nofollow » en SEO ?
-8) Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
-9) Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
-10) Quelle est la recommandation pour les URL d'un site web bien référencé ?
-11) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
-12) Qu'est-ce que l'optimisation des images pour le référencement ?
-13) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+Le SEO vise à améliorer le classement d'un site web dans les résultats des moteurs de recherche en optimisant divers aspects tels que le contenu,
+les balises, les liens et la vitesse de chargement, afin d'attirer plus de trafic organique et augmenter sa visibilité en ligne.
+
+4) Existe-t-il plusieurs types de référencement ? Lesquels ?
+Il existe plusieurs types de référencement, tels que le référencement naturel (SEO), le référencement payant (SEA), le référencement local, le référencement
+sur les réseaux sociaux, le référencement vidéo et le référencement mobile. Chacun de ces types vise à améliorer la visibilité d'une entreprise en ligne sur
+les moteurs de recherche, les réseaux sociaux ou les plateformes vidéo, en fonction de ses besoins et objectifs spécifiques. Ces différentes stratégies de
+référencement peuvent être utilisées de manière complémentaire pour renforcer la présence en ligne d'une entreprise et augmenter son audience.
+
+6) Qu’est-ce que la densité de mots-clés en SEO ?
+La densité de mots-clés en SEO est la fréquence à laquelle un mot-clé est utilisé par rapport au nombre total de mots sur une page web.
+C'est un facteur important pour l'optimisation des moteurs de recherche, mais l'abus de mots-clés peut être préjudiciable au classement.
+Il est essentiel de maintenir une densité naturelle tout en offrant un contenu pertinent et utile aux utilisateurs.
+
+8) Qu’est-ce qu’une balise « alt » ?
+La balise "alt" en HTML est utilisée pour décrire le contenu des images aux personnes aveugles ou malvoyantes, ainsi qu'aux navigateurs qui ne peuvent
+pas charger les images.
+Elle est également bénéfique pour le référencement naturel car elle permet aux moteurs de recherche de mieux comprendre le contenu des images.
+
+10) Qu’est-ce que la balise « meta description » ?
+La balise meta description est une étiquette HTML permettant de définir une courte description du contenu d'une page web.
+Elle apparaît dans les résultats des moteurs de recherche, sous le titre de la page, afin de donner aux utilisateurs une idée du contenu avant de cliquer.
+Elle influence également le référencement naturel de la page, les moteurs de recherche l'utilisant pour déterminer la pertinence de la page par rapport à
+une requête de recherche.
+
+12) Qu’est-ce que le « nofollow » en SEO ?
+Le "nofollow" en SEO est une valeur d'attribut dans les balises HTML qui indique aux moteurs de recherche de ne pas suivre les liens d'une page web,
+ce qui peut aider à éviter les pénalités liées à des liens de faible qualité ou non naturels.
+
+14) Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
+
+
+15) Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
+
+
+16) Quelle est la recommandation pour les URL d'un site web bien référencé ?
+
+
+17) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
+
+
+18) Qu'est-ce que l'optimisation des images pour le référencement ?
+
+
+19) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+
+
 Gestion de projets / DevOps
 1) Qu’est-ce que la gestion de projet ?
+
+
 2) Qu’est-ce qu’une méthode Agile de gestion de projet ?
+
+
 3) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+
+
 4) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+
+
 5) Qu’est-ce que la planification itérative ?
+
+
 6) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+
+
 7) Qu’est-ce qu’une réunion de revue de projet ?
+
+
 8) Qu’est-ce qu’un livrable dans un projet ?
+
+
 9) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+
+
 10) Qu’est-ce que le DevOps et quel est son objectif principal ?
+
+
 11) Qu’est-ce que l’intégration continue ?
+
+
 12) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+
+
 13) Qu’est-ce qu’un test unitaire ?
+
+
 14) Quelle est l'unité de code testée lors d'un test unitaire ?
+
+
 15) Quelles sont les caractéristiques d'un bon test unitaire ?
+
+
 16) Qu'est-ce qu'une assertion dans un test unitaire ?
 
  ## English
