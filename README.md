@@ -741,51 +741,57 @@ le classer plus efficacement dans les résultats de recherche.
 Gestion de projets / DevOps
 
 1) Qu’est-ce que la gestion de projet ?
+La gestion de projet en programmation consiste à planifier, organiser et contrôler les différentes tâches pour mener à bien un projet de développement logiciel.
+Cela implique de définir les objectifs, estimer les ressources, créer un calendrier, suivre la progression et garantir l'efficacité et la qualité du processus
+de développement.
+
+3) Qu’est-ce qu’une méthode Agile de gestion de projet ?
+Grâce à sa flexibilité et sa capacité à s'adapter aux changements, la méthode Agile est devenue de plus en plus populaire dans de nombreux secteurs,
+notamment le développement logiciel, le marketing, la gestion de projet, les ressources humaines, etc. En adoptant une approche Agile, les équipes peuvent
+mieux gérer les risques et les imprévus, tout en restant focalisées sur la satisfaction des clients et la livraison de produits de qualité.
+
+En résumé, la méthode Agile est une approche de gestion de projet innovante qui favorise la collaboration, l'adaptabilité et la livraison continue de produits de haute qualité. Elle permet aux équipes de travailler de manière efficace et transparente, en s'adaptant rapidement aux changements et aux retours des parties prenantes.
+
+4) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
 
 
-2) Qu’est-ce qu’une méthode Agile de gestion de projet ?
+5) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
 
 
-3) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+6) Qu’est-ce que la planification itérative ?
 
 
-4) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+7) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
 
 
-5) Qu’est-ce que la planification itérative ?
+8) Qu’est-ce qu’une réunion de revue de projet ?
 
 
-6) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+9) Qu’est-ce qu’un livrable dans un projet ?
 
 
-7) Qu’est-ce qu’une réunion de revue de projet ?
+10) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
 
 
-8) Qu’est-ce qu’un livrable dans un projet ?
+11) Qu’est-ce que le DevOps et quel est son objectif principal ?
 
 
-9) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+12) Qu’est-ce que l’intégration continue ?
 
 
-10) Qu’est-ce que le DevOps et quel est son objectif principal ?
+13) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
 
 
-11) Qu’est-ce que l’intégration continue ?
+14) Qu’est-ce qu’un test unitaire ?
 
 
-12) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+15) Quelle est l'unité de code testée lors d'un test unitaire ?
 
 
-13) Qu’est-ce qu’un test unitaire ?
+16) Quelles sont les caractéristiques d'un bon test unitaire ?
 
 
-14) Quelle est l'unité de code testée lors d'un test unitaire ?
-
-
-15) Quelles sont les caractéristiques d'un bon test unitaire ?
-
-
-16) Qu'est-ce qu'une assertion dans un test unitaire ?
+17) Qu'est-ce qu'une assertion dans un test unitaire ?
 
  ## English
 1) What does JavaScript enable you to do on a website ?
