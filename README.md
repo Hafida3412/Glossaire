@@ -764,39 +764,44 @@ Les avantages incluent des coûts réduits, une rapide acquisition de retours de
 le produit, ainsi qu'une économie de temps dans la conception et le développement.
 
 8) Qu’est-ce que la planification itérative ?
+La planification itérative est une méthode de gestion de projet qui consiste à diviser le travail en cycles répétitifs. Chaque itération correspond à une période
+pendant laquelle une partie du travail est réalisée et évaluée. Cette approche permet d'obtenir des résultats plus rapidement, de s'adapter aux changements
+et d'améliorer la planification grâce aux retours d'expérience. Utilisée principalement dans le développement logiciel, elle peut être appliquée à d'autres
+types de projets.
+
+10) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+- Scrum est une méthode agile populaire basée sur des itérations de développement appelées "sprints"
+- Kanban est une méthode visuelle de gestion du travail basée sur des cartes
+- Extreme Programming se concentre sur la qualité du code et la collaboration au sein de l'équipe de développement.
+
+12) Qu’est-ce qu’une réunion de revue de projet ?
 
 
-9) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+13) Qu’est-ce qu’un livrable dans un projet ?
 
 
-10) Qu’est-ce qu’une réunion de revue de projet ?
+14) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
 
 
-11) Qu’est-ce qu’un livrable dans un projet ?
+15) Qu’est-ce que le DevOps et quel est son objectif principal ?
 
 
-12) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+16) Qu’est-ce que l’intégration continue ?
 
 
-13) Qu’est-ce que le DevOps et quel est son objectif principal ?
+17) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
 
 
-14) Qu’est-ce que l’intégration continue ?
+18) Qu’est-ce qu’un test unitaire ?
 
 
-15) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+19) Quelle est l'unité de code testée lors d'un test unitaire ?
 
 
-16) Qu’est-ce qu’un test unitaire ?
+20) Quelles sont les caractéristiques d'un bon test unitaire ?
 
 
-17) Quelle est l'unité de code testée lors d'un test unitaire ?
-
-
-18) Quelles sont les caractéristiques d'un bon test unitaire ?
-
-
-19) Qu'est-ce qu'une assertion dans un test unitaire ?
+21) Qu'est-ce qu'une assertion dans un test unitaire ?
 
  ## English
 1) What does JavaScript enable you to do on a website ?
