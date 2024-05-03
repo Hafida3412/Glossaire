@@ -753,45 +753,50 @@ mieux gérer les risques et les imprévus, tout en restant focalisées sur la sa
 En résumé, la méthode Agile est une approche de gestion de projet innovante qui favorise la collaboration, l'adaptabilité et la livraison continue de produits de haute qualité. Elle permet aux équipes de travailler de manière efficace et transparente, en s'adaptant rapidement aux changements et aux retours des parties prenantes.
 
 4) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+La méthode MoSCoW est une technique de priorisation des besoins qui consiste à classer les fonctionnalités en quatre catégories : Must have, Should have, Could have
+et Won't have. Elle permet de définir clairement les besoins essentiels, de hiérarchiser les fonctionnalités et de faciliter la prise de décision, la gestion des
+attentes et la planification des ressources. Ses avantages incluent une meilleure compréhension des priorités, une approche pragmatique pour gérer les contraintes
+de temps et de ressources, une communication claire et une réduction des risques.
+
+6) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+La méthodologie MVP consiste à développer un produit ou un service avec un minimum de fonctionnalités pour répondre aux besoins des utilisateurs.
+Les avantages incluent des coûts réduits, une rapide acquisition de retours des utilisateurs, des tests de viabilité et une rapide itération pour optimiser
+le produit, ainsi qu'une économie de temps dans la conception et le développement.
+
+8) Qu’est-ce que la planification itérative ?
 
 
-5) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+9) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
 
 
-6) Qu’est-ce que la planification itérative ?
+10) Qu’est-ce qu’une réunion de revue de projet ?
 
 
-7) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+11) Qu’est-ce qu’un livrable dans un projet ?
 
 
-8) Qu’est-ce qu’une réunion de revue de projet ?
+12) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
 
 
-9) Qu’est-ce qu’un livrable dans un projet ?
+13) Qu’est-ce que le DevOps et quel est son objectif principal ?
 
 
-10) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+14) Qu’est-ce que l’intégration continue ?
 
 
-11) Qu’est-ce que le DevOps et quel est son objectif principal ?
+15) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
 
 
-12) Qu’est-ce que l’intégration continue ?
+16) Qu’est-ce qu’un test unitaire ?
 
 
-13) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+17) Quelle est l'unité de code testée lors d'un test unitaire ?
 
 
-14) Qu’est-ce qu’un test unitaire ?
+18) Quelles sont les caractéristiques d'un bon test unitaire ?
 
 
-15) Quelle est l'unité de code testée lors d'un test unitaire ?
-
-
-16) Quelles sont les caractéristiques d'un bon test unitaire ?
-
-
-17) Qu'est-ce qu'une assertion dans un test unitaire ?
+19) Qu'est-ce qu'une assertion dans un test unitaire ?
 
  ## English
 1) What does JavaScript enable you to do on a website ?
