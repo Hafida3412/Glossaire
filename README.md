@@ -775,33 +775,36 @@ types de projets.
 - Extreme Programming se concentre sur la qualité du code et la collaboration au sein de l'équipe de développement.
 
 12) Qu’est-ce qu’une réunion de revue de projet ?
+La réunion de revue de projet est un moment clé pour évaluer, ajuster et prendre des décisions importantes afin de garantir la réussite du projet.
+Elle favorise la transparence, la communication et la collaboration au sein de l'équipe.
+
+14) Qu’est-ce qu’un livrable dans un projet ?
+Un livrable dans un projet est un élément concret ou tangible qui doit être produit, achevé ou remis à un moment donné lors du déroulement du projet.
+Il contribue à l'atteinte des objectifs du projet et peut prendre différentes formes, telles que des rapports, des prototypes, des plans, des documentations,
+des logiciels, des installations, etc. Les livrables sont définis dès le début du projet et font l'objet de validations et de vérifications tout au long du projet.
+
+16) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
 
 
-13) Qu’est-ce qu’un livrable dans un projet ?
+17) Qu’est-ce que le DevOps et quel est son objectif principal ?
 
 
-14) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+18) Qu’est-ce que l’intégration continue ?
 
 
-15) Qu’est-ce que le DevOps et quel est son objectif principal ?
+19) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
 
 
-16) Qu’est-ce que l’intégration continue ?
+20) Qu’est-ce qu’un test unitaire ?
 
 
-17) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+21) Quelle est l'unité de code testée lors d'un test unitaire ?
 
 
-18) Qu’est-ce qu’un test unitaire ?
+22) Quelles sont les caractéristiques d'un bon test unitaire ?
 
 
-19) Quelle est l'unité de code testée lors d'un test unitaire ?
-
-
-20) Quelles sont les caractéristiques d'un bon test unitaire ?
-
-
-21) Qu'est-ce qu'une assertion dans un test unitaire ?
+23) Qu'est-ce qu'une assertion dans un test unitaire ?
 
  ## English
 1) What does JavaScript enable you to do on a website ?
