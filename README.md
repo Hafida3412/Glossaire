@@ -784,27 +784,30 @@ Il contribue à l'atteinte des objectifs du projet et peut prendre différentes 
 des logiciels, des installations, etc. Les livrables sont définis dès le début du projet et font l'objet de validations et de vérifications tout au long du projet.
 
 16) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+les 3 piliers de SCRUM sont la transparence, l'inspection et l'adaptation. Ils sont essentiels pour assurer le bon déroulement d'un projet SCRUM en favorisant
+la communication, l'évaluation continue du travail et la capacité d'ajustement face aux changem
+
+18) Qu’est-ce que le DevOps et quel est son objectif principal ?
+Le DevOps favorise la collaboration entre les équipes de développement et d'opérations pour améliorer la qualité et la rapidité de livraison des logiciels
+en automatisant les processus de développement, de test et de déploiement. Son objectif est d'assurer une livraison continue et rapide des produits logiciels
+tout en garantissant leur stabilité et leur fiabilité, et de promouvoir une culture de collaboration et de responsabilité partagée au sein des équipes.
+
+20) Qu’est-ce que l’intégration continue ?
 
 
-17) Qu’est-ce que le DevOps et quel est son objectif principal ?
+21) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
 
 
-18) Qu’est-ce que l’intégration continue ?
+22) Qu’est-ce qu’un test unitaire ?
 
 
-19) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+23) Quelle est l'unité de code testée lors d'un test unitaire ?
 
 
-20) Qu’est-ce qu’un test unitaire ?
+24) Quelles sont les caractéristiques d'un bon test unitaire ?
 
 
-21) Quelle est l'unité de code testée lors d'un test unitaire ?
-
-
-22) Quelles sont les caractéristiques d'un bon test unitaire ?
-
-
-23) Qu'est-ce qu'une assertion dans un test unitaire ?
+25) Qu'est-ce qu'une assertion dans un test unitaire ?
 
  ## English
 1) What does JavaScript enable you to do on a website ?
