@@ -810,13 +810,18 @@ afin de garantir son bon fonctionnement et de détecter rapidement les erreurs. 
 et sa fiabilité, tout en favorisant le développement agile.
 
 26) Quelle est l'unité de code testée lors d'un test unitaire ?
+L'unité de code testée lors d'un test unitaire est généralement une fonction ou une méthode spécifique dans le code source. Cette unité de code est testée
+de manière isolée pour vérifier son bon fonctionnement dans différentes conditions.
 
+28) Quelles sont les caractéristiques d'un bon test unitaire ?
+Les bons tests unitaires sont indépendants, isolés, répétables, rapides, lisibles, pertinents, fiables et bien documentés.
+Ils aident à améliorer la qualité du code et à réduire les erreurs dans les applications logicielles.
 
-27) Quelles sont les caractéristiques d'un bon test unitaire ?
+30) Qu'est-ce qu'une assertion dans un test unitaire ?
+Avec les assertions, on vérifie si une partie du code se comporte comme prévu lors d'un test unitaire. Si une assertion échoue,
+le test échoue et le code ne fonctionne pas correctement. Les assertions sont importantes pour garantir la qualité du code.
 
-
-28) Qu'est-ce qu'une assertion dans un test unitaire ?
-
+ 
  ## English
 1) What does JavaScript enable you to do on a website ?
 a. Add interactive behavior and dynamic content
