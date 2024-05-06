@@ -837,19 +837,23 @@ a. GET retrieves data from a server, while POST submits data to a server
 GET method is used to retrieve data from a server without modifying it, while POST method is used to submit data to a server to create or update resources.
 GET requests are less secure and have limitations on the amount of data that can be sent, while POST requests are more secure and have no limitations on data size.
 
-6) What is the purpose of version control systems (e.g., Git) in web development ?
+5) What is the purpose of version control systems (e.g., Git) in web development ?
 a. To track changes and manage collaborative development
-b. To optimize website loading speed
-c. To handle server-side scripting
-7) What is the purpose of a framework in web development ?
+Version control systems like Git are essential in web development to track changes made to the codebase, allowing developers to revert to previous versions if
+needed and maintain an organized record of changes. It also enables collaboration between team members by managing simultaneous edits to the codebase and merging
+changes seamlessly. Overall, version control systems help streamline the development process and ensure code quality and consistency.
+
+6) What is the purpose of a framework in web development ?
 a. To provide a structured environment for building web applications
-b. To handle network protocols and data transfer
-c. To create visual designs and layouts for websites
-8) What does NoSQL stand for ?
+Frameworks in web development provide a pre-built structure and set of tools to streamline the process of building web applications. They offer libraries,
+templates, and best practices that help developers organize code, improve efficiency, and maintain consistency throughout a project.Frameworks also often include
+built-in security features, database access, and other functionalities that can help developers create robust and reliable web applications.
+
+7) What does NoSQL stand for ?
 a. Not Only SQL
 b. Non-Structured Query Language
 c. New Object-Oriented Language
-9) Which of the following is a characteristic of NoSQL databases ?
+8) Which of the following is a characteristic of NoSQL databases ?
 a. Strict schema enforcement
 b. Support for complex transactions
 c. Scalability and flexible data models
