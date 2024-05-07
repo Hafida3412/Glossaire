@@ -268,13 +268,16 @@ Cette méthode est généralement utilisée pour les requêtes de création ou d
 
  ##  UX / UI
 1) Quelle est la différence entre UX Design et UI Design ?
-2) Qu’est-ce qu’un wireframe ?
-3) Qu’est-ce qu’un prototype ?
-4) Qu’est-ce que la hiérarchie visuelle en UI Design ?
-5) Qu’est-ce que l’accessibilité en UX Design ?
-6) Qu’est-ce qu’une grille de mise en page ?
-7) Qu’est-ce que la notion d’affordance en UX Design ?
-8) Qu’est-ce qu’un « mobile first design » ?
+L'UX Design concerne l'expérience globale de l'utilisateur avec un produit ou un service, tandis que l'UI Design se concentre sur l'apparence visuelle
+et l'esthétique de l'interface utilisateur. Les deux aspects sont importants pour créer un produit numérique réussi.
+
+3) Qu’est-ce qu’un wireframe ?
+4) Qu’est-ce qu’un prototype ?
+5) Qu’est-ce que la hiérarchie visuelle en UI Design ?
+6) Qu’est-ce que l’accessibilité en UX Design ?
+7) Qu’est-ce qu’une grille de mise en page ?
+8) Qu’est-ce que la notion d’affordance en UX Design ?
+9) Qu’est-ce qu’un « mobile first design » ?
 
 Programmation orientée objet (POO)
 
