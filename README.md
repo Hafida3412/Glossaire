@@ -851,8 +851,7 @@ built-in security features, database access, and other functionalities that can 
 
 7) What does NoSQL stand for ?
 a. Not Only SQL
-b. Non-Structured Query Language
-c. New Object-Oriented Language
+
 8) Which of the following is a characteristic of NoSQL databases ?
 a. Strict schema enforcement
 b. Support for complex transactions
