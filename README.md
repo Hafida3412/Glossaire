@@ -853,6 +853,4 @@ built-in security features, database access, and other functionalities that can 
 a. Not Only SQL
 
 8) Which of the following is a characteristic of NoSQL databases ?
-a. Strict schema enforcement
-b. Support for complex transactions
 c. Scalability and flexible data models
