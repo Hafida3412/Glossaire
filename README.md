@@ -616,13 +616,23 @@ Par exemple, si vous avez deux chaînes "Bonjour" et "monde", en les concaténan
 Symfony est un outil gratuit en PHP pour créer des sites web plus facilement et plus rapidement. Il offre des fonctionnalités prêtes à l'emploi pour
 simplifier le développement et la maintenance des projets web.
 
-3) Sur quel langage de programmation et design pattern repose Symfony ?
+2) Sur quel langage de programmation et design pattern repose Symfony ?
 Symfony repose sur le langage de programmation PHP et utilise principalement le design pattern MVC (Modèle-Vue-Contrôleur).
 
-4) Quelle est la dernière version en date de Symfony ?
-5) Qu’est-ce qu’un bundle ?
-6) Quel est le moteur de template utilisé par défaut dans Symfony ?
-7) Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+3) Quelle est la dernière version en date de Symfony ?
+La dernière version en date de Symfony est la version 5.4.
+
+4) Qu’est-ce qu’un bundle ?
+Un bundle Symfony est un ensemble de fichiers contenant du code réutilisable pour organiser et partager des fonctionnalités dans une application Symfony.
+Cela permet de structurer le code et de le réutiliser entre différentes applications.
+
+5) Quel est le moteur de template utilisé par défaut dans Symfony ?
+Le moteur de template utilisé par défaut dans Symfony est Twig.
+
+6) Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+L'ORM (Object-Relational Mapping) est un outil qui relie une base de données à un langage de programmation objet.
+Doctrine est l'ORM principal utilisé dans Symfony pour simplifier la manipulation des données en les représentant sous forme d'objets PHP.
+
 8) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
 contient l’intégralité des dépendances du projet ?
 9) Que permet le bundle Maker au sein de Symfony ?
