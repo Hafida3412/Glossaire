@@ -633,11 +633,19 @@ Le moteur de template utilisé par défaut dans Symfony est Twig.
 L'ORM (Object-Relational Mapping) est un outil qui relie une base de données à un langage de programmation objet.
 Doctrine est l'ORM principal utilisé dans Symfony pour simplifier la manipulation des données en les représentant sous forme d'objets PHP.
 
-8) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
+7) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
 contient l’intégralité des dépendances du projet ?
-9) Que permet le bundle Maker au sein de Symfony ?
-10) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
-11) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+
+
+8) Que permet le bundle Maker au sein de Symfony ?
+
+
+9) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+
+
+10) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+
+
 Sécurité
 1) Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
 2) Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
