@@ -613,16 +613,21 @@ Par exemple, si vous avez deux chaînes "Bonjour" et "monde", en les concaténan
 
  ## Symfony
 1) Qu’est-ce que Symfony ?
-2) Sur quel langage de programmation et design pattern repose Symfony ?
-3) Quelle est la dernière version en date de Symfony ?
-4) Qu’est-ce qu’un bundle ?
-5) Quel est le moteur de template utilisé par défaut dans Symfony ?
-6) Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
-7) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
+Symfony est un outil gratuit en PHP pour créer des sites web plus facilement et plus rapidement. Il offre des fonctionnalités prêtes à l'emploi pour
+simplifier le développement et la maintenance des projets web.
+
+3) Sur quel langage de programmation et design pattern repose Symfony ?
+Symfony repose sur le langage de programmation PHP et utilise principalement le design pattern MVC (Modèle-Vue-Contrôleur).
+
+4) Quelle est la dernière version en date de Symfony ?
+5) Qu’est-ce qu’un bundle ?
+6) Quel est le moteur de template utilisé par défaut dans Symfony ?
+7) Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+8) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
 contient l’intégralité des dépendances du projet ?
-8) Que permet le bundle Maker au sein de Symfony ?
-9) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
-10) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+9) Que permet le bundle Maker au sein de Symfony ?
+10) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+11) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 Sécurité
 1) Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
 2) Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
