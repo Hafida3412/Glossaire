@@ -645,19 +645,26 @@ Symfony utilise le langage SQL pour les requêtes dans un projet, mais grâce à
 des objets PHP plutôt que du SQL directement.
 
 12) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
-
+Le composant qui garantit l'authentification et l'autorisation des utilisateurs est un système de gestion des identités, souvent abrégé en
+IAM (Identity and Access Management). Ce système permet de vérifier l'identité des utilisateurs, de gérer leurs droits d'accès à différents systèmes et ressources,
+et de garantir la sécurité des informations sensibles.
 
 Sécurité
+
 1) Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
-2) Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
-3) Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
-4) Définir l’attaque par force brute et l’attaque par dictionnaire
-5) Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
-6) A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
-7) Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
-8) Qu’est-ce qu’une politique de mots de passe forts ?
-9) Qu’est-ce que l’hameçonnage ?
-10) Définir la « validation des entrées »
+L'injection SQL est une attaque informatique qui utilise du code malveillant pour accéder, modifier ou supprimer des données en infiltrant un système.
+Pour se protéger, il est important d'utiliser des requêtes préparées, valider et nettoyer les données entrantes, limiter les privilèges d'accès,
+installer un pare-feu d'application web et mettre à jour régulièrement les logiciels et applications.
+
+3) Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+4) Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
+5) Définir l’attaque par force brute et l’attaque par dictionnaire
+6) Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
+7) A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
+8) Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
+9) Qu’est-ce qu’une politique de mots de passe forts ?
+10) Qu’est-ce que l’hameçonnage ?
+11) Définir la « validation des entrées »
     
  ## RGPD
 1) Qu’est-ce que le RGPD ?
