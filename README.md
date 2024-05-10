@@ -637,12 +637,14 @@ Doctrine est l'ORM principal utilisé dans Symfony pour simplifier la manipulati
 contient l’intégralité des dépendances du projet ?
 
 8) Que permet le bundle Maker au sein de Symfony ?
-Le bundle Maker de Symfony permet de créer rapidement des éléments de code comme des entités, des contrôleurs et des formulaires, ce qui facilite le développement en automatisant des tâches récurrentes.
+Le bundle Maker de Symfony permet de créer rapidement des éléments de code comme des entités, des contrôleurs et des formulaires, ce qui facilite le développement
+en automatisant des tâches récurrentes.
 
 9) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+Symfony utilise le langage SQL pour les requêtes dans un projet, mais grâce à Doctrine, il est possible de manipuler les données de la base de données en utilisant
+des objets PHP plutôt que du SQL directement.
 
-
-10) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+12) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 
 
 Sécurité
