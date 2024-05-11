@@ -686,7 +686,8 @@ Pour se prémunir contre la faille CSRF, voici quelques bonnes pratiques à mett
 En suivant ces bonnes pratiques, les développeurs peuvent réduire les risques liés à la faille CSRF et renforcer la sécurité de leurs applications web.
 
 4) Définir l’attaque par force brute et l’attaque par dictionnaire
-
+L'attaque par force brute teste toutes les combinaisons de caractères pour trouver un mot de passe, tandis que l'attaque par dictionnaire utilise une liste de mots
+courants pour deviner le mot de passe. Il est important de choisir des mots de passe complexes pour se protéger.
 
 5) Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
 
