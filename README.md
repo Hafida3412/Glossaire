@@ -532,7 +532,6 @@ c. SGBD (donner 2 exemples de SGBD) = Systèmes de Gestion de Bases de Données
 9) Dans une base de données, les données sont stockées dans des TABLES (chaque table représente un type d'entité: exemple: table de commandes). Celles-ci sont constituées de 
 lignes appelées ENREGISTREMENT (=lignes dans une table) et de colonnes appelées ATTRIBUTS (=colonne dans une table)
 
-
 10) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
 Les bases de données relationnelles stockent des données sous forme de tables liées entre elles par des clés étrangères, suivent le modèle ACID et conviennent aux données structurées et aux relations complexes. Les bases de données non relationnelles stockent des données de manière flexible, sont conçues pour être hautement évolutives et adaptées aux données semi-structurées ou non structurées. Elles ne suivent pas nécessairement le modèle ACID et sont adaptées aux environnements nécessitant une haute performance et disponibilité.
 
@@ -656,15 +655,55 @@ L'injection SQL est une attaque informatique qui utilise du code malveillant pou
 Pour se protéger, il est important d'utiliser des requêtes préparées, valider et nettoyer les données entrantes, limiter les privilèges d'accès,
 installer un pare-feu d'application web et mettre à jour régulièrement les logiciels et applications.
 
-3) Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
-4) Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
-5) Définir l’attaque par force brute et l’attaque par dictionnaire
-6) Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
-7) A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
-8) Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
-9) Qu’est-ce qu’une politique de mots de passe forts ?
-10) Qu’est-ce que l’hameçonnage ?
-11) Définir la « validation des entrées »
+2) Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+Une faille XSS (Cross-Site Scripting) est une faille de sécurité courante sur les sites web qui permet à un attaquant d'injecter du code malveillant dans des pages web consultées par d'autres utilisateurs. Ce code peut être du JavaScript, du HTML ou d'autres langages et peut être utilisé pour voler des informations sensibles, rediriger les utilisateurs vers des sites malveillants, ou détourner des sessions utilisateurs.
+
+Pour se prémunir contre les attaques XSS, voici quelques bonnes pratiques à mettre en place :
+
+-> Filtrer et valider les données utilisateur : Toute donnée entrée par l'utilisateur et affichée sur le site doit être correctement filtrée et validée pour éviter toute injection de code malveillant.
+
+-> Utiliser des outils de sécurité : Les pare-feu d'application web (WAF) et les outils de sécurité comme OWASP ZAP peuvent aider à détecter et bloquer les attaques XSS.
+
+-> Échapper les caractères spéciaux : Les données utilisateur affichées sur le site doivent être correctement échappées pour neutraliser tout code malveillant potentiel.
+
+-> Utiliser les en-têtes de sécurité HTTP : Les en-têtes de sécurité comme Content-Security-Policy et X-XSS-Protection peuvent aider à renforcer la protection contre les attaques XSS en limitant les sources des scripts exécutés sur le site.
+
+En suivant ces bonnes pratiques et en restant vigilant sur la sécurité de votre site web, vous pouvez limiter les risques liés aux attaques XSS et protéger les données sensibles de vos utilisateurs.
+
+3) Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
+La faille CSRF (Cross-Site Request Forgery) est une attaque qui exploite la confiance d'un site web envers l'utilisateur pour effectuer des actions non autorisées en son nom. L'attaque consiste à envoyer des requêtes HTTP légitimes à un site web en utilisant les informations d'identification de l'utilisateur sans son consentement.
+
+Pour se prémunir contre la faille CSRF, voici quelques bonnes pratiques à mettre en place :
+
+-> Utiliser des jetons CSRF : les jetons CSRF sont des balises uniques générées par le serveur et incluses dans les formulaires et les requêtes HTTP. Ils permettent de vérifier que la requête provient bien de l'utilisateur légitime.
+
+-> Limiter la validité des jetons CSRF : les jetons CSRF doivent être générés de manière aléatoire et non prédictible, et ils doivent expirer après une durée limitée pour limiter leur réutilisation.
+
+-> Utiliser des en-têtes Origin et Referrer : ces en-têtes permettent de vérifier l'origine de la requête et de s'assurer qu'elle provient bien du site web légitime.
+
+-> Mettre en place des mesures de sécurité au niveau du serveur : les développeurs doivent mettre en place des contrôles de sécurité au niveau du serveur pour détecter et prévenir les attaques CSRF.
+
+En suivant ces bonnes pratiques, les développeurs peuvent réduire les risques liés à la faille CSRF et renforcer la sécurité de leurs applications web.
+
+4) Définir l’attaque par force brute et l’attaque par dictionnaire
+
+
+5) Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
+
+
+6) A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
+
+
+7) Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
+
+
+8) Qu’est-ce qu’une politique de mots de passe forts ?
+
+
+9) Qu’est-ce que l’hameçonnage ?
+
+
+10) Définir la « validation des entrées »
     
  ## RGPD
 1) Qu’est-ce que le RGPD ?
