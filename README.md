@@ -643,7 +643,7 @@ en automatisant des tâches récurrentes.
 Symfony utilise le langage SQL pour les requêtes dans un projet, mais grâce à Doctrine, il est possible de manipuler les données de la base de données en utilisant
 des objets PHP plutôt que du SQL directement.
 
-12) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+10) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 Le composant qui garantit l'authentification et l'autorisation des utilisateurs est un système de gestion des identités, souvent abrégé en
 IAM (Identity and Access Management). Ce système permet de vérifier l'identité des utilisateurs, de gérer leurs droits d'accès à différents systèmes et ressources,
 et de garantir la sécurité des informations sensibles.
@@ -713,34 +713,34 @@ Règlement Général sur la Protection des Données
 2) Quel est son objectif principal ?
 Protéger les données personnelles des citoyens de l'Union européenne.
 
-4) Quelle est la date d’entrée en vigueur du RGPD ?
+3) Quelle est la date d’entrée en vigueur du RGPD ?
    En mai 2018
 
-5) Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
+4) Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
 En cas de non-respect du RGPD, les sanctions possibles incluent des avertissements, des mises en demeure, des restrictions sur le traitement des données,
 des amendes administratives pouvant aller jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires annuel mondial de l'organisme, et des actions
 en justice pour obtenir réparation du préjudice. Il est crucial pour les organismes de se conformer au RGPD pour éviter ces conséquences sévères.
 
-6) En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
+5) En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
 La Commission nationale de l'informatique et des libertés (CNIL) 
 
-7) Quel est le consentement valide selon le RPGD ?
+6) Quel est le consentement valide selon le RPGD ?
 Le consentement valide selon le RGPD doit être donné librement, spécifiquement, de manière éclairée et univoque par la personne concernée, et doit être explicite. Les organisations doivent s'assurer de recueillir un tel consentement pour se conformer à la législation sur la protection des données.
 
-8) Qu’est-ce qu’une politique de confidentialité ?
+7) Qu’est-ce qu’une politique de confidentialité ?
 C'est un document qui informe les individus sur la manière dont une organisation collecte, stocke et protège leurs informations personnelles.
 Elle est souvent utilisée sur les sites internet, les applications et les plateformes en ligne. Les entreprises doivent respecter leur propre politique
 de confidentialité et se conformer aux lois en vigueur en matière de protection des données.
 
-9) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+8) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
 Le RGPD stipule que les données personnelles ne doivent être conservées que le temps nécessaire à leur finalité et impose aux entreprises de déterminer une
 durée de conservation raisonnable en fonction de divers critères. Il est essentiel de définir une politique de conservation des données pour respecter les principes
 de minimisation et de limitation de la durée de conservation.
 
-10) Quels sont les droits des utilisateurs selon le RGPD ?
+9) Quels sont les droits des utilisateurs selon le RGPD ?
 Le droit d'accès, le droit de rectification, le droit à l'effacement, le droit à la limitation du traitement, le droit à la portabilité des données, le droit d'opposition et le droit de ne pas faire l'objet d'une décision individuelle automatisée. Ces droits visent à protéger la vie privée des utilisateurs et à leur donner plus de contrôle sur leurs informations personnelles.
 
-11) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+10) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
 Les organisations doivent réfléchir soigneusement à quelles données elles collectent, pourquoi elles en ont besoin et pendant combien de temps elles doivent les conserver.
 Elles doivent également informer les individus de la manière dont leurs données seront utilisées et obtenir leur consentement avant de collecter leurs données.
 
@@ -755,58 +755,58 @@ Search Engine Optimization
 Le SEO vise à améliorer le classement d'un site web dans les résultats des moteurs de recherche en optimisant divers aspects tels que le contenu,
 les balises, les liens et la vitesse de chargement, afin d'attirer plus de trafic organique et augmenter sa visibilité en ligne.
 
-4) Existe-t-il plusieurs types de référencement ? Lesquels ?
+3) Existe-t-il plusieurs types de référencement ? Lesquels ?
 Il existe plusieurs types de référencement, tels que le référencement naturel (SEO), le référencement payant (SEA), le référencement local, le référencement
 sur les réseaux sociaux, le référencement vidéo et le référencement mobile. Chacun de ces types vise à améliorer la visibilité d'une entreprise en ligne sur
 les moteurs de recherche, les réseaux sociaux ou les plateformes vidéo, en fonction de ses besoins et objectifs spécifiques. Ces différentes stratégies de
 référencement peuvent être utilisées de manière complémentaire pour renforcer la présence en ligne d'une entreprise et augmenter son audience.
 
-6) Qu’est-ce que la densité de mots-clés en SEO ?
+4) Qu’est-ce que la densité de mots-clés en SEO ?
 La densité de mots-clés en SEO est la fréquence à laquelle un mot-clé est utilisé par rapport au nombre total de mots sur une page web.
 C'est un facteur important pour l'optimisation des moteurs de recherche, mais l'abus de mots-clés peut être préjudiciable au classement.
 Il est essentiel de maintenir une densité naturelle tout en offrant un contenu pertinent et utile aux utilisateurs.
 
-8) Qu’est-ce qu’une balise « alt » ?
+5) Qu’est-ce qu’une balise « alt » ?
 La balise "alt" en HTML est utilisée pour décrire le contenu des images aux personnes aveugles ou malvoyantes, ainsi qu'aux navigateurs qui ne peuvent
 pas charger les images.
 Elle est également bénéfique pour le référencement naturel car elle permet aux moteurs de recherche de mieux comprendre le contenu des images.
 
-10) Qu’est-ce que la balise « meta description » ?
+6) Qu’est-ce que la balise « meta description » ?
 La balise meta description est une étiquette HTML permettant de définir une courte description du contenu d'une page web.
 Elle apparaît dans les résultats des moteurs de recherche, sous le titre de la page, afin de donner aux utilisateurs une idée du contenu avant de cliquer.
 Elle influence également le référencement naturel de la page, les moteurs de recherche l'utilisant pour déterminer la pertinence de la page par rapport à
 une requête de recherche.
 
-12) Qu’est-ce que le « nofollow » en SEO ?
+7) Qu’est-ce que le « nofollow » en SEO ?
 Le "nofollow" en SEO est une valeur d'attribut dans les balises HTML qui indique aux moteurs de recherche de ne pas suivre les liens d'une page web,
 ce qui peut aider à éviter les pénalités liées à des liens de faible qualité ou non naturels.
 
-14) Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
+8) Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
 En résumé, un contenu de qualité est crucial pour le référencement d'un site web car il améliore la pertinence, attire du trafic organique, augmente le temps
 passé par les utilisateurs sur le site, réduit le taux de rebond, favorise les liens entrants naturels, et améliore l'autorité et la crédibilité du site.
 Cela contribue à un meilleur classement dans les résultats des moteurs de recherche.
 
-16) Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
+9) Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
 L'utilisation structurée des balises de titre est essentielle pour améliorer l'accessibilité, le référencement, la clarté du contenu et la cohérence visuelle d'un site web.
 Cela facilite la navigation pour les utilisateurs malvoyants, améliore le classement dans les moteurs de recherche, rend le contenu plus clair et organisé, et assure une présentation uniforme.
 
-18) Quelle est la recommandation pour les URL d'un site web bien référencé ?
+10) Quelle est la recommandation pour les URL d'un site web bien référencé ?
 Pour un bon référencement de votre site web, utilisez des URL conviviales, simples, descriptives et contenant des mots-clés pertinents. Évitez les URL complexes,
 privilégiez les tirets pour séparer les mots et maintenez des URLs cohérentes et statiques. Évitez les redirections et modifications fréquentes qui pourraient
 affecter le référencement.
 
-20) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
+11) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
 Le maillage interne d'un site web consiste en la structure des liens internes entre les différentes pages, ce qui aide les moteurs de recherche à indexer et classer les pages.
 Il favorise le transfert de pertinence et de popularité entre les pages, améliorant ainsi le référencement et l'expérience utilisateur.
 En résumé, le maillage interne est essentiel pour l'optimisation du site, son référencement et la navigation des visiteurs.
 
-22) Qu'est-ce que l'optimisation des images pour le référencement ?
+12) Qu'est-ce que l'optimisation des images pour le référencement ?
 L'optimisation des images pour le référencement vise à améliorer la visibilité et la pertinence des images sur un site web afin d'optimiser leur référencement dans
 les moteurs de recherche. Cela implique l'optimisation du balisage des images, la compression des fichiers, le choix de noms de fichiers pertinents et des dimensions
 adaptées, ainsi que la création de sitemaps dédiés aux images. Cette pratique permet d'améliorer le positionnement des images dans les résultats de recherche et d'attirer
 plus de trafic qualifié sur le site.
 
-24) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+13) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
 Un plan de site (sitemap) est un fichier XML qui répertorie toutes les pages d'un site web et indique leur structure, leur organisation et leurs liens entre elles.
 Il permet aux moteurs de recherche de comprendre en profondeur le contenu du site et de l'indexer de manière plus efficace.
 Un plan de site bien conçu est essentiel pour optimiser le référencement d'un site web en aidant les moteurs de recherche à indexer efficacement son contenu et à
