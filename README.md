@@ -271,13 +271,24 @@ Cette méthode est généralement utilisée pour les requêtes de création ou d
 L'UX Design concerne l'expérience globale de l'utilisateur avec un produit ou un service, tandis que l'UI Design se concentre sur l'apparence visuelle
 et l'esthétique de l'interface utilisateur. Les deux aspects sont importants pour créer un produit numérique réussi.
 
-3) Qu’est-ce qu’un wireframe ?
-4) Qu’est-ce qu’un prototype ?
-5) Qu’est-ce que la hiérarchie visuelle en UI Design ?
-6) Qu’est-ce que l’accessibilité en UX Design ?
-7) Qu’est-ce qu’une grille de mise en page ?
-8) Qu’est-ce que la notion d’affordance en UX Design ?
-9) Qu’est-ce qu’un « mobile first design » ?
+2) Qu’est-ce qu’un wireframe ?
+Un wireframe est un plan visuel simple d'un site web ou d'une interface utilisateur, utilisé pour organiser les éléments et la structure avant de commencer
+à concevoir et développer. Il est composé de lignes et de formes pour indiquer l'emplacement des images, du texte, des boutons et des liens, permettant de
+visualiser la disposition des éléments et l'expérience utilisateur.
+
+3) Qu’est-ce qu’un prototype ?
+Un prototype UX/UI est une maquette interactive d'une interface utilisateur pour tester le design d'une application ou d'un site web avant son développement
+complet. Ils permettent de visualiser et tester l'interface, recueillir des retours des utilisateurs et identifier les problèmes potentiels pour améliorer
+l'expérience utilisateur avant le lancement du produit final.
+
+4) Qu’est-ce que la hiérarchie visuelle en UI Design ?
+La hiérarchie visuelle en UI design organise les éléments visuels pour guider l'œil de l'utilisateur, mettre en avant ce qui est important et faciliter la navigation.
+Elle repose sur la taille, la couleur, le contraste et l'espacement des éléments pour créer une structure claire et une expérience utilisateur agréable.
+
+5) Qu’est-ce que l’accessibilité en UX Design ?
+6) Qu’est-ce qu’une grille de mise en page ?
+7) Qu’est-ce que la notion d’affordance en UX Design ?
+8) Qu’est-ce qu’un « mobile first design » ?
 
 Programmation orientée objet (POO)
 
