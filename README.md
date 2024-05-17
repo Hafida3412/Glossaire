@@ -716,10 +716,15 @@ Une politique de mots de passe forts aide à protéger les comptes en imposant d
 et leur changement régulier, pour éviter les piratages.
 
 11) Qu’est-ce que l’hameçonnage ?
+L'hameçonnage est une arnaque où les fraudeurs se font passer pour des entités légitimes pour voler des informations personnelles,
+en utilisant des e-mails ou des messages qui semblent réels. Il faut être vigilant et ne jamais donner ses informations en réponse à ces messages.
 
+13) Définir la « validation des entrées »
+La validation des entrées consiste à vérifier et filtrer les données de l'utilisateur avant de les utiliser dans un système informatique pour
+assurer la sécurité et l'intégrité du système.
+Cela permet d'éviter les erreurs et les manipulations de données malveillantes.   
 
-12) Définir la « validation des entrées »
-    
+ 
  ## RGPD
 1) Qu’est-ce que le RGPD ?
 Règlement Général sur la Protection des Données
