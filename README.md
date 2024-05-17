@@ -707,15 +707,18 @@ courants pour deviner le mot de passe. Il est important de choisir des mots de p
 
 
 7) Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
+Le hachage d'un mot de passe transforme le mot de passe en une chaîne aléatoire pour le protéger.
+Il existe plusieurs algorithmes de hachage, certains obsolètes et d'autres sécurisés comme SHA-256 ou bcrypt.
+Il est important d'utiliser des algorithmes sécurisés pour protéger les données en ligne.
+
+9) Qu’est-ce qu’une politique de mots de passe forts ?
+Une politique de mots de passe forts aide à protéger les comptes en imposant des règles comme des mots de passe complexes
+et leur changement régulier, pour éviter les piratages.
+
+11) Qu’est-ce que l’hameçonnage ?
 
 
-8) Qu’est-ce qu’une politique de mots de passe forts ?
-
-
-9) Qu’est-ce que l’hameçonnage ?
-
-
-10) Définir la « validation des entrées »
+12) Définir la « validation des entrées »
     
  ## RGPD
 1) Qu’est-ce que le RGPD ?
