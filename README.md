@@ -620,6 +620,26 @@ Pour concaténer deux chaînes de caractères, vous pouvez utiliser l'opérateur
 Par exemple, si vous avez deux chaînes "Bonjour" et "monde", en les concaténant avec l'opérateur "+", vous obtiendrez la chaîne "Bonjourmonde".
 
 17) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+Exemple : abstract class Connect{
+
+    const HOST = "localhost";
+    const DB = "cinema_hafida";
+    const USER = "root";
+    const PASS = "";
+
+   public static function seConnecter(){
+        try{
+            return new \PDO( //la barre "\" devant PDO indique au framework que PDO est une classe native et non une classe du projet
+                "mysql:host=".self::HOST.";dbname=".self::DB.";charset=utf8",
+                self::USER,
+                self::PASS
+            );
+        }
+            catch(\PDOException $ex){
+            return $ex->getMessage();  
+}
+}
+}
 
  ## Symfony
 1) Qu’est-ce que Symfony ?
