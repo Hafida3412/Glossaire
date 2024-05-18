@@ -731,15 +731,15 @@ Le hachage d'un mot de passe transforme le mot de passe en une chaîne aléatoir
 Il existe plusieurs algorithmes de hachage, certains obsolètes et d'autres sécurisés comme SHA-256 ou bcrypt.
 Il est important d'utiliser des algorithmes sécurisés pour protéger les données en ligne.
 
-9) Qu’est-ce qu’une politique de mots de passe forts ?
+8) Qu’est-ce qu’une politique de mots de passe forts ?
 Une politique de mots de passe forts aide à protéger les comptes en imposant des règles comme des mots de passe complexes
 et leur changement régulier, pour éviter les piratages.
 
-11) Qu’est-ce que l’hameçonnage ?
+9) Qu’est-ce que l’hameçonnage ?
 L'hameçonnage est une arnaque où les fraudeurs se font passer pour des entités légitimes pour voler des informations personnelles,
 en utilisant des e-mails ou des messages qui semblent réels. Il faut être vigilant et ne jamais donner ses informations en réponse à ces messages.
 
-13) Définir la « validation des entrées »
+10) Définir la « validation des entrées »
 La validation des entrées consiste à vérifier et filtrer les données de l'utilisateur avant de les utiliser dans un système informatique pour
 assurer la sécurité et l'intégrité du système.
 Cela permet d'éviter les erreurs et les manipulations de données malveillantes.   
@@ -858,79 +858,79 @@ La gestion de projet en programmation consiste à planifier, organiser et contr�
 Cela implique de définir les objectifs, estimer les ressources, créer un calendrier, suivre la progression et garantir l'efficacité et la qualité du processus
 de développement.
 
-3) Qu’est-ce qu’une méthode Agile de gestion de projet ?
+2) Qu’est-ce qu’une méthode Agile de gestion de projet ?
 Grâce à sa flexibilité et sa capacité à s'adapter aux changements, la méthode Agile est devenue de plus en plus populaire dans de nombreux secteurs,
 notamment le développement logiciel, le marketing, la gestion de projet, les ressources humaines, etc. En adoptant une approche Agile, les équipes peuvent
 mieux gérer les risques et les imprévus, tout en restant focalisées sur la satisfaction des clients et la livraison de produits de qualité.
 
 En résumé, la méthode Agile est une approche de gestion de projet innovante qui favorise la collaboration, l'adaptabilité et la livraison continue de produits de haute qualité. Elle permet aux équipes de travailler de manière efficace et transparente, en s'adaptant rapidement aux changements et aux retours des parties prenantes.
 
-4) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+3) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
 La méthode MoSCoW est une technique de priorisation des besoins qui consiste à classer les fonctionnalités en quatre catégories : Must have, Should have, Could have
 et Won't have. Elle permet de définir clairement les besoins essentiels, de hiérarchiser les fonctionnalités et de faciliter la prise de décision, la gestion des
 attentes et la planification des ressources. Ses avantages incluent une meilleure compréhension des priorités, une approche pragmatique pour gérer les contraintes
 de temps et de ressources, une communication claire et une réduction des risques.
 
-6) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+4) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
 La méthodologie MVP consiste à développer un produit ou un service avec un minimum de fonctionnalités pour répondre aux besoins des utilisateurs.
 Les avantages incluent des coûts réduits, une rapide acquisition de retours des utilisateurs, des tests de viabilité et une rapide itération pour optimiser
 le produit, ainsi qu'une économie de temps dans la conception et le développement.
 
-8) Qu’est-ce que la planification itérative ?
+5) Qu’est-ce que la planification itérative ?
 La planification itérative est une méthode de gestion de projet qui consiste à diviser le travail en cycles répétitifs. Chaque itération correspond à une période
 pendant laquelle une partie du travail est réalisée et évaluée. Cette approche permet d'obtenir des résultats plus rapidement, de s'adapter aux changements
 et d'améliorer la planification grâce aux retours d'expérience. Utilisée principalement dans le développement logiciel, elle peut être appliquée à d'autres
 types de projets.
 
-10) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+6) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
 - Scrum est une méthode agile populaire basée sur des itérations de développement appelées "sprints"
 - Kanban est une méthode visuelle de gestion du travail basée sur des cartes
 - Extreme Programming se concentre sur la qualité du code et la collaboration au sein de l'équipe de développement.
 
-12) Qu’est-ce qu’une réunion de revue de projet ?
+7) Qu’est-ce qu’une réunion de revue de projet ?
 La réunion de revue de projet est un moment clé pour évaluer, ajuster et prendre des décisions importantes afin de garantir la réussite du projet.
 Elle favorise la transparence, la communication et la collaboration au sein de l'équipe.
 
-14) Qu’est-ce qu’un livrable dans un projet ?
+8) Qu’est-ce qu’un livrable dans un projet ?
 Un livrable dans un projet est un élément concret ou tangible qui doit être produit, achevé ou remis à un moment donné lors du déroulement du projet.
 Il contribue à l'atteinte des objectifs du projet et peut prendre différentes formes, telles que des rapports, des prototypes, des plans, des documentations,
 des logiciels, des installations, etc. Les livrables sont définis dès le début du projet et font l'objet de validations et de vérifications tout au long du projet.
 
-16) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+9) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
 les 3 piliers de SCRUM sont la transparence, l'inspection et l'adaptation. Ils sont essentiels pour assurer le bon déroulement d'un projet SCRUM en favorisant
 la communication, l'évaluation continue du travail et la capacité d'ajustement face aux changem
 
-18) Qu’est-ce que le DevOps et quel est son objectif principal ?
+10) Qu’est-ce que le DevOps et quel est son objectif principal ?
 Le DevOps favorise la collaboration entre les équipes de développement et d'opérations pour améliorer la qualité et la rapidité de livraison des logiciels
 en automatisant les processus de développement, de test et de déploiement. Son objectif est d'assurer une livraison continue et rapide des produits logiciels
 tout en garantissant leur stabilité et leur fiabilité, et de promouvoir une culture de collaboration et de responsabilité partagée au sein des équipes.
 
-20) Qu’est-ce que l’intégration continue ?
+11) Qu’est-ce que l’intégration continue ?
 L'intégration continue est une pratique qui vise à automatiser le processus d'intégration des codes source pour détecter et résoudre rapidement les erreurs,
 assurer la cohérence et la qualité du code, et réduire les risques liés au développement logiciel. Cette méthode repose sur l'utilisation d'outils et de
 processus automatisés pour compiler, tester et déployer les modifications du code source dans un environnement de développement partagé.
 
-22) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+12) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
 Docker est une plateforme logicielle permettant de créer, déployer et gérer des conteneurs logiciels, facilitant ainsi le déploiement et la gestion des
 applications dans le cadre du DevOps. En utilisant des conteneurs Docker, les équipes de développement peuvent garantir une uniformité de fonctionnement sur
 tous les environnements, évitant ainsi les problèmes liés aux différences entre ces environnements. Docker permet également de mettre en place des
 pipelines CI/CD efficaces, d'automatiser le déploiement des applications et de réaliser des économies en termes de ressources matérielles tout en facilitant
 la scalabilité des applications.
 
-24) Qu’est-ce qu’un test unitaire ?
+13) Qu’est-ce qu’un test unitaire ?
 Les tests unitaires sont une pratique de programmation visant à tester de manière isolée et automatique une partie spécifique du code source d'un logiciel,
 afin de garantir son bon fonctionnement et de détecter rapidement les erreurs. Cette approche permet d'assurer la qualité du logiciel, d'améliorer sa maintenance
 et sa fiabilité, tout en favorisant le développement agile.
 
-26) Quelle est l'unité de code testée lors d'un test unitaire ?
+14) Quelle est l'unité de code testée lors d'un test unitaire ?
 L'unité de code testée lors d'un test unitaire est généralement une fonction ou une méthode spécifique dans le code source. Cette unité de code est testée
 de manière isolée pour vérifier son bon fonctionnement dans différentes conditions.
 
-28) Quelles sont les caractéristiques d'un bon test unitaire ?
+15) Quelles sont les caractéristiques d'un bon test unitaire ?
 Les bons tests unitaires sont indépendants, isolés, répétables, rapides, lisibles, pertinents, fiables et bien documentés.
 Ils aident à améliorer la qualité du code et à réduire les erreurs dans les applications logicielles.
 
-30) Qu'est-ce qu'une assertion dans un test unitaire ?
+16) Qu'est-ce qu'une assertion dans un test unitaire ?
 Avec les assertions, on vérifie si une partie du code se comporte comme prévu lors d'un test unitaire. Si une assertion échoue,
 le test échoue et le code ne fonctionne pas correctement. Les assertions sont importantes pour garantir la qualité du code.
 
