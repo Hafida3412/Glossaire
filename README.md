@@ -20,6 +20,7 @@ de chaque lettre initiale.
 • English
 
  ##  Général
+
 1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels 
 permettant ce contexte?
    Pour exécuter un script PHP (Hypertext Preprocessor), il faut installer Laragon ou XAMMPP.
@@ -176,6 +177,7 @@ echo "Cookie créé avec succès!";
 
 
  ##  Front-end
+
 1) Définir HTML
   (HyperText Markup Language)
   Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure.
@@ -280,6 +282,7 @@ Cette méthode est généralement utilisée pour les requêtes de lecture de don
 Cette méthode est généralement utilisée pour les requêtes de création ou de modification de données sensibles.
 
  ##  UX / UI
+
 1) Quelle est la différence entre UX Design et UI Design ?
 L'UX Design concerne l'expérience globale de l'utilisateur avec un produit ou un service, tandis que l'UI Design se concentre sur l'apparence visuelle
 et l'esthétique de l'interface utilisateur. Les deux aspects sont importants pour créer un produit numérique réussi.
@@ -303,7 +306,7 @@ Elle repose sur la taille, la couleur, le contraste et l'espacement des élémen
 7) Qu’est-ce que la notion d’affordance en UX Design ?
 8) Qu’est-ce qu’un « mobile first design » ?
 
-Programmation orientée objet (POO)
+ ## Programmation orientée objet (POO)
 
 1) Donner une définition de la programmation orientée objet 
 La programmation orientée objet est une méthode de programmation qui consiste à regrouper des informations et des actions liées ensemble dans des objets.
@@ -369,9 +372,13 @@ public class Personne {
 Lorsqu'un nouvel objet "Personne" est créé en utilisant ce constructeur, les valeurs passées en paramètres seront utilisées pour initialiser les propriétés "nom" et "age" de l'objet.
 
 7) Qu’est-ce que l’encapsulation ?
-L'encapsulation c'est comme mettre les informations d'une personne dans une boîte verrouillée. On ne peut pas y accéder directement, il faut passer par des règles spécifiques (méthodes) pour les modifier ou les consulter. Cela permet de protéger les données et d'éviter qu'elles soient modifiées de manière non contrôlée.
+L'encapsulation c'est comme mettre les informations d'une personne dans une boîte verrouillée. On ne peut pas y accéder directement,
+il faut passer par des règles spécifiques (méthodes) pour les modifier ou les consulter. Cela permet de protéger les données et d'éviter
+qu'elles soient modifiées de manière non contrôlée.
 
-Un exemple d'encapsulation peut être une classe "Personne" qui contient des attributs privés tels que le nom et l'âge, et des méthodes publiques pour accéder et modifier ces attributs, par exemple une méthode "getNom()" pour récupérer le nom d'une personne et une méthode "setAge(int age)" pour modifier son âge. Ainsi, les données de la personne sont encapsulées à l'intérieur de la classe "Personne" et ne peuvent être manipulées directement de l'extérieur de la classe.
+Un exemple d'encapsulation peut être une classe "Personne" qui contient des attributs privés tels que le nom et l'âge, et des méthodes publiques pour 
+accéder et modifier ces attributs, par exemple une méthode "getNom()" pour récupérer le nom d'une personne et une méthode "setAge(int age)" pour modifier son âge. 
+Ainsi, les données de la personne sont encapsulées à l'intérieur de la classe "Personne" et ne peuvent être manipulées directement de l'extérieur de la classe.
 
 8) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
 Étendre une classe en POO signifie hériter des propriétés et des méthodes d'une classe principale pour les réutiliser dans une classe fille.
@@ -425,9 +432,9 @@ Cela permet de transformer des données complexes en une forme simple qui peut �
 à convertir la chaîne de caractères en objet ou en tableau d'origine.
 
  ##  Architecture 
+
 1) Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le 
-serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer 
-la différence
+serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence.
 L'architecture client/serveur est un modèle informatique où les tâches sont réparties entre un serveur central et des clients qui accèdent
 et utilisent les services fournis par ce serveur. Le serveur fournit des ressources et des services aux clients qui demandent des informations ou des actions.
 
@@ -475,7 +482,7 @@ comment les actions doivent être effectuées. Elle repose sur l'utilisation d'U
 (GET, POST, PUT, DELETE) pour effectuer des actions sur ces ressources. Elle est souvent utilisée pour concevoir des APIs web simples et efficaces.
 
 
-Modélisation / Base de données
+## Modélisation / Base de données
 
 1) Qu’est-ce que la modélisation de données ? Définir la méthode Merise1
 La modélisation de données est le processus de création de modèles qui représentent la manière dont les données sont organisées et
@@ -692,7 +699,7 @@ Le composant qui garantit l'authentification et l'autorisation des utilisateurs 
 IAM (Identity and Access Management). Ce système permet de vérifier l'identité des utilisateurs, de gérer leurs droits d'accès à différents systèmes et ressources,
 et de garantir la sécurité des informations sensibles.
 
-Sécurité
+## Sécurité
 
 1) Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
 L'injection SQL est une attaque informatique qui utilise du code malveillant pour accéder, modifier ou supprimer des données en infiltrant un système.
@@ -759,6 +766,7 @@ Cela permet d'éviter les erreurs et les manipulations de données malveillantes
 
  
  ## RGPD
+
 1) Qu’est-ce que le RGPD ?
 Règlement Général sur la Protection des Données
 
@@ -800,6 +808,7 @@ En appliquant le principe de minimisation des données, les organisations peuven
  
  
  ## SEO
+
 1) Qu’est-ce que le SEO ?
 Search Engine Optimization
 
@@ -864,7 +873,7 @@ Il permet aux moteurs de recherche de comprendre en profondeur le contenu du sit
 Un plan de site bien conçu est essentiel pour optimiser le référencement d'un site web en aidant les moteurs de recherche à indexer efficacement son contenu et à
 le classer plus efficacement dans les résultats de recherche.
 
-Gestion de projets / DevOps
+## Gestion de projets / DevOps
 
 1) Qu’est-ce que la gestion de projet ?
 La gestion de projet en programmation consiste à planifier, organiser et contrôler les différentes tâches pour mener à bien un projet de développement logiciel.
@@ -949,6 +958,7 @@ le test échoue et le code ne fonctionne pas correctement. Les assertions sont i
 
  
  ## English
+
 1) What does JavaScript enable you to do on a website ?
 a. Add interactive behavior and dynamic content
 
