@@ -136,6 +136,18 @@ exemple d’utilisation en PHP
     C'est un petit fichier que l'on enregistre sur l'ordinateur du visiteur.
     Ce fichier contient du texte et permet d'enregistrer des informations sur le visiteur.
 
+    En PHP, on peut créer un cookie en utilisant la fonction setcookie(). Par exemple, voici comment on pourrait créer un cookie pour stocker
+    le nom de l'utilisateur pendant une session :
+<?php
+// Définition du nom
+$name = "John Doe";
+
+// Création du cookie
+setcookie("user_name", $name, time() + 3600, "/");
+
+echo "Cookie créé avec succès!";
+?>
+
 13) Quelle est la différence entre les instructions « require » et « include » en PHP 
     Elles sont utilisées pour inclure des fichiers externes dans un script.
     Lorsque nous utilisons <<include>>, si le fichier n'est pas trouvé, il affiche un avertissement et continue 
@@ -161,7 +173,8 @@ exemple d’utilisation en PHP
     Il s'agit d'un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site 
     web.
     Exemple: WordPress et Shopify
-    
+
+
  ##  Front-end
 1) Définir HTML
   (HyperText Markup Language)
