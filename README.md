@@ -213,11 +213,9 @@ echo "Cookie créé avec succès!";
    <a href=".........."</a>
    
 9) Qu’est-ce qu’une requête AJAX ?
-   Le concept Ajax permet de faire une requête HTTP sans recharger toute la page.
-   Le principal bénéfice de cette requête est d’économiser de la bande passante et de limiter le temps d’attente lorsqu’une
-   ou plusieurs informations de notre page web doivent être mises à jour par un serveur.
-   AJAX est un outil puissant pour créer des applications web plus interactives et réactives, en permettant des échanges de
-   données avec le serveur sans perturber l’expérience de l’utilisateur. 
+  AJAX permet de faire des requêtes HTTP sans recharger la page, ce qui économise de la bande passante.
+  L'objectif principal est de limiter le temps d'attente lors de mises à jour de la page par un serveur.
+  Cet outil permet de créer des applications web interactives et réactives en échangeant des données avec le serveur sans perturber l'expérience utilisateur.
 
 
 10) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
@@ -231,12 +229,12 @@ identifiant spécifique ?
     Exemple: smartphone, tablette, ordinateur, TV...
 
 12) Qu’est-ce que le templating ?
-    Le templating, ou moteur de templates, est une façon de présenter des données en utilisant des modèles prédéfinis.
-    Exemple: Imaginez que vous avez une lettre type et que vous voulez remplacer certains mots par des informations spécifiques à chaque fois que vous l’envoyez.
-    Le templating permet de faire cela automatiquement pour des sites web ou des applications, en insérant des données dynamiques (comme le nom d’un
-    utilisateur) dans un format fixe (comme une page web). Cela facilite la mise à jour et la maintenance du contenu
+   Le templating consiste à utiliser des modèles prédéfinis pour présenter des données de manière personnalisée.
+   Il permet d'automatiser la personnalisation de contenus en insérant des données dynamiques dans des formats fixes, facilitant ainsi la mise à jour
+   et la maintenance du contenu.
+   Cela est particulièrement utile pour les sites web ou les applications qui nécessitent une présentation régulièrement mise à jour et personnalisée.
 
-13) Qu’est-ce qu’une fonction anonyme en Javascript ?
+14) Qu’est-ce qu’une fonction anonyme en Javascript ?
     C'est une fonction sans nom.
     Exemple: (function () {
     // ... code à exécuter ici ...
@@ -244,7 +242,7 @@ identifiant spécifique ?
     Elle est pratique pour exécuter du code qui n’est utilisé qu’à un seul endroit dans notre script et qui ne sera pas réutilisé ailleurs.
     Elle permet de gagner du temps et de rendre notre code plus clair en évitant d’encombrer l’espace avec des noms inutiles.
 
-14) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+15) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
     On utilise la méthode push()
       // Exemple : Initialisation d'un tableau
          let monTableau = [1, 2, 3];
@@ -256,14 +254,14 @@ identifiant spécifique ?
         console.log(monTableau); // Affiche [1, 2, 3, 4]
 
 
-15) Qu’est-ce qu’un « media query » ?
+16) Qu’est-ce qu’un « media query » ?
     Le "media query" permet de changer le design d’un site Internet pour qu'il s'adapte à l’écran d'un autre appareil.
 
-16) Qu’est-ce qu’un pseudo élément en CSS ?
+17) Qu’est-ce qu’un pseudo élément en CSS ?
     Un pseudo-élément en CSS est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé.
     Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur1.
     
-17) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+18) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
     C'est un framework de développement web qui permet de créer rapidement et facilement des sites web responsives.
     Il contient des composants et des styles prédéfinis qui facilitent la conception et la mise en page des pages web.
     Exemples équivalents:
