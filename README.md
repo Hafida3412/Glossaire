@@ -270,7 +270,7 @@ identifiant spécifique ?
    - Bulma : un framework CSS moderne et léger
 
 17) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
-Donner la différence entre ces 2 méthodes
+Donner la différence entre ces 2 méthodes.
 - La méthode GET envoie les données à traiter via l'URL, ce qui signifie que les données seront visibles dans l'URL.
 Cette méthode est généralement utilisée pour les requêtes de lecture de données.
 
@@ -298,9 +298,13 @@ La hiérarchie visuelle en UI design organise les éléments visuels pour guider
 Elle repose sur la taille, la couleur, le contraste et l'espacement des éléments pour créer une structure claire et une expérience utilisateur agréable.
 
 5) Qu’est-ce que l’accessibilité en UX Design ?
-6) Qu’est-ce qu’une grille de mise en page ?
-7) Qu’est-ce que la notion d’affordance en UX Design ?
-8) Qu’est-ce qu’un « mobile first design » ?
+L'accessibilité en UX Design consiste à concevoir des produits numériques accessibles à tous, y compris aux personnes en situation de handicap.
+Cela implique de prendre en compte les besoins spécifiques de chaque utilisateur pour garantir une expérience utilisateur optimale.
+L'objectif est de rendre les produits numériques faciles à utiliser, quel que soit le profil de l'utilisateur.
+
+7) Qu’est-ce qu’une grille de mise en page ?
+8) Qu’est-ce que la notion d’affordance en UX Design ?
+9) Qu’est-ce qu’un « mobile first design » ?
 
  ## Programmation orientée objet (POO)
 
