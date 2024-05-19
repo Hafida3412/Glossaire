@@ -40,13 +40,12 @@ permettant ce contexte?
    Une constante contient toujours la même valeur. A la différence d'une variable qui peut changer ou varier.
 
 6) Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation?
-   Elles sont écrites en majuscules et commencent toutes par un underscore $_GET et $_POST
-   Les superglobales sont toutes des array.
-   Ces variables sont automatiquement créées par PHP à chaque fois qu'une page est chargée. Ces variables existent
-   sur toutes les pages et sont accessibles partout :
-   au milieu de code, au début, dans les fonctions etc...
+   Les superglobales $_GET et $_POST sont des arrays automatiquement créées par PHP lors du chargement de chaque page.
+   Elles sont accessibles partout et existent sur toutes les pages, que ce soit au milieu du code, au début ou dans les fonctions.
+   Ces variables permettent de récupérer respectivement les données envoyées en GET et en POST dans les requêtes HTTP.
 
-7) Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
+
+8) Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
    et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
    Les différents types primitifs que l'on peut associer à une variable en PHP sont:
    null.
@@ -56,12 +55,12 @@ permettant ce contexte?
    string.
    array.
 
-8) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+9) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
    Il existe 2 types de tabeau:
    - les tableaux à index numériques
    - les tableaux associatifs
 
-9) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
+10) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
 exemple pour chacune d’entre elles
   
    - Il existe 3 principales structures de contrôle:
@@ -111,10 +110,10 @@ exemple pour chacune d’entre elles
         }
 
 
-10) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+11) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
         $nbCaracteres = strlen($chaineDeCaracteres);
 
-11) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
+12) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP
     Les sessions permettent de stocker des données individuelles pour chaque utilisateur en utilisant un identifiant de session unique.
     La fonction qui permet de démarrer une session PHP est: session_start()
@@ -201,20 +200,19 @@ echo "Cookie créé avec succès!";
       votre navigateur puisse les afficher.
 
 5) Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
-   JavaScript côté serveur, souvent réalisé avec Node.js, permet d’exécuter du code JavaScript sur un serveur, plutôt que dans
-   le navigateur. Cela signifie que vous pouvez utiliser JavaScript pour créer des pages web dynamiques, interagir avec une base de données
-   , gérer des fichiers sur le serveur, et plus encore. Node.js utilise la machine virtuelle V8 de Google Chrome pour interpréter le JavaScript,
-    ce qui le rend rapide et efficace. En résumé, cela permet aux développeurs d’utiliser le même langage de programmation pour le front-end
-   et le back-end.
+   JavaScript côté serveur avec Node.js permet d'exécuter du code sur un serveur, offrant la possibilité de créer des pages web dynamiques,
+   d'interagir avec des bases de données et de gérer des fichiers.
+   Node.js utilise la machine virtuelle V8 de Google Chrome pour une exécution rapide et efficace du JavaScript.
+   Cette technologie permet aux développeurs d'utiliser le même langage pour le front-end et le back-end de leurs applications web.
 
-6) Qu’est-ce qu’un sélecteur CSS ?
+7) Qu’est-ce qu’un sélecteur CSS ?
    Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web
    pour leur appliquer une règle CSS.
 
-7) Quelle balise HTML permet de créer un lien hypertexte ?
+8) Quelle balise HTML permet de créer un lien hypertexte ?
    <a href=".........."</a>
    
-8) Qu’est-ce qu’une requête AJAX ?
+9) Qu’est-ce qu’une requête AJAX ?
    Le concept Ajax permet de faire une requête HTTP sans recharger toute la page.
    Le principal bénéfice de cette requête est d’économiser de la bande passante et de limiter le temps d’attente lorsqu’une
    ou plusieurs informations de notre page web doivent être mises à jour par un serveur.
@@ -222,23 +220,23 @@ echo "Cookie créé avec succès!";
    données avec le serveur sans perturber l’expérience de l’utilisateur. 
 
 
-9) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
+10) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
 identifiant spécifique ?
     Le sélecteur de classe commence par un point . et sélectionne tout élément du document auquel cette classe est appliquée. 
     Un sélecteur d'ID commence par un # , il est utilisé de la même manière qu'un sélecteur de classe.
     En revanche, l'ID ne peut être utilisé qu'une seule fois par document.
 
-10) Définir le responsive design
+11) Définir le responsive design
     Ce design permet de modifier la mise en page d'un site afin que le contenu s'adapte à n'importe quel écran.
     Exemple: smartphone, tablette, ordinateur, TV...
 
-11) Qu’est-ce que le templating ?
+12) Qu’est-ce que le templating ?
     Le templating, ou moteur de templates, est une façon de présenter des données en utilisant des modèles prédéfinis.
     Exemple: Imaginez que vous avez une lettre type et que vous voulez remplacer certains mots par des informations spécifiques à chaque fois que vous l’envoyez.
     Le templating permet de faire cela automatiquement pour des sites web ou des applications, en insérant des données dynamiques (comme le nom d’un
     utilisateur) dans un format fixe (comme une page web). Cela facilite la mise à jour et la maintenance du contenu
 
-12) Qu’est-ce qu’une fonction anonyme en Javascript ?
+13) Qu’est-ce qu’une fonction anonyme en Javascript ?
     C'est une fonction sans nom.
     Exemple: (function () {
     // ... code à exécuter ici ...
@@ -246,7 +244,7 @@ identifiant spécifique ?
     Elle est pratique pour exécuter du code qui n’est utilisé qu’à un seul endroit dans notre script et qui ne sera pas réutilisé ailleurs.
     Elle permet de gagner du temps et de rendre notre code plus clair en évitant d’encombrer l’espace avec des noms inutiles.
 
-13) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+14) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
     On utilise la méthode push()
       // Exemple : Initialisation d'un tableau
          let monTableau = [1, 2, 3];
@@ -258,14 +256,14 @@ identifiant spécifique ?
         console.log(monTableau); // Affiche [1, 2, 3, 4]
 
 
-14) Qu’est-ce qu’un « media query » ?
+15) Qu’est-ce qu’un « media query » ?
     Le "media query" permet de changer le design d’un site Internet pour qu'il s'adapte à l’écran d'un autre appareil.
 
-15) Qu’est-ce qu’un pseudo élément en CSS ?
+16) Qu’est-ce qu’un pseudo élément en CSS ?
     Un pseudo-élément en CSS est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé.
     Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur1.
     
-16) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+17) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
     C'est un framework de développement web qui permet de créer rapidement et facilement des sites web responsives.
     Il contient des composants et des styles prédéfinis qui facilitent la conception et la mise en page des pages web.
     Exemples équivalents:
