@@ -303,8 +303,11 @@ Cela implique de prendre en compte les besoins spécifiques de chaque utilisateu
 L'objectif est de rendre les produits numériques faciles à utiliser, quel que soit le profil de l'utilisateur.
 
 7) Qu’est-ce qu’une grille de mise en page ?
-8) Qu’est-ce que la notion d’affordance en UX Design ?
-9) Qu’est-ce qu’un « mobile first design » ?
+C'est un système de lignes qui organisent l'espace graphique et facilitent la création de designs équilibrés et harmonieux en guidant le positionnement
+des éléments visuels comme le texte et les images. Elle est largement utilisée dans le design web, l'édition de magazines, la publicité, etc.
+
+9) Qu’est-ce que la notion d’affordance en UX Design ?
+10) Qu’est-ce qu’un « mobile first design » ?
 
  ## Programmation orientée objet (POO)
 
