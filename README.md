@@ -747,7 +747,14 @@ courants pour deviner le mot de passe. Il est important de choisir des mots de p
 
 
 6) A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
+L'authentification vérifie l'identité de l'utilisateur avec un nom d'utilisateur et un mot de passe, tandis que l'autorisation détermine les actions autorisées
+en fonction du rôle de l'utilisateur.
 
+Ces deux processus permettent de contrôler l'accès aux fonctionnalités et données de l'application web, renforçant ainsi sa sécurité et préservant la confidentialité 
+des informations.
+
+En résumé, l'authentification vérifie l'identité, tandis que l'autorisation contrôle les actions permises, garantissant que seuls les utilisateurs légitimes accèdent 
+aux données et fonctionnalités appropriées.
 
 7) Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
 Le hachage d'un mot de passe transforme le mot de passe en une chaîne aléatoire pour le protéger.
