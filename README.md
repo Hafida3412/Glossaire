@@ -269,7 +269,7 @@ identifiant spécifique ?
    - Materialize : un framework basé sur le design Material de Google
    - Bulma : un framework CSS moderne et léger
 
-17) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
+19) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
 Donner la différence entre ces 2 méthodes.
 - La méthode GET envoie les données à traiter via l'URL, ce qui signifie que les données seront visibles dans l'URL.
 Cette méthode est généralement utilisée pour les requêtes de lecture de données.
@@ -307,7 +307,11 @@ C'est un système de lignes qui organisent l'espace graphique et facilitent la c
 des éléments visuels comme le texte et les images. Elle est largement utilisée dans le design web, l'édition de magazines, la publicité, etc.
 
 9) Qu’est-ce que la notion d’affordance en UX Design ?
-10) Qu’est-ce qu’un « mobile first design » ?
+L'affordance en UX Design signifie la capacité d'un produit à suggérer comment il peut être utilisé. Par exemple, un bouton cliquable sur un site Web indique
+à l'utilisateur qu'il peut déclencher une action. Les affordances sont essentielles pour créer une expérience utilisateur intuitive et efficace en guidant
+les utilisateurs dans l'interaction avec un produit.
+
+11) Qu’est-ce qu’un « mobile first design » ?
 
  ## Programmation orientée objet (POO)
 
