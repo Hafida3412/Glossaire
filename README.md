@@ -379,20 +379,9 @@ public class Personne {
 Lorsqu'un nouvel objet "Personne" est créé en utilisant ce constructeur, les valeurs passées en paramètres seront utilisées pour initialiser les propriétés "nom" et "age" de l'objet.
 
 7) Qu’est-ce que l’encapsulation ?
-L'encapsulation c'est comme mettre les informations d'une personne dans une boîte verrouillée. On ne peut pas y accéder directement,
-il faut passer par des règles spécifiques (méthodes) pour les modifier ou les consulter. Cela permet de protéger les données et d'éviter
-qu'elles soient modifiées de manière non contrôlée.
-
-Un exemple d'encapsulation peut être une classe "Personne" qui contient des attributs privés tels que le nom et l'âge, et des méthodes publiques pour 
-accéder et modifier ces attributs, par exemple une méthode "getNom()" pour récupérer le nom d'une personne et une méthode "setAge(int age)" pour modifier son âge. 
-Ainsi, les données de la personne sont encapsulées à l'intérieur de la classe "Personne" et ne peuvent être manipulées directement de l'extérieur de la classe.
-
-8) Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
-Étendre une classe en POO signifie hériter des propriétés et des méthodes d'une classe principale pour les réutiliser dans une classe fille.
-Le concept clé mis en œuvre est l'héritage.
-Par exemple, si une classe Animal possède des propriétés comme nom et couleur, et des méthodes comme manger et dormir,
-on peut créer une classe Chien qui étend la classe Animal et qui possède en plus des méthodes aboyer et courir.
-Ainsi, la classe Chien pourra utiliser les propriétés et méthodes de la classe Animal en plus de ses propres fonctionnalités.
+L'encapsulation consiste à enfermer les données et les méthodes dans une boîte verrouillée, permettant de protéger les données et d'éviter les modifications non contrôlées.
+Les données sont accessibles et modifiables uniquement à travers des méthodes spécifiques, assurant un contrôle total sur les opérations effectuées sur ces données.
+Par exemple, une classe "Personne" peut encapsuler les données telles que le nom et l'âge, en offrant des méthodes pour y accéder et les modifier de manière contrôlée.
 
 9) Définir l’opérateur de résolution de portée
 L'opérateur de résolution de portée, souvent noté "::", permet d'accéder aux membres d'une classe ou d'un objet dans un programme orienté objet.
@@ -715,7 +704,9 @@ Pour se protéger, il est important d'utiliser des requêtes préparées, valide
 installer un pare-feu d'application web et mettre à jour régulièrement les logiciels et applications.
 
 2) Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
-Une faille XSS (Cross-Site Scripting) est une faille de sécurité courante sur les sites web qui permet à un attaquant d'injecter du code malveillant dans des pages web consultées par d'autres utilisateurs. Ce code peut être du JavaScript, du HTML ou d'autres langages et peut être utilisé pour voler des informations sensibles, rediriger les utilisateurs vers des sites malveillants, ou détourner des sessions utilisateurs.
+Une faille XSS (Cross-Site Scripting) est une faille de sécurité courante sur les sites web qui permet à un attaquant d'injecter du code malveillant dans des
+pages web consultées par d'autres utilisateurs. Ce code peut être du JavaScript, du HTML ou d'autres langages et peut être utilisé pour voler des informations sensibles,
+rediriger les utilisateurs vers des sites malveillants, ou détourner des sessions utilisateurs.
 
 Pour se prémunir contre les attaques XSS, voici quelques bonnes pratiques à mettre en place :
 
@@ -749,7 +740,20 @@ L'attaque par force brute teste toutes les combinaisons de caractères pour trou
 courants pour deviner le mot de passe. Il est important de choisir des mots de passe complexes pour se protéger.
 
 5) Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
+- Débordement de tampon (Buffer Overflow) : Cette faille se produit lorsqu'un programme écrit en mémoire en dehors de la zone prévue pour cela,
+ce qui peut conduire à l'exécution de code malveillant.
 
+- Contre-mesure d’en-tête HTTP (HTTP Header Injection) : Cette faille permet à un attaquant d'injecter du code malveillant dans les en-têtes HTTP d'une requête,
+ce qui peut entraîner une altération des données ou des attaques de redirection.
+
+- Déni de service (Denial of Service) : Cette faille vise à saturer un serveur ou un système cible en envoyant un grand nombre de requêtes, ce qui empêche les
+utilisateurs légitimes d'accéder aux services.
+
+- Injection de code (Code Injection) : Cette faille permet à un attaquant d'injecter du code malveillant dans une application afin d'exécuter des actions non autorisées
+ou d'accéder à des données sensibles.
+
+- Contournement de l'authentification (Authentication Bypass) : Cette faille permet à un attaquant de contourner les mécanismes d'authentification d'une application pour
+accéder à des fonctionnalités ou des données privilégiées.
 
 6) A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
 L'authentification vérifie l'identité de l'utilisateur avec un nom d'utilisateur et un mot de passe, tandis que l'autorisation détermine les actions autorisées
