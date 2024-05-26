@@ -442,15 +442,11 @@ Cela permet de transformer des données complexes en une forme simple qui peut �
 
 1) Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le 
 serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence.
-L'architecture client/serveur est un modèle informatique où les tâches sont réparties entre un serveur central et des clients qui accèdent
-et utilisent les services fournis par ce serveur. Le serveur fournit des ressources et des services aux clients qui demandent des informations ou des actions.
+L'architecture client/serveur répartit les tâches entre un serveur central et des clients qui utilisent ses services. Les requêtes HTTP sont utilisées
+pour interroger le serveur, avec l'acronyme GET pour obtenir des informations. Une version sécurisée de cette requête, GETS, implique une connexion HTTPS
+pour plus de sécurité.
 
-Pour interroger le serveur, on peut utiliser des requêtes de type HTTP (Hypertext Transfer Protocol). L'acronyme de ce type de requête est GET.
-
-Si on ajoute un "S" à cet acronyme, cela donnera GETS, qui signifie qu'une requête sécurisée est utilisée pour interagir avec le serveur, 
-impliquant une connexion sécurisée comme HTTPS (Hypertext Transfer Protocol Secure).
-
-2) Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
+3) Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
 Un design pattern est une solution réutilisable à un problème courant rencontré lors de la conception de logiciels.
 Il s'agit d'un modèle de conception qui fournit des directives sur la façon de résoudre un problème de manière efficace et structurée.
 
@@ -472,15 +468,17 @@ rendre le code plus modulaire, maintenable et évolutif.
 et décide quelle vue afficher.
 
 5) Quels sont les avantages de l’architecture MVC ?
-L'architecture MVC permet de séparer clairement les différents éléments d'une application : le modèle qui représente les données, la vue qui affiche ces données à l'utilisateur et le contrôleur qui gère les interactions entre le modèle et la vue. Cela facilite la maintenance, la réutilisation du code et la collaboration entre les développeurs. De plus, cela permet une meilleure organisation du code et une plus grande flexibilité dans le développement de l'application.
+L'architecture MVC permet de séparer clairement les différents éléments d'une application : le modèle qui représente les données, la vue qui affiche ces données
+à l'utilisateur et le contrôleur qui gère les interactions entre le modèle et la vue. Cela facilite la maintenance, la réutilisation du code et la collaboration
+entre les développeurs. De plus, cela permet une meilleure organisation du code et une plus grande flexibilité dans le développement de l'application.
 
-6) Existe-t-il des variantes à l’architecture MVC ?
+7) Existe-t-il des variantes à l’architecture MVC ?
 Oui, il existe des variantes à l'architecture MVC, telles que MVVM (Modèle-Vue-VueModèle) et MVP (Modèle-Vue-Présentateur).
 Ces variantes sont des adaptations de l'architecture MVC pour répondre à des besoins spécifiques ou pour améliorer la séparation
 des préoccupations dans une application.
 Elles sont utilisées dans le développement de logiciels pour organiser le code de manière claire et modulaire.
 
-7) Qu’est-ce qu’une API ? Définir l’architecture REST
+8) Qu’est-ce qu’une API ? Définir l’architecture REST
 Une API est un ensemble de règles et de conventions qui permettent à des logiciels différents de communiquer entre eux.
 Cela permet d'échanger des données et de fonctionner ensemble de manière harmonieuse.
 
