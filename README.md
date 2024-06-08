@@ -177,19 +177,19 @@ echo "Cookie créé avec succès!";
 
  ##  Front-end
 
-1) Définir HTML
+1) __Définir HTML__
   (HyperText Markup Language)
   Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure.
 
-2) Définir CSS
+2) __Définir CSS__
   (Cascading Style Sheets)
   C'est un langage informatique qui permet de mettre en forme des pages web.
 
-3) Définir Javascript
+3) __Définir Javascript__
    C'est un langage de programmation qui permet de créer du contenu de façon dynamique, de contrôler le contenu multimédia,
    d'animer des images...Il est utilisé en complément de HTML et CSS.
 
-4) Définir JSON. Dans quel contexte ce format est-il utilisé ?
+4) __Définir JSON. Dans quel contexte ce format est-il utilisé ?__
    (JavaScript Objet Notation)
    -> Le JSON est un format de texte inspiré de la syntaxe des objets JavaScript.
       Il permet de stocker des données de manière organisée et lisible par les humains.
@@ -199,36 +199,36 @@ echo "Cookie créé avec succès!";
       Par exemple, lorsque vous consultez une page web, le serveur peut envoyer des données au format JSON pour que 
       votre navigateur puisse les afficher.
 
-5) Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+5) __Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?__
    JavaScript côté serveur avec Node.js permet d'exécuter du code sur un serveur, offrant la possibilité de créer des pages web dynamiques,
    d'interagir avec des bases de données et de gérer des fichiers.
    Node.js utilise la machine virtuelle V8 de Google Chrome pour une exécution rapide et efficace du JavaScript.
    Cette technologie permet aux développeurs d'utiliser le même langage pour le front-end et le back-end de leurs applications web.
 
-7) Qu’est-ce qu’un sélecteur CSS ?
+7) __Qu’est-ce qu’un sélecteur CSS ?__
    Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web
    pour leur appliquer une règle CSS.
 
-8) Quelle balise HTML permet de créer un lien hypertexte ?
+8) __Quelle balise HTML permet de créer un lien hypertexte ?__
    <a href=".........."</a>
    
-9) Qu’est-ce qu’une requête AJAX ?
+9) __Qu’est-ce qu’une requête AJAX ?__
   AJAX permet de faire des requêtes HTTP sans recharger la page, ce qui économise de la bande passante.
   L'objectif principal est de limiter le temps d'attente lors de mises à jour de la page par un serveur.
   Cet outil permet de créer des applications web interactives et réactives en échangeant des données avec le serveur sans perturber l'expérience utilisateur.
 
 
-10) Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
-identifiant spécifique ?
+10) __Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
+identifiant spécifique ?__
     Le sélecteur de classe commence par un point . et sélectionne tout élément du document auquel cette classe est appliquée. 
     Un sélecteur d'ID commence par un # , il est utilisé de la même manière qu'un sélecteur de classe.
     En revanche, l'ID ne peut être utilisé qu'une seule fois par document.
 
-11) Définir le responsive design
+11) __Définir le responsive design__
     Ce design permet de modifier la mise en page d'un site afin que le contenu s'adapte à n'importe quel écran.
     Exemple: smartphone, tablette, ordinateur, TV...
 
-12) Qu’est-ce que le templating ?
+12) __Qu’est-ce que le templating ?__
    Le templating consiste à utiliser des modèles prédéfinis pour présenter des données de manière personnalisée.
    Il permet d'automatiser la personnalisation de contenus en insérant des données dynamiques dans des formats fixes, facilitant ainsi la mise à jour
    et la maintenance du contenu.
