@@ -1,6 +1,6 @@
 # Glossaire
 
-GLOSSAIRE / QUIZ
+##  GLOSSAIRE / QUIZ
 Ce glossaire est prévu pour valider les connaissances après chaque exercice clé de votre formation. 
 L’idée est de réussir à définir les différentes notions en une à 3 phrases maximum et d’adopter le 
 vocabulaire technique approprié. Ce document vous servira comme base de révisions.
@@ -21,32 +21,32 @@ de chaque lettre initiale.
 
  ##  Général
 
-1) Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels 
-permettant ce contexte?
+1) __Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels 
+permettant ce contexte?__
    Pour exécuter un script PHP (Hypertext Preprocessor), il faut installer Laragon ou XAMMPP.
 
-2) Qu’est-ce qu’un algorithme ?
+2) __Qu’est-ce qu’un algorithme?__
    C'est la description d'une suite d'étapes permettant d'obtenir un résultat à partir d'éléments fournis au départ.
    Exemple: une recette de cuisine est un algorithme permettant d'obtenir un plat à partir d'ingrédients.
 
-3) Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+3) __Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?__
    Une variable est un élément mesurable qui peut prendre différentes valeurs.
    Exemple: taille, âge, poids...
 
-4) Qu’est-ce que la portée d’une variable ?
+4) __Qu’est-ce que la portée d’une variable ?__
    La portée d'une variable correspond à l'espace du script dans laquelle elle va être accessible. 
 
-5) Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+5) __Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?__
    Une constante contient toujours la même valeur. A la différence d'une variable qui peut changer ou varier.
 
-6) Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation?
+6) __Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation?__
    Les superglobales $_GET et $_POST sont des arrays automatiquement créées par PHP lors du chargement de chaque page.
    Elles sont accessibles partout et existent sur toutes les pages, que ce soit au milieu du code, au début ou dans les fonctions.
    Ces variables permettent de récupérer respectivement les données envoyées en GET et en POST dans les requêtes HTTP.
 
 
-8) Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
-   et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
+8) __Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
+   et en donner des exemples (ne pas oublier le type d’une variable sans valeur)__
    Les différents types primitifs que l'on peut associer à une variable en PHP sont:
    null.
    bool.
@@ -55,13 +55,13 @@ permettant ce contexte?
    string.
    array.
 
-9) Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+9) __Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?__
    Il existe 2 types de tabeau:
    - les tableaux à index numériques
    - les tableaux associatifs
 
-10) Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
-exemple pour chacune d’entre elles
+10) __Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
+exemple pour chacune d’entre elles__
   
    - Il existe 3 principales structures de contrôle:
    
@@ -110,7 +110,7 @@ exemple pour chacune d’entre elles
         }
 
 
-11) Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+11) __Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?__
         $nbCaracteres = strlen($chaineDeCaracteres);
 
 12) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
@@ -132,7 +132,7 @@ exemple d’utilisation en PHP
        ?>
 
 
-12) Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+12) __Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP__
     C'est un petit fichier que l'on enregistre sur l'ordinateur du visiteur.
     Ce fichier contient du texte et permet d'enregistrer des informations sur le visiteur.
 
@@ -148,27 +148,27 @@ setcookie("user_name", $name, time() + 3600, "/");
 echo "Cookie créé avec succès!";
 ?>
 
-13) Quelle est la différence entre les instructions « require » et « include » en PHP 
+13) __Quelle est la différence entre les instructions « require » et « include » en PHP__
     Elles sont utilisées pour inclure des fichiers externes dans un script.
     Lorsque nous utilisons <<include>>, si le fichier n'est pas trouvé, il affiche un avertissement et continue 
     l'exécution du script.
     Lorsque nous utilisons <<require>>, si le fichier n'est pas trouvé, PHP génère une erreur fatale et arrête
     l'exécution du script.
    
-14) Comment effectuer une redirection en PHP ?
+14) __Comment effectuer une redirection en PHP ?__
     Pour que la redirection fonctionne, il faut placer le lien url de la nouvelle page dans le header avant tout code 
     HTML(ou texte) 
 
-15) Définir la partie « front-end » et « back-end » d’une application
+15) __Définir la partie « front-end » et « back-end » d’une application__
     Le "front-end" est la partie d'un site web que les utilisateurs voient.
     Le "back-end" est la partie en arrière plan qui permet de faire fonctionner le "front-end".
  
-16) Définir le contrôle de version ? Qu’est-ce que Git ?
+16) __Définir le contrôle de version ? Qu’est-ce que Git ?__
     C’est un logiciel qui permet d’enregistrer, de suivre et de gérer plusieurs versions d’un fichier ou d’un code source.
     Il permet d’établir un historique de toutes les modifications effectuées sur un fichier.
     Git est un exemple de logiciel de gestion de versions (Version Control System).
 
-17) Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+17) __Qu’est-ce qu’un CMS ? Citer au moins 2 exemples__
     (CMS = Content Management System: système de gestion de contenu)
     Il s'agit d'un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site 
     web.
