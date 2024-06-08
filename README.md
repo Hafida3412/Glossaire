@@ -113,8 +113,8 @@ exemple pour chacune d’entre elles__
 11) __Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?__
         $nbCaracteres = strlen($chaineDeCaracteres);
 
-12) Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
-exemple d’utilisation en PHP
+12) __Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
+exemple d’utilisation en PHP__
     Les sessions permettent de stocker des données individuelles pour chaque utilisateur en utilisant un identifiant de session unique.
     La fonction qui permet de démarrer une session PHP est: session_start()
   
@@ -234,7 +234,7 @@ identifiant spécifique ?__
    et la maintenance du contenu.
    Cela est particulièrement utile pour les sites web ou les applications qui nécessitent une présentation régulièrement mise à jour et personnalisée.
 
-14) Qu’est-ce qu’une fonction anonyme en Javascript ?
+14) __Qu’est-ce qu’une fonction anonyme en Javascript ?__
     C'est une fonction sans nom.
     Exemple: (function () {
     // ... code à exécuter ici ...
@@ -242,7 +242,7 @@ identifiant spécifique ?__
     Elle est pratique pour exécuter du code qui n’est utilisé qu’à un seul endroit dans notre script et qui ne sera pas réutilisé ailleurs.
     Elle permet de gagner du temps et de rendre notre code plus clair en évitant d’encombrer l’espace avec des noms inutiles.
 
-15) Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+15) __Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?__
     On utilise la méthode push()
       // Exemple : Initialisation d'un tableau
          let monTableau = [1, 2, 3];
@@ -254,14 +254,14 @@ identifiant spécifique ?__
         console.log(monTableau); // Affiche [1, 2, 3, 4]
 
 
-16) Qu’est-ce qu’un « media query » ?
+16) __Qu’est-ce qu’un « media query » ?__
     Le "media query" permet de changer le design d’un site Internet pour qu'il s'adapte à l’écran d'un autre appareil.
 
-17) Qu’est-ce qu’un pseudo élément en CSS ?
+17) __Qu’est-ce qu’un pseudo élément en CSS ?__
     Un pseudo-élément en CSS est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé.
     Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur1.
     
-18) Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+18) __Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent__
     C'est un framework de développement web qui permet de créer rapidement et facilement des sites web responsives.
     Il contient des composants et des styles prédéfinis qui facilitent la conception et la mise en page des pages web.
     Exemples équivalents:
@@ -269,8 +269,8 @@ identifiant spécifique ?__
    - Materialize : un framework basé sur le design Material de Google
    - Bulma : un framework CSS moderne et léger
 
-19) Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
-Donner la différence entre ces 2 méthodes.
+19) __Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
+Donner la différence entre ces 2 méthodes.__
 - La méthode GET envoie les données à traiter via l'URL, ce qui signifie que les données seront visibles dans l'URL.
 Cette méthode est généralement utilisée pour les requêtes de lecture de données.
 
