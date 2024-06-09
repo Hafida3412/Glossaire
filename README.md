@@ -139,7 +139,9 @@ exemple d’utilisation en PHP__
     En PHP, on peut créer un cookie en utilisant la fonction setcookie(). Par exemple, voici comment on pourrait créer un cookie pour stocker
     le nom de l'utilisateur pendant une session :
     
-    // Définition du nom
+   -> Exemple:
+   
+   // Définition du nom
     $name = "John Doe";
 
     // Création du cookie
