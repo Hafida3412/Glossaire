@@ -138,15 +138,15 @@ exemple d’utilisation en PHP__
 
     En PHP, on peut créer un cookie en utilisant la fonction setcookie(). Par exemple, voici comment on pourrait créer un cookie pour stocker
     le nom de l'utilisateur pendant une session :
-<?php
-// Définition du nom
-$name = "John Doe";
+    
+    // Définition du nom
+    $name = "John Doe";
 
-// Création du cookie
-setcookie("user_name", $name, time() + 3600, "/");
+    // Création du cookie
+    setcookie("user_name", $name, time() + 3600, "/");
 
-echo "Cookie créé avec succès!";
-?>
+    echo "Cookie créé avec succès!";
+
 
 13) __Quelle est la différence entre les instructions « require » et « include » en PHP__
     Elles sont utilisées pour inclure des fichiers externes dans un script.
