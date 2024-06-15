@@ -281,30 +281,30 @@ Cette méthode est généralement utilisée pour les requêtes de création ou d
 
  ##  UX / UI
 
-1) Quelle est la différence entre UX Design et UI Design ?
+1) __Quelle est la différence entre UX Design et UI Design ?__
 L'UX Design concerne l'expérience globale de l'utilisateur avec un produit ou un service, tandis que l'UI Design se concentre sur l'apparence visuelle
 et l'esthétique de l'interface utilisateur. Les deux aspects sont importants pour créer un produit numérique réussi.
 
-2) Qu’est-ce qu’un wireframe ?
+2) __Qu’est-ce qu’un wireframe ?__
 Un wireframe est un plan visuel simple d'un site web ou d'une interface utilisateur, utilisé pour organiser les éléments et la structure avant de commencer
 à concevoir et développer. Il est composé de lignes et de formes pour indiquer l'emplacement des images, du texte, des boutons et des liens, permettant de
 visualiser la disposition des éléments et l'expérience utilisateur.
 
-3) Qu’est-ce qu’un prototype ?
+3) __Qu’est-ce qu’un prototype ?__
 Un prototype UX/UI est une maquette interactive d'une interface utilisateur pour tester le design d'une application ou d'un site web avant son développement
 complet. Ils permettent de visualiser et tester l'interface, recueillir des retours des utilisateurs et identifier les problèmes potentiels pour améliorer
 l'expérience utilisateur avant le lancement du produit final.
 
-4) Qu’est-ce que la hiérarchie visuelle en UI Design ?
+4) __Qu’est-ce que la hiérarchie visuelle en UI Design ?__
 La hiérarchie visuelle en UI design organise les éléments visuels pour guider l'œil de l'utilisateur, mettre en avant ce qui est important et faciliter la navigation.
 Elle repose sur la taille, la couleur, le contraste et l'espacement des éléments pour créer une structure claire et une expérience utilisateur agréable.
 
-5) Qu’est-ce que l’accessibilité en UX Design ?
+5) __Qu’est-ce que l’accessibilité en UX Design ?__
 L'accessibilité en UX Design consiste à concevoir des produits numériques accessibles à tous, y compris aux personnes en situation de handicap.
 Cela implique de prendre en compte les besoins spécifiques de chaque utilisateur pour garantir une expérience utilisateur optimale.
 L'objectif est de rendre les produits numériques faciles à utiliser, quel que soit le profil de l'utilisateur.
 
-7) Qu’est-ce qu’une grille de mise en page ?
+6) __Qu’est-ce qu’une grille de mise en page ?__
 C'est un système de lignes qui organisent l'espace graphique et facilitent la création de designs équilibrés et harmonieux en guidant le positionnement
 des éléments visuels comme le texte et les images. Elle est largement utilisée dans le design web, l'édition de magazines, la publicité, etc.
 
