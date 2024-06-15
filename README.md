@@ -308,12 +308,12 @@ L'objectif est de rendre les produits numériques faciles à utiliser, quel que 
 C'est un système de lignes qui organisent l'espace graphique et facilitent la création de designs équilibrés et harmonieux en guidant le positionnement
 des éléments visuels comme le texte et les images. Elle est largement utilisée dans le design web, l'édition de magazines, la publicité, etc.
 
-9) Qu’est-ce que la notion d’affordance en UX Design ?
+7) __Qu’est-ce que la notion d’affordance en UX Design ?__
 L'affordance en UX Design signifie la capacité d'un produit à suggérer comment il peut être utilisé. Par exemple, un bouton cliquable sur un site Web indique
 à l'utilisateur qu'il peut déclencher une action. Les affordances sont essentielles pour créer une expérience utilisateur intuitive et efficace en guidant
 les utilisateurs dans l'interaction avec un produit.
 
-11) Qu’est-ce qu’un « mobile first design » ?
+8) __Qu’est-ce qu’un « mobile first design » ?__
 
  ## Programmation orientée objet (POO)
 
