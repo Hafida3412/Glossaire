@@ -207,36 +207,36 @@ exemple d’utilisation en PHP__
    Node.js utilise la machine virtuelle V8 de Google Chrome pour une exécution rapide et efficace du JavaScript.
    Cette technologie permet aux développeurs d'utiliser le même langage pour le front-end et le back-end de leurs applications web.
 
-7) __Qu’est-ce qu’un sélecteur CSS ?__
+6) __Qu’est-ce qu’un sélecteur CSS ?__
    Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web
    pour leur appliquer une règle CSS.
 
-8) __Quelle balise HTML permet de créer un lien hypertexte ?__
+7) __Quelle balise HTML permet de créer un lien hypertexte ?__
    <a href=".........."</a>
    
-9) __Qu’est-ce qu’une requête AJAX ?__
+8) __Qu’est-ce qu’une requête AJAX ?__
   AJAX permet de faire des requêtes HTTP sans recharger la page, ce qui économise de la bande passante.
   L'objectif principal est de limiter le temps d'attente lors de mises à jour de la page par un serveur.
   Cet outil permet de créer des applications web interactives et réactives en échangeant des données avec le serveur sans perturber l'expérience utilisateur.
 
 
-10) __Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
+9) __Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
 identifiant spécifique ?__
     Le sélecteur de classe commence par un point . et sélectionne tout élément du document auquel cette classe est appliquée. 
     Un sélecteur d'ID commence par un # , il est utilisé de la même manière qu'un sélecteur de classe.
     En revanche, l'ID ne peut être utilisé qu'une seule fois par document.
 
-11) __Définir le responsive design__
+10) __Définir le responsive design__
     Ce design permet de modifier la mise en page d'un site afin que le contenu s'adapte à n'importe quel écran.
     Exemple: smartphone, tablette, ordinateur, TV...
 
-12) __Qu’est-ce que le templating ?__
+11) __Qu’est-ce que le templating ?__
    Le templating consiste à utiliser des modèles prédéfinis pour présenter des données de manière personnalisée.
    Il permet d'automatiser la personnalisation de contenus en insérant des données dynamiques dans des formats fixes, facilitant ainsi la mise à jour
    et la maintenance du contenu.
    Cela est particulièrement utile pour les sites web ou les applications qui nécessitent une présentation régulièrement mise à jour et personnalisée.
 
-14) __Qu’est-ce qu’une fonction anonyme en Javascript ?__
+12) __Qu’est-ce qu’une fonction anonyme en Javascript ?__
     C'est une fonction sans nom.
     Exemple: (function () {
     // ... code à exécuter ici ...
@@ -244,7 +244,7 @@ identifiant spécifique ?__
     Elle est pratique pour exécuter du code qui n’est utilisé qu’à un seul endroit dans notre script et qui ne sera pas réutilisé ailleurs.
     Elle permet de gagner du temps et de rendre notre code plus clair en évitant d’encombrer l’espace avec des noms inutiles.
 
-15) __Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?__
+13) __Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?__
     On utilise la méthode push()
       // Exemple : Initialisation d'un tableau
          let monTableau = [1, 2, 3];
@@ -256,14 +256,14 @@ identifiant spécifique ?__
         console.log(monTableau); // Affiche [1, 2, 3, 4]
 
 
-16) __Qu’est-ce qu’un « media query » ?__
+14) __Qu’est-ce qu’un « media query » ?__
     Le "media query" permet de changer le design d’un site Internet pour qu'il s'adapte à l’écran d'un autre appareil.
 
-17) __Qu’est-ce qu’un pseudo élément en CSS ?__
+15) __Qu’est-ce qu’un pseudo élément en CSS ?__
     Un pseudo-élément en CSS est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé.
     Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur1.
     
-18) __Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent__
+16) __Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent__
     C'est un framework de développement web qui permet de créer rapidement et facilement des sites web responsives.
     Il contient des composants et des styles prédéfinis qui facilitent la conception et la mise en page des pages web.
     Exemples équivalents:
@@ -271,7 +271,7 @@ identifiant spécifique ?__
    - Materialize : un framework basé sur le design Material de Google
    - Bulma : un framework CSS moderne et léger
 
-19) __Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
+17) __Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
 Donner la différence entre ces 2 méthodes.__
 - La méthode GET envoie les données à traiter via l'URL, ce qui signifie que les données seront visibles dans l'URL.
 Cette méthode est généralement utilisée pour les requêtes de lecture de données.
