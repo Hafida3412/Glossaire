@@ -317,7 +317,7 @@ les utilisateurs dans l'interaction avec un produit.
 
  ## Programmation orientée objet (POO)
 
-1) Donner une définition de la programmation orientée objet 
+1) __Donner une définition de la programmation orientée objet__ 
 La programmation orientée objet est une méthode de programmation qui consiste à regrouper des informations et des actions liées ensemble dans des objets.
 Ces objets peuvent avoir des caractéristiques spécifiques, appelées attributs, et des actions qu'ils peuvent réaliser, appelées méthodes.
 Par exemple, un objet 'voiture' peut avoir comme attributs sa couleur, sa marque, son modèle, etc. et comme méthodes 'démarrer', 'accélérer' et 'freiner'.
@@ -326,7 +326,7 @@ En utilisant la programmation orientée objet, les programmeurs peuvent organise
 ce qui permet de mieux gérer et comprendre les programmes informatiques. Cela rend également plus facile la réutilisation du code, 
 ce qui signifie que des parties de code peuvent être utilisées plusieurs fois dans différents endroits du programme.
 
-2) Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
+2) __Qu’est-ce qu’une classe ? Comment la déclare-t-on ?__
 Une classe en POO est comme une boîte à outils qui contient des outils (attributs) et des actions que tu peux faire avec ces outils (méthodes).
 
 class Personne { // propriétés de la classe public $nom; public $prenom; public $age;
@@ -349,24 +349,24 @@ public function afficherInfos() {
 
 // appeler la méthode afficherInfos pour afficher les informations de la personne $personne1->afficherInfos();
 
-3) Qu’est-ce qu’un objet ?
+3) __Qu’est-ce qu’un objet ?__
 En programmation orientée objet (POO), un objet est une instance d'une classe. Une classe est un modèle ou un plan pour créer des objets.
 Les objets sont des entités qui contiennent des données (attributs) et des méthodes (fonctions) qui agissent sur ces données.
 
 Par exemple, si vous avez une classe "Voiture", un objet "voiture1" créé à partir de cette classe aurait des attributs tels que la couleur, la marque et le modèle, ainsi que des méthodes pour démarrer la voiture, accélérer, freiner, etc.
 
-4) Définir la notion de propriété / attribut / méthode
+4) __Définir la notion de propriété / attribut / méthode__
 En programmation orientée objet, on utilise des propriétés pour garder des informations sur un objet, des attributs pour décrire cet objet
 et des méthodes pour dire à l'objet comment se comporter. Ces idées aident à bien représenter les objets dans un programme informatique.
 
-5) Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
+5) __Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité__
 La visibilité d'une propriété ou d'une méthode d'une classe en programmation détermine si celle-ci peut être accédée depuis l'extérieur de la classe.
 Les différents types de visibilité sont :
 - Public : la propriété ou la méthode peut être accédée depuis n'importe quel endroit dans le programme, que ce soit à l'intérieur ou à l'extérieur de la classe.
 - Protected : la propriété ou la méthode peut être accédée à l'intérieur de la classe où elle est déclarée, ainsi que dans les classes héritées de celle-ci.
 - Private : la propriété ou la méthode ne peut être accédée que depuis l'intérieur de la classe où elle est déclarée. Les classes héritées de cette classe ne peuvent pas y accéder.
 
-6) Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+6) __Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?__
 Par exemple, dans une classe "Personne", on pourrait définir un constructeur comme suit :
 public class Personne {
     private String nom;
@@ -380,51 +380,51 @@ public class Personne {
 }
 Lorsqu'un nouvel objet "Personne" est créé en utilisant ce constructeur, les valeurs passées en paramètres seront utilisées pour initialiser les propriétés "nom" et "age" de l'objet.
 
-7) Qu’est-ce que l’encapsulation ?
+7) __Qu’est-ce que l’encapsulation ?__
 L'encapsulation consiste à enfermer les données et les méthodes dans une boîte verrouillée, permettant de protéger les données et d'éviter les modifications non contrôlées.
 Les données sont accessibles et modifiables uniquement à travers des méthodes spécifiques, assurant un contrôle total sur les opérations effectuées sur ces données.
 Par exemple, une classe "Personne" peut encapsuler les données telles que le nom et l'âge, en offrant des méthodes pour y accéder et les modifier de manière contrôlée.
 
-9) Définir l’opérateur de résolution de portée
+8) __Définir l’opérateur de résolution de portée__
 L'opérateur de résolution de portée, souvent noté "::", permet d'accéder aux membres d'une classe ou d'un objet dans un programme orienté objet.
 Cela signifie qu'on peut utiliser cet opérateur pour appeler des fonctions ou des variables définies dans une classe à partir d'une autre partie du programme.
 Cela permet d'organiser et de structurer le code de manière plus claire et de limiter les conflits entre différents éléments d'un programme.
 
-10) Définir une méthode / propriété statique
+9) __Définir une méthode / propriété statique__
 Une méthode ou propriété statique est une fonction ou une variable spécifique à une classe qui peut être appelée ou utilisée sans avoir besoin d'instancier
 un objet de cette classe.
 Cela signifie que la méthode ou propriété statique est partagée entre toutes les instances de la classe et peut être appelée directement en utilisant le nom de la classe.
 
-11) Définir le polymorphisme en POO
+10) __Définir le polymorphisme en POO__
 C'est un concept qui permet à un objet de se comporter de différentes manières, en fonction du contexte dans lequel il est utilisé.
 Cela signifie qu'un même nom de méthode peut avoir des implémentations différentes dans différentes classes.
 Cela permet d'écrire un code plus générique et flexible, car on peut utiliser un objet de différentes manières sans avoir à connaître sa classe exacte.
 
-12) Définir une méthode / classe abstraite ?
+11) Définir une méthode / classe abstraite ?
 Une méthode abstraite est une méthode qui n'a pas de corps ou d'implémentation dans une classe, mais qui doit être définie dans les classes qui en héritent.
 Une classe abstraite est une classe qui contient au moins une méthode abstraite et qui ne peut pas être instanciée directement, mais qui sert de modèle pour
 d'autres classes qui vont en hériter et implémenter les méthodes abstraites.
 
-13) Définir le chaînage de méthodes
+12) Définir le chaînage de méthodes
 C'est une technique qui consiste à appeler plusieurs méthodes d'un objet les unes après les autres dans une seule instruction. Cela permet de simplifier
 le code et d'améliorer la lisibilité en évitant la répétition de code.
 
-14) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+13) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
 La méthode __toString() est une méthode spéciale en programmation orientée objet (POO) qui permet de définir comment un objet doit se comporter lorsqu'il
 est converti en chaîne de caractères. Elle est appelée automatiquement lorsque l'objet est utilisé dans un contexte où une chaîne de caractères est attendue.
 
 Il existe d'autres méthodes magiques en POO, telles que __construct() pour le constructeur de la classe, __destruct() pour le destructeur, __get() et __set() 
 pour la surcharge des accesseurs, etc. Ces méthodes sont appelées automatiquement dans certaines circonstances spécifiques.
 
-15) Qu’est-ce qu’un « autoload » ?
+14) Qu’est-ce qu’un « autoload » ?
 L'autoload est une fonctionnalité qui permet de charger automatiquement les classes ou les fichiers nécessaires au bon fonctionnement d'un programme.
 Cela évite d'avoir à inclure manuellement chaque classe ou fichier à chaque fois qu'ils sont nécessaires, ce qui simplifie le processus de développement
 et rend le code plus clair et facile à maintenir.
 
-16) Comment appelle-t-on en français les « getters » et les « setters » ?
+15) Comment appelle-t-on en français les « getters » et les « setters » ?
 On appelle les « getters » des « accesseurs » et les « setters » des « mutateurs ».
 
-17) Qu’est-ce que la sérialisation en PHP ?
+16) Qu’est-ce que la sérialisation en PHP ?
 La sérialisation en PHP est le processus de conversion d'objets ou de tableaux en une chaîne de caractères afin de les stocker ou de les transférer plus facilement.
 Cela permet de transformer des données complexes en une forme simple qui peut être utilisée ultérieurement. La désérialisation est l'opération inverse qui consiste
 à convertir la chaîne de caractères en objet ou en tableau d'origine.
