@@ -45,7 +45,7 @@ permettant ce contexte?__
    Ces variables permettent de récupérer respectivement les données envoyées en GET et en POST dans les requêtes HTTP.
 
 
-8) __Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
+7) __Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
    et en donner des exemples (ne pas oublier le type d’une variable sans valeur)__
    Les différents types primitifs que l'on peut associer à une variable en PHP sont:
    null.
@@ -55,12 +55,12 @@ permettant ce contexte?__
    string.
    array.
 
-9) __Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?__
+8) __Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?__
    Il existe 2 types de tabeau:
    - les tableaux à index numériques
    - les tableaux associatifs
 
-10) __Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
+9) __Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
 exemple pour chacune d’entre elles__
   
    - Il existe 3 principales structures de contrôle:
@@ -110,10 +110,10 @@ exemple pour chacune d’entre elles__
         }
 
 
-11) __Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?__
+10) __Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?__
         $nbCaracteres = strlen($chaineDeCaracteres);
 
-12) __Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
+11) __Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP__
     Les sessions permettent de stocker des données individuelles pour chaque utilisateur en utilisant un identifiant de session unique.
     La fonction qui permet de démarrer une session PHP est: session_start()
