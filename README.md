@@ -400,31 +400,31 @@ C'est un concept qui permet à un objet de se comporter de différentes manière
 Cela signifie qu'un même nom de méthode peut avoir des implémentations différentes dans différentes classes.
 Cela permet d'écrire un code plus générique et flexible, car on peut utiliser un objet de différentes manières sans avoir à connaître sa classe exacte.
 
-11) Définir une méthode / classe abstraite ?
+11) __Définir une méthode / classe abstraite ?__
 Une méthode abstraite est une méthode qui n'a pas de corps ou d'implémentation dans une classe, mais qui doit être définie dans les classes qui en héritent.
 Une classe abstraite est une classe qui contient au moins une méthode abstraite et qui ne peut pas être instanciée directement, mais qui sert de modèle pour
 d'autres classes qui vont en hériter et implémenter les méthodes abstraites.
 
-12) Définir le chaînage de méthodes
+12) __Définir le chaînage de méthodes__
 C'est une technique qui consiste à appeler plusieurs méthodes d'un objet les unes après les autres dans une seule instruction. Cela permet de simplifier
 le code et d'améliorer la lisibilité en évitant la répétition de code.
 
-13) Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+13) __Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »__
 La méthode __toString() est une méthode spéciale en programmation orientée objet (POO) qui permet de définir comment un objet doit se comporter lorsqu'il
 est converti en chaîne de caractères. Elle est appelée automatiquement lorsque l'objet est utilisé dans un contexte où une chaîne de caractères est attendue.
 
 Il existe d'autres méthodes magiques en POO, telles que __construct() pour le constructeur de la classe, __destruct() pour le destructeur, __get() et __set() 
 pour la surcharge des accesseurs, etc. Ces méthodes sont appelées automatiquement dans certaines circonstances spécifiques.
 
-14) Qu’est-ce qu’un « autoload » ?
+14) __Qu’est-ce qu’un « autoload » ?__
 L'autoload est une fonctionnalité qui permet de charger automatiquement les classes ou les fichiers nécessaires au bon fonctionnement d'un programme.
 Cela évite d'avoir à inclure manuellement chaque classe ou fichier à chaque fois qu'ils sont nécessaires, ce qui simplifie le processus de développement
 et rend le code plus clair et facile à maintenir.
 
-15) Comment appelle-t-on en français les « getters » et les « setters » ?
+15) __Comment appelle-t-on en français les « getters » et les « setters » ?__
 On appelle les « getters » des « accesseurs » et les « setters » des « mutateurs ».
 
-16) Qu’est-ce que la sérialisation en PHP ?
+16) __Qu’est-ce que la sérialisation en PHP ?__
 La sérialisation en PHP est le processus de conversion d'objets ou de tableaux en une chaîne de caractères afin de les stocker ou de les transférer plus facilement.
 Cela permet de transformer des données complexes en une forme simple qui peut être utilisée ultérieurement. La désérialisation est l'opération inverse qui consiste
 à convertir la chaîne de caractères en objet ou en tableau d'origine.
