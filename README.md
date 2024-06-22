@@ -231,10 +231,7 @@ identifiant spécifique ?__
     Exemple: smartphone, tablette, ordinateur, TV...
 
 11) __Qu’est-ce que le templating ?__
-   Le templating consiste à utiliser des modèles prédéfinis pour présenter des données de manière personnalisée.
-   Il permet d'automatiser la personnalisation de contenus en insérant des données dynamiques dans des formats fixes, facilitant ainsi la mise à jour
-   et la maintenance du contenu.
-   Cela est particulièrement utile pour les sites web ou les applications qui nécessitent une présentation régulièrement mise à jour et personnalisée.
+    Cela consiste à utiliser des modèles tout prêts pour afficher des données de façon automatique et qui change en fonction des données.
 
 12) __Qu’est-ce qu’une fonction anonyme en Javascript ?__
     C'est une fonction sans nom.
