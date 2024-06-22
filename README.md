@@ -409,7 +409,7 @@ d'autres classes qui vont en hériter et implémenter les méthodes abstraites.
 C'est une technique qui consiste à appeler plusieurs méthodes d'un objet les unes après les autres dans une seule instruction. Cela permet de simplifier
 le code et d'améliorer la lisibilité en évitant la répétition de code.
 
-13) __Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »__
+13) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
 La méthode __toString() est une méthode spéciale en programmation orientée objet (POO) qui permet de définir comment un objet doit se comporter lorsqu'il
 est converti en chaîne de caractères. Elle est appelée automatiquement lorsque l'objet est utilisé dans un contexte où une chaîne de caractères est attendue.
 
@@ -437,7 +437,7 @@ L'architecture client/serveur répartit les tâches entre un serveur central et 
 pour interroger le serveur, avec l'acronyme GET pour obtenir des informations. Une version sécurisée de cette requête, GETS, implique une connexion HTTPS
 pour plus de sécurité.
 
-3) __Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern__
+2) __Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern__
 Un design pattern est une solution réutilisable à un problème courant rencontré lors de la conception de logiciels.
 Il s'agit d'un modèle de conception qui fournit des directives sur la façon de résoudre un problème de manière efficace et structurée.
 
@@ -463,13 +463,13 @@ L'architecture MVC permet de séparer clairement les différents éléments d'un
 à l'utilisateur et le contrôleur qui gère les interactions entre le modèle et la vue. Cela facilite la maintenance, la réutilisation du code et la collaboration
 entre les développeurs. De plus, cela permet une meilleure organisation du code et une plus grande flexibilité dans le développement de l'application.
 
-6) Existe-t-il des variantes à l’architecture MVC ?
+6) __Existe-t-il des variantes à l’architecture MVC ?__
 Oui, il existe des variantes à l'architecture MVC, telles que MVVM (Modèle-Vue-VueModèle) et MVP (Modèle-Vue-Présentateur).
 Ces variantes sont des adaptations de l'architecture MVC pour répondre à des besoins spécifiques ou pour améliorer la séparation
 des préoccupations dans une application.
 Elles sont utilisées dans le développement de logiciels pour organiser le code de manière claire et modulaire.
 
-7) Qu’est-ce qu’une API ? Définir l’architecture REST
+7) __Qu’est-ce qu’une API ? Définir l’architecture REST__
 Une API est un ensemble de règles et de conventions qui permettent à des logiciels différents de communiquer entre eux.
 Cela permet d'échanger des données et de fonctionner ensemble de manière harmonieuse.
 
