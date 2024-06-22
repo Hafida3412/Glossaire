@@ -480,7 +480,7 @@ comment les actions doivent être effectuées. Elle repose sur l'utilisation d'U
 
 ## Modélisation / Base de données
 
-1) Qu’est-ce que la modélisation de données ? Définir la méthode Merise1
+1) __Qu’est-ce que la modélisation de données ? Définir la méthode Merise1__
 La modélisation de données est le processus de création de modèles qui représentent la manière dont les données sont organisées et
 structurées dans une base de données. La méthode Merise est une approche de modélisation de données qui consiste à diviser le processus
 en trois étapes principales :
@@ -489,16 +489,14 @@ en trois étapes principales :
 - le modèle physique des données.
 Ces modèles permettent de décrire de manière claire et précise la structure des données et les relations entre elles.
 
-2) Quelles sont les 3 étapes principales de la méthode Merise ?
+2) __Quelles sont les 3 étapes principales de la méthode Merise ?__
 a. Analyse, conception et réalisation
 b. Planification, exécution et contrôle
 c. Création, modification et suppression
 
-
-3) Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+3) __Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?__
 Le MCD est un schéma clair qui montrent comment les données sont liées entre elles. Il décrit les entités(=objets), 
 leurs propriétés (=données) et leurs relations. C'est une base de travail avant de créer une base de données.
-
 
 4) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
 Le modèle logique de données (MLD) en Merise est une représentation abstraite des données d'un système informatique,
