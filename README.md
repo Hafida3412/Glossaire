@@ -498,13 +498,12 @@ c. Création, modification et suppression
 Le MCD est un schéma clair qui montrent comment les données sont liées entre elles. Il décrit les entités(=objets), 
 leurs propriétés (=données) et leurs relations. C'est une base de travail avant de créer une base de données.
 
-4) Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
-Le modèle logique de données (MLD) en Merise est une représentation abstraite des données d'un système informatique,
-indépendante du système de gestion de base de données utilisé. Il décrit les entités, les relations entre les entités,
-les attributs des entités, ainsi que les contraintes et les règles métier liées aux données. En d'autres termes, le MLD
-permet de modéliser les données d'un système de manière logique et structurée afin de faciliter leur manipulation et leur gestion.
+4) __Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?__
+Il décrit les entités, les relations entre les entités, les attributs des entités, ainsi que les contraintes et les règles
+métier liées aux données. Il permet de modéliser les données d'un système de manière logique et structurée afin de
+faciliter leur manipulation et leur gestion.
 
-5) Donner la définition des mots suivants :
+5) __Donner la définition des mots suivants :__
 a. Entité
  C'est comme un petit dossier où vous pouvez ranger des informations similaires. 
  -> exemple: l'entité "clients"contiendrait des info telles que le nom, l'adresse... 
@@ -520,7 +519,7 @@ d. Clé primaire / clé étrangère
 1.La clé primaire est utilisée pour identifier de manière unique chaque ligne dans une table de base de données.
 2.La clé étrangère permet de récupérer des données de plusieurs tables en même temps.
 
-6) Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+6) __Que devient une relation de type « Many To Many » dans le modèle logique de données ?__
 La relation "Many To Many" est modélisée par une table intermédiaire qui facilite la gestion des associations entre les entités concernées.
 
 7) Qu’est-ce qu’une base de données ?
