@@ -519,13 +519,13 @@ d. Clé primaire / clé étrangère
 6) __Que devient une relation de type « Many To Many » dans le modèle logique de données ?__
 La relation "Many To Many" est modélisée par une table intermédiaire qui facilite la gestion des associations entre les entités concernées.
 
-7) Qu’est-ce qu’une base de données ?
+7) __Qu’est-ce qu’une base de données ?__
    C'est un endroit où on peut stocker et organiser des informations de manière structurée.
    C'est comme une grande bibliothèqte numérique où on peut ranger des livres (=données) pour les retrouver facilement 
    plus tard. Elles sont essentielles pour les applications Web, les systèmes de gestion...
 
 
-8) Définir les notions suivantes :
+8) __Définir les notions suivantes :__
 a. SQL
    Structured Query Language: « langage de requêtes structurées »
    Il permet de :
@@ -549,11 +549,10 @@ c. SGBD (donner 2 exemples de SGBD) = Systèmes de Gestion de Bases de Données
    -> MySQL
    -> Oracle
 
-
-9) Dans une base de données, les données sont stockées dans des TABLES (chaque table représente un type d'entité: exemple: table de commandes). Celles-ci sont constituées de 
+Dans une base de données, les données sont stockées dans des TABLES (chaque table représente un type d'entité: exemple: table de commandes). Celles-ci sont constituées de 
 lignes appelées ENREGISTREMENT (=lignes dans une table) et de colonnes appelées ATTRIBUTS (=colonne dans une table)
 
-10) Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+9) __Quelle est la différence entre une base de données relationnelle et non relationnelle ?__
 Les bases de données relationnelles stockent des données sous forme de tables liées entre elles par des clés étrangères, suivent le modèle ACID et conviennent aux
 données structurées et aux relations complexes. Les bases de données non relationnelles stockent des données de manière flexible, sont conçues pour être
 hautement évolutives et adaptées aux données semi-structurées ou non structurées. Elles ne suivent pas nécessairement le modèle ACID et sont adaptées aux environnements
