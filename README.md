@@ -558,7 +558,7 @@ données structurées et aux relations complexes. Les bases de données non rela
 hautement évolutives et adaptées aux données semi-structurées ou non structurées. Elles ne suivent pas nécessairement le modèle ACID et sont adaptées aux environnements
 nécessitant une haute performance et disponibilité.
 
-12) Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+10) __Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?__
 Une jointure dans une base de données est une opération qui permet de combiner des données provenant de deux tables différentes en fonction d'une condition commune entre les deux. Il existe plusieurs types de jointures, les principales sont :
 
 - Jointure interne : Elle ne renvoie que les lignes des tables qui ont une correspondance dans les deux tables.
@@ -566,11 +566,11 @@ Une jointure dans une base de données est une opération qui permet de combiner
 - Jointure gauche : Elle renvoie toutes les lignes de la table de gauche et les lignes correspondantes dans la table de droite.
 - Jointure droite : Elle renvoie toutes les lignes de la table de droite et les lignes correspondantes dans la table de gauche.
 
-12) A quoi sert une vue dans une base de données ?
+11) __A quoi sert une vue dans une base de données ?__
 Une vue dans une base de données permet de voir les données d'une ou plusieurs tables de manière organisée et structure, et de manipuler ces données plus facilement.
 On peut aussi limiter l'accès à certaines données en cachant des champs ou en ne montrant que certaines lignes qui correspondent à des critères spécifiques.
 
-13) Qu’est-ce que l’intégrité référentielle dans une base de données ?
+12) __Qu’est-ce que l’intégrité référentielle dans une base de données ?__
 L'intégrité référentielle en base de données consiste à s'assurer que les liens entre les différentes tables sont respectés.
 Par exemple, si une table contient une clé étrangère qui fait référence à une clé primaire dans une autre table, il est important que la valeur de
 la clé étrangère corresponde toujours à une valeur existante dans la clé primaire. Cela permet d'éviter les erreurs et les incohérences dans les
