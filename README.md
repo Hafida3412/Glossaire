@@ -576,39 +576,39 @@ Par exemple, si une table contient une clé étrangère qui fait référence à 
 la clé étrangère corresponde toujours à une valeur existante dans la clé primaire. Cela permet d'éviter les erreurs et les incohérences dans les
 données de la base de données.
 
-14) Quelles sont les fonctions d’agrégation en SQL ?
+13) __Quelles sont les fonctions d’agrégation en SQL ?__
 En SQL, les fonctions d'agrégation sont utilisées pour effectuer des calculs sur un ensemble de valeurs, telles que la somme, la moyenne, le maximum, le minimum, etc.
 Elles permettent de regrouper et de résumer les données d'une table en fonction de critères spécifiques, comme par exemple regrouper les ventes par mois ou par catégorie.
 Les fonctions d'agrégation sont souvent utilisées avec la clause GROUP BY pour regrouper les données avant d'appliquer les calculs.
 
-15) Qu’est ce qu’un CRUD dans le contexte d’une base de données ?
+14) __Qu’est ce qu’un CRUD dans le contexte d’une base de données ?__
 Le terme CRUD est un acronyme pour Create, Read, Update et Delete. Il fait référence aux opérations de base que l'on peut effectuer sur une base de données :
 créer des données, lire des données, mettre à jour des données et supprimer des données.
 Ces opérations permettent de gérer les informations stockées dans une base de données de manière simple et efficace.
 
-16) Quelles sont les clauses qui permettent de :
-a. Insérer un nouvel enregistrement dans une table
+15) __Quelles sont les clauses qui permettent de :__
+a. __Insérer un nouvel enregistrement dans une table__
 On utilise généralement la clause INSERT INTO. On spécifie le nom de la table dans laquelle on veut insérer les données, puis on précise les valeurs à insérer dans chaque colonne de la table. Par exemple :
 
 INSERT INTO nom_table (colonne1, colonne2, colonne3) VALUES (valeur1, valeur2, valeur3);
 
 Cette requête permet d'ajouter un nouvel enregistrement dans la table "nom_table" en spécifiant les valeurs à insérer dans les colonnes "colonne1", "colonne2" et "colonne3".
 
-b. Modifier un enregistrement dans une table
+b. __Modifier un enregistrement dans une table__
 Pour modifier un enregistrement dans une table, il faut utiliser la clause SQL "UPDATE" suivie du nom de la table et des colonnes que l'on souhaite modifier. 
 Ensuite, on utilise la clause "SET" pour spécifier les nouvelles valeurs pour chaque colonne. 
 On peut également ajouter une clause "WHERE" pour spécifier les enregistrements à modifier en fonction de certaines conditions.
 
-c. Supprimer un enregistrement dans une table
+c. __Supprimer un enregistrement dans une table__
 Il faut utiliser la clause DELETE FROM suivi du nom de la table et de la clause WHERE pour spécifier les critères de suppression. 
 Par exemple, DELETE FROM table_nom WHERE condition_de_suppression.
 
-d. Supprimer la base de données
+d. __Supprimer la base de données__
 Il existe deux types de clauses pour supprimer une base de données:
 - Clauses DROP DATABASE : Ces clauses permettent de supprimer complètement une base de données et tous ses objets (tables, index, procédures stockées, etc.).
 - Clauses DROP TABLE : Ces clauses permettent de supprimer uniquement une table spécifique de la base de données, sans supprimer la base de données elle-même.
 
-e. Filtrer les résultats d’une requête SQL:
+e. __Filtrer les résultats d’une requête SQL:__
 -> on utilise les clauses WHERE et HAVING.
 
 - La clause WHERE permet de spécifier des critères de sélection pour les lignes à récupérer dans une table. Par exemple, on peut filtrer les résultats en définissant une condition comme "WHERE nom = 'Dupont'".
@@ -617,21 +617,21 @@ e. Filtrer les résultats d’une requête SQL:
 Par exemple, on peut utiliser la clause HAVING pour filtrer les résultats en spécifiant une condition sur le résultat d'une fonction d'agrégation
 comme "HAVING SUM(quantite) > 100".
 
-f. Trier les résultats d’une requête SELECT
+f. __Trier les résultats d’une requête SELECT__
 Pour trier les résultats d'une requête SELECT, on utilise la clause ORDER BY. 
 Cette clause permet de spécifier sur quelle colonne ou ensemble de colonnes les résultats doivent être triés, et aussi dans quel ordre (croissant ou décroissant). 
 Par exemple, ORDER BY nom ASC triera les résultats par ordre alphabétique croissant du champ nom.
 
-g. Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
+g. __Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique__
 Pour regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique, on utilise la clause GROUP BY dans la requête SQL. 
 Cette clause permet de spécifier la colonne sur laquelle on souhaite regrouper les données. 
 Une fois regroupées, on peut utiliser des fonctions d'agrégation comme COUNT, SUM, AVG, etc. pour obtenir des informations sur les groupes de données.
 
-h. Concaténer 2 chaînes de caractères 
+h. __Concaténer 2 chaînes de caractères__ 
 Pour concaténer deux chaînes de caractères, vous pouvez utiliser l'opérateur de concaténation "+" qui permet de les mettre bout à bout. 
 Par exemple, si vous avez deux chaînes "Bonjour" et "monde", en les concaténant avec l'opérateur "+", vous obtiendrez la chaîne "Bonjourmonde".
 
-17) Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
+16) __Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?__
 Exemple : abstract class Connect{
 
     const HOST = "localhost";
