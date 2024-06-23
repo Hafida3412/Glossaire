@@ -654,24 +654,25 @@ Exemple : abstract class Connect{
 }
 
  ## Symfony
-1) Qu’est-ce que Symfony ?
+
+1) __Qu’est-ce que Symfony ?__
 Symfony est un outil gratuit en PHP pour créer des sites web plus facilement et plus rapidement. Il offre des fonctionnalités prêtes à l'emploi pour
 simplifier le développement et la maintenance des projets web.
 
-2) Sur quel langage de programmation et design pattern repose Symfony ?
+2) __Sur quel langage de programmation et design pattern repose Symfony ?__
 Symfony repose sur le langage de programmation PHP et utilise principalement le design pattern MVC (Modèle-Vue-Contrôleur).
 
-3) Quelle est la dernière version en date de Symfony ?
+3) __Quelle est la dernière version en date de Symfony ?__
 La dernière version en date de Symfony est la version 5.4.
 
-4) Qu’est-ce qu’un bundle ?
+4) __Qu’est-ce qu’un bundle ?__
 Un bundle Symfony est un ensemble de fichiers contenant du code réutilisable pour organiser et partager des fonctionnalités dans une application Symfony.
 Cela permet de structurer le code et de le réutiliser entre différentes applications.
 
-5) Quel est le moteur de template utilisé par défaut dans Symfony ?
+5) __Quel est le moteur de template utilisé par défaut dans Symfony ?__
 Le moteur de template utilisé par défaut dans Symfony est Twig.
 
-6) Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+6) __Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?__
 L'ORM (Object-Relational Mapping) est un outil qui relie une base de données à un langage de programmation objet.
 Doctrine est l'ORM principal utilisé dans Symfony pour simplifier la manipulation des données en les représentant sous forme d'objets PHP.
 
