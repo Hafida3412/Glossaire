@@ -209,10 +209,9 @@ exemple d’utilisation en PHP__
       votre navigateur puisse les afficher.
 
 5) __Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?__
-   JavaScript côté serveur avec Node.js permet d'exécuter du code sur un serveur, offrant la possibilité de créer des pages web dynamiques,
-   d'interagir avec des bases de données et de gérer des fichiers.
-   Node.js utilise la machine virtuelle V8 de Google Chrome pour une exécution rapide et efficace du JavaScript.
-   Cette technologie permet aux développeurs d'utiliser le même langage pour le front-end et le back-end de leurs applications web.
+   Oui, on peut utiliser JavaScript sur des ordinateurs serveurs grâce à un outil appelé Node.js.
+   Node.js est comme un super programme qui aide les ordinateurs à comprendre et à exécuter JavaScript sans avoir besoin d'un navigateur web,
+   ce qui permet de créer des sites web et des applications qui fonctionnent sur des serveurs.
 
 6) __Qu’est-ce qu’un sélecteur CSS ?__
    Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web
