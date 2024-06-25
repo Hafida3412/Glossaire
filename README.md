@@ -111,7 +111,7 @@ exemple pour chacune d’entre elles__
 
 
 10) __Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?__
-        La fonction PHP permettant de demander la longueur d’une chaîne de caractères est strlen().
+    La fonction PHP permettant de demander la longueur d’une chaîne de caractères est strlen().
         Exemple:
         $chaine = "Hello!";
         $longueur = strlen($chaine);
@@ -119,8 +119,10 @@ exemple pour chacune d’entre elles__
 
 11) __Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP__
-    Les sessions permettent de stocker des données individuelles pour chaque utilisateur en utilisant un identifiant de session unique.
-    La fonction qui permet de démarrer une session PHP est: session_start()
+   Une session en PHP permet de stocker des informations sur un utilisateur et de les rendre disponibles sur toutes les pages
+   d'un site web durant sa visite. 
+   Cela permet de conserver l'état entre différentes pages web.
+   La fonction qui permet de démarrer une session PHP est: session_start()
   
    -> exemple:
     // Démarrer la session
