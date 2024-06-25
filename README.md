@@ -180,8 +180,7 @@ exemple d’utilisation en PHP__
 
 17) __Qu’est-ce qu’un CMS ? Citer au moins 2 exemples__
     (CMS = Content Management System: système de gestion de contenu)
-    Il s'agit d'un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site 
-    web.
+    Il s'agit d'un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site web.
     Exemple: WordPress et Shopify
 
 
