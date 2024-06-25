@@ -111,7 +111,11 @@ exemple pour chacune d’entre elles__
 
 
 10) __Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?__
-        $nbCaracteres = strlen($chaineDeCaracteres);
+        La fonction PHP permettant de demander la longueur d’une chaîne de caractères est strlen().
+        Exemple:
+        $chaine = "Hello!";
+        $longueur = strlen($chaine);
+        echo "La longueur de la chaîne est : " . $longueur;
 
 11) __Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP__
