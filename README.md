@@ -162,7 +162,9 @@ exemple d’utilisation en PHP__
     l'exécution du script.
     Lorsque nous utilisons <<require>>, si le fichier n'est pas trouvé, PHP génère une erreur fatale et arrête
     l'exécution du script.
-   
+    <<require>> est généralement utilisé pour les fichiers essentiels, tandis qu'include est utilisé pour les fichiers optionnels.
+
+
 14) __Comment effectuer une redirection en PHP ?__
     Pour que la redirection fonctionne, il faut placer le lien url de la nouvelle page dans le header avant tout code 
     HTML(ou texte) 
