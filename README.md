@@ -273,12 +273,10 @@ identifiant spécifique ?__
 
 17) __Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ?
 Donner la différence entre ces 2 méthodes.__
-- La méthode GET envoie les données à traiter via l'URL, ce qui signifie que les données seront visibles dans l'URL.
-Cette méthode est généralement utilisée pour les requêtes de lecture de données.
+- La méthode GET envoie les données dans l'URL, donc elles sont visibles. Elle sert à lire des données.
+- La méthode POST envoie les données dans le corps de la requête, donc elles sont cachées. Elle sert à créer ou modifier des données sensibles.
 
-- La méthode POST envoie les données à traiter dans le corps de la requête HTTP, ce qui signifie que les données ne sont pas visibles dans l'URL.
-Cette méthode est généralement utilisée pour les requêtes de création ou de modification de données sensibles.
-
+ 
  ##  UX / UI
 
 1) __Quelle est la différence entre UX Design et UI Design ?__
