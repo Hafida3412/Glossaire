@@ -221,12 +221,11 @@ exemple d’utilisation en PHP__
    <a href=".........."</a>
    
 8) __Qu’est-ce qu’une requête AJAX ?__
-  AJAX permet de faire des requêtes HTTP sans recharger la page, ce qui économise de la bande passante.
-  L'objectif principal est de limiter le temps d'attente lors de mises à jour de la page par un serveur.
-  Cet outil permet de créer des applications web interactives et réactives en échangeant des données avec le serveur sans perturber l'expérience utilisateur.
+  AJAX permet de demander des informations au serveur sans recharger la page, ce qui économise du temps et de la bande passante.
+Cela rend les mises à jour de la page plus rapides et fluides. Grâce à AJAX, les applications web peuvent être plus interactives et réactives,
+améliorant ainsi l'expérience utilisateur sans interruption.
 
-
-9) __Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
+ 9) __Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
 identifiant spécifique ?__
     Le sélecteur de classe commence par un point . et sélectionne tout élément du document auquel cette classe est appliquée. 
     Un sélecteur d'ID commence par un # , il est utilisé de la même manière qu'un sélecteur de classe.
