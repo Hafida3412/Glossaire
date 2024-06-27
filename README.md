@@ -227,9 +227,7 @@ améliorant ainsi l'expérience utilisateur sans interruption.
 
  9) __Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
 identifiant spécifique ?__
-    Le sélecteur de classe commence par un point . et sélectionne tout élément du document auquel cette classe est appliquée. 
-    Un sélecteur d'ID commence par un # , il est utilisé de la même manière qu'un sélecteur de classe.
-    En revanche, l'ID ne peut être utilisé qu'une seule fois par document.
+    Le sélecteur de classe (.) sélectionne tous les éléments avec cette classe. Le sélecteur d'ID (#) fonctionne de la même manière mais ne peut être utilisé qu'une seule fois par document.
 
 10) __Définir le responsive design__
     Ce design permet de modifier la mise en page d'un site afin que le contenu s'adapte à n'importe quel écran.
