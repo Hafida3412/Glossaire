@@ -261,11 +261,11 @@ identifiant spécifique ?__
 
 15) __Qu’est-ce qu’un pseudo élément en CSS ?__
     Un pseudo-élément en CSS est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé.
-    Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur1.
+    Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur.
     
 16) __Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent__
-    C'est un framework de développement web qui permet de créer rapidement et facilement des sites web responsives.
-    Il contient des composants et des styles prédéfinis qui facilitent la conception et la mise en page des pages web.
+   C'est un outil pour créer rapidement des sites web adaptatifs. Il offre des composants et des styles déjà prêts, ce qui simplifie la conception
+   et la mise en page des pages web.
     Exemples équivalents:
    - Foundation : un autre framework de développement web populaire
    - Materialize : un framework basé sur le design Material de Google
