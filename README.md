@@ -285,34 +285,33 @@ Donner la différence entre ces 2 méthodes.__
 Les deux sont essentiels pour un produit numérique réussi.
 
 3) __Qu’est-ce qu’un wireframe ?__
-Un wireframe est un plan visuel simple d'un site web ou d'une interface utilisateur, utilisé pour organiser les éléments et la structure avant de commencer
-à concevoir et développer. Il est composé de lignes et de formes pour indiquer l'emplacement des images, du texte, des boutons et des liens, permettant de
-visualiser la disposition des éléments et l'expérience utilisateur.
+Un wireframe est un plan visuel simple d'un site web ou d'une interface, utilisé pour organiser les éléments avant la conception et le développement.
+Il utilise des lignes et des formes pour montrer l'emplacement des images, texte, boutons et liens, aidant à visualiser la disposition et l'expérience utilisateur.
 
-4) __Qu’est-ce qu’un prototype ?__
+5) __Qu’est-ce qu’un prototype ?__
 Un prototype UX/UI est une maquette interactive d'une interface utilisateur pour tester le design d'une application ou d'un site web avant son développement
 complet. Ils permettent de visualiser et tester l'interface, recueillir des retours des utilisateurs et identifier les problèmes potentiels pour améliorer
 l'expérience utilisateur avant le lancement du produit final.
 
-5) __Qu’est-ce que la hiérarchie visuelle en UI Design ?__
+6) __Qu’est-ce que la hiérarchie visuelle en UI Design ?__
 La hiérarchie visuelle en UI design organise les éléments visuels pour guider l'œil de l'utilisateur, mettre en avant ce qui est important et faciliter la navigation.
 Elle repose sur la taille, la couleur, le contraste et l'espacement des éléments pour créer une structure claire et une expérience utilisateur agréable.
 
-6) __Qu’est-ce que l’accessibilité en UX Design ?__
+7) __Qu’est-ce que l’accessibilité en UX Design ?__
 L'accessibilité en UX Design consiste à concevoir des produits numériques accessibles à tous, y compris aux personnes en situation de handicap.
 Cela implique de prendre en compte les besoins spécifiques de chaque utilisateur pour garantir une expérience utilisateur optimale.
 L'objectif est de rendre les produits numériques faciles à utiliser, quel que soit le profil de l'utilisateur.
 
-7) __Qu’est-ce qu’une grille de mise en page ?__
+8) __Qu’est-ce qu’une grille de mise en page ?__
 C'est un système de lignes qui organisent l'espace graphique et facilitent la création de designs équilibrés et harmonieux en guidant le positionnement
 des éléments visuels comme le texte et les images. Elle est largement utilisée dans le design web, l'édition de magazines, la publicité, etc.
 
-8) __Qu’est-ce que la notion d’affordance en UX Design ?__
+9) __Qu’est-ce que la notion d’affordance en UX Design ?__
 L'affordance en UX Design signifie la capacité d'un produit à suggérer comment il peut être utilisé. Par exemple, un bouton cliquable sur un site Web indique
 à l'utilisateur qu'il peut déclencher une action. Les affordances sont essentielles pour créer une expérience utilisateur intuitive et efficace en guidant
 les utilisateurs dans l'interaction avec un produit.
 
-9) __Qu’est-ce qu’un « mobile first design » ?__
+10) __Qu’est-ce qu’un « mobile first design » ?__
 
  ## Programmation orientée objet (POO)
 
