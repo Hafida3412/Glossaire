@@ -344,16 +344,15 @@ public function afficherInfos() {
 // appeler la méthode afficherInfos pour afficher les informations de la personne $personne1->afficherInfos();
 
 3) __Qu’est-ce qu’un objet ?__
-En programmation orientée objet (POO), un objet est une instance d'une classe. Une classe est un modèle ou un plan pour créer des objets.
-Les objets sont des entités qui contiennent des données (attributs) et des méthodes (fonctions) qui agissent sur ces données.
+Une classe est un modèle pour créer des objets. Un objet est une instance de cette classe, avec des attributs (données) et
+des méthodes (fonctions). Par exemple, une classe "Voiture" peut créer un objet "voiture1" avec des attributs comme
+la couleur et des méthodes comme démarrer.
 
-Par exemple, si vous avez une classe "Voiture", un objet "voiture1" créé à partir de cette classe aurait des attributs tels que la couleur, la marque et le modèle, ainsi que des méthodes pour démarrer la voiture, accélérer, freiner, etc.
-
-4) __Définir la notion de propriété / attribut / méthode__
+5) __Définir la notion de propriété / attribut / méthode__
 En programmation orientée objet, on utilise des propriétés pour garder des informations sur un objet, des attributs pour décrire cet objet
 et des méthodes pour dire à l'objet comment se comporter. Ces idées aident à bien représenter les objets dans un programme informatique.
 
-5) __Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité__
+6) __Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité__
 La visibilité d'une propriété ou d'une méthode d'une classe en programmation détermine si celle-ci peut être accédée depuis l'extérieur de la classe.
 Les différents types de visibilité sont :
 - Public : la propriété ou la méthode peut être accédée depuis n'importe quel endroit dans le programme, que ce soit à l'intérieur ou à l'extérieur de la classe.
