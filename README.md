@@ -291,25 +291,25 @@ Il montre l'emplacement des images, textes, boutons et liens, aidant à visualis
 Un prototype UX/UI est une maquette interactive utilisée pour tester et améliorer le design d'une application ou d'un site web avant son développement complet.
 Il permet de visualiser l'interface, recueillir des retours des utilisateurs et identifier les problèmes potentiels pour améliorer l'expérience utilisateur.
 
-7) __Qu’est-ce que la hiérarchie visuelle en UI Design ?__
+4) __Qu’est-ce que la hiérarchie visuelle en UI Design ?__
 La hiérarchie visuelle en UI design organise les éléments visuels pour guider l'œil de l'utilisateur, mettre en avant ce qui est important et faciliter la navigation.
 Elle repose sur la taille, la couleur, le contraste et l'espacement des éléments pour créer une structure claire et une expérience utilisateur agréable.
 
-8) __Qu’est-ce que l’accessibilité en UX Design ?__
-L'accessibilité en UX Design consiste à concevoir des produits numériques accessibles à tous, y compris aux personnes en situation de handicap.
-Cela implique de prendre en compte les besoins spécifiques de chaque utilisateur pour garantir une expérience utilisateur optimale.
-L'objectif est de rendre les produits numériques faciles à utiliser, quel que soit le profil de l'utilisateur.
+5) __Qu’est-ce que l’accessibilité en UX Design ?__
+L'accessibilité en UX Design consiste à créer des produits numériques utilisables par tous, y compris les personnes handicapées.
+Cela implique de considérer les besoins spécifiques de chaque utilisateur pour assurer une expérience optimale.
+L'objectif est de rendre les produits faciles à utiliser pour tout le monde.
 
-9) __Qu’est-ce qu’une grille de mise en page ?__
+6) __Qu’est-ce qu’une grille de mise en page ?__
 C'est un système de lignes qui organisent l'espace graphique et facilitent la création de designs équilibrés et harmonieux en guidant le positionnement
 des éléments visuels comme le texte et les images. Elle est largement utilisée dans le design web, l'édition de magazines, la publicité, etc.
 
-10) __Qu’est-ce que la notion d’affordance en UX Design ?__
-L'affordance en UX Design signifie la capacité d'un produit à suggérer comment il peut être utilisé. Par exemple, un bouton cliquable sur un site Web indique
-à l'utilisateur qu'il peut déclencher une action. Les affordances sont essentielles pour créer une expérience utilisateur intuitive et efficace en guidant
-les utilisateurs dans l'interaction avec un produit.
+7) __Qu’est-ce que la notion d’affordance en UX Design ?__
+L'affordance en UX Design signifie qu'un produit montre comment il peut être utilisé.
+Par exemple, un bouton cliquable indique qu'on peut l'actionner.
+Les affordances aident à créer une expérience utilisateur intuitive et efficace.
 
-11) __Qu’est-ce qu’un « mobile first design » ?__
+8) __Qu’est-ce qu’un « mobile first design » ?__
 
  ## Programmation orientée objet (POO)
 
