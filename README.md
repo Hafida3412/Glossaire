@@ -214,8 +214,7 @@ exemple d’utilisation en PHP__
    ce qui permet de créer des sites web et des applications qui fonctionnent sur des serveurs.
 
 6) __Qu’est-ce qu’un sélecteur CSS ?__
-   Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web
-   pour leur appliquer une règle CSS.
+   Les sélecteurs CSS permettent de cibler des éléments HTML présents sur une page web pour leur appliquer une règle CSS.
 
 7) __Quelle balise HTML permet de créer un lien hypertexte ?__
    <a href=".........."</a>
@@ -265,8 +264,8 @@ identifiant spécifique ?__
     Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur.
     
 16) __Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent__
-   C'est un outil pour créer rapidement des sites web adaptatifs. Il offre des composants et des styles déjà prêts, ce qui simplifie la conception
-   et la mise en page des pages web.
+   C'est un outil qui permet de créer rapidement des sites web adaptatifs/responsive en fournissant des composants et des styles prédéfinis.
+   Cela simplifie grandement la conception et la mise en page des pages web.
     Exemples équivalents:
    - Foundation : un autre framework de développement web populaire
    - Materialize : un framework basé sur le design Material de Google
