@@ -372,35 +372,35 @@ public class Personne {
 Lorsqu'un nouvel objet "Personne" est créé en utilisant ce constructeur, les valeurs passées en paramètres seront utilisées pour initialiser les propriétés "nom" et "age" de l'objet.
 
 7) __Qu’est-ce que l’encapsulation ?__
-L'encapsulation consiste à enfermer les données et les méthodes dans une boîte verrouillée, permettant de protéger les données et d'éviter les modifications non contrôlées.
-Les données sont accessibles et modifiables uniquement à travers des méthodes spécifiques, assurant un contrôle total sur les opérations effectuées sur ces données.
-Par exemple, une classe "Personne" peut encapsuler les données telles que le nom et l'âge, en offrant des méthodes pour y accéder et les modifier de manière contrôlée.
+L'encapsulation consiste à protéger les données en les enfermant avec leurs méthodes dans une boîte verrouillée, permettant un contrôle total sur
+les modifications. Les données ne peuvent être modifiées que via des méthodes spécifiques.
+Par exemple, une classe "Personne" encapsule le nom et l'âge, offrant des méthodes pour les modifier de manière contrôlée.
 
-8) __Définir l’opérateur de résolution de portée__
+9) __Définir l’opérateur de résolution de portée__
 L'opérateur de résolution de portée, souvent noté "::", permet d'accéder aux membres d'une classe ou d'un objet dans un programme orienté objet.
 Cela signifie qu'on peut utiliser cet opérateur pour appeler des fonctions ou des variables définies dans une classe à partir d'une autre partie du programme.
 Cela permet d'organiser et de structurer le code de manière plus claire et de limiter les conflits entre différents éléments d'un programme.
 
-9) __Définir une méthode / propriété statique__
+10) __Définir une méthode / propriété statique__
 Une méthode ou propriété statique est une fonction ou une variable spécifique à une classe qui peut être appelée ou utilisée sans avoir besoin d'instancier
 un objet de cette classe.
 Cela signifie que la méthode ou propriété statique est partagée entre toutes les instances de la classe et peut être appelée directement en utilisant le nom de la classe.
 
-10) __Définir le polymorphisme en POO__
+11) __Définir le polymorphisme en POO__
 C'est un concept qui permet à un objet de se comporter de différentes manières, en fonction du contexte dans lequel il est utilisé.
 Cela signifie qu'un même nom de méthode peut avoir des implémentations différentes dans différentes classes.
 Cela permet d'écrire un code plus générique et flexible, car on peut utiliser un objet de différentes manières sans avoir à connaître sa classe exacte.
 
-11) __Définir une méthode / classe abstraite ?__
+12) __Définir une méthode / classe abstraite ?__
 Une méthode abstraite est une méthode qui n'a pas de corps ou d'implémentation dans une classe, mais qui doit être définie dans les classes qui en héritent.
 Une classe abstraite est une classe qui contient au moins une méthode abstraite et qui ne peut pas être instanciée directement, mais qui sert de modèle pour
 d'autres classes qui vont en hériter et implémenter les méthodes abstraites.
 
-12) __Définir le chaînage de méthodes__
+13) __Définir le chaînage de méthodes__
 C'est une technique qui consiste à appeler plusieurs méthodes d'un objet les unes après les autres dans une seule instruction. Cela permet de simplifier
 le code et d'améliorer la lisibilité en évitant la répétition de code.
 
-13) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
+14) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
 La méthode __toString() est une méthode spéciale en programmation orientée objet (POO) qui permet de définir comment un objet doit se comporter lorsqu'il
 est converti en chaîne de caractères. Elle est appelée automatiquement lorsque l'objet est utilisé dans un contexte où une chaîne de caractères est attendue.
 
