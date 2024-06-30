@@ -283,11 +283,11 @@ Donner la différence entre ces 2 méthodes.__
 - L'UI Design se concentre sur l'apparence visuelle de l'interface.
 Les deux sont essentiels pour un produit numérique réussi.
 
-3) __Qu’est-ce qu’un wireframe ?__
+2) __Qu’est-ce qu’un wireframe ?__
 Un wireframe est un plan visuel simple d'un site web ou d'une interface, utilisé pour organiser les éléments avant la conception et le développement.
-Il utilise des lignes et des formes pour montrer l'emplacement des images, texte, boutons et liens, aidant à visualiser la disposition et l'expérience utilisateur.
+Il montre l'emplacement des images, textes, boutons et liens, aidant à visualiser la disposition et l'expérience utilisateur.
 
-5) __Qu’est-ce qu’un prototype ?__
+3) __Qu’est-ce qu’un prototype ?__
 Un prototype UX/UI est une maquette interactive utilisée pour tester et améliorer le design d'une application ou d'un site web avant son développement complet.
 Il permet de visualiser l'interface, recueillir des retours des utilisateurs et identifier les problèmes potentiels pour améliorer l'expérience utilisateur.
 
