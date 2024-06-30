@@ -220,23 +220,22 @@ exemple d’utilisation en PHP__
    <a href=".........."</a>
    
 8) __Qu’est-ce qu’une requête AJAX ?__
-  AJAX permet de demander des informations au serveur sans recharger la page, ce qui économise du temps et de la bande passante.
-Cela rend les mises à jour de la page plus rapides et fluides. Grâce à AJAX, les applications web peuvent être plus interactives et réactives,
-améliorant ainsi l'expérience utilisateur sans interruption.
+  AJAX permet de demander des informations au serveur sans recharger la page, rendant les mises à jour plus rapides et fluides.
+  Cela rend les applications web plus interactives et améliore l'expérience utilisateur sans interruption.
 
- 9) __Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
+ 10) __Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un 
 identifiant spécifique ?__
     Le sélecteur de classe (.) sélectionne tous les éléments avec cette classe.
     Le sélecteur d'ID (#) fonctionne de la même manière mais ne peut être utilisé qu'une seule fois par document.
 
-10) __Définir le responsive design__
+11) __Définir le responsive design__
     Ce design permet de modifier la mise en page d'un site afin que le contenu s'adapte à n'importe quel écran.
     Exemple: smartphone, tablette, ordinateur, TV...
 
-11) __Qu’est-ce que le templating ?__
+12) __Qu’est-ce que le templating ?__
     Cela consiste à utiliser des modèles tout prêts pour afficher des données de façon automatique et qui change en fonction des données.
 
-12) __Qu’est-ce qu’une fonction anonyme en Javascript ?__
+13) __Qu’est-ce qu’une fonction anonyme en Javascript ?__
     C'est une fonction sans nom.
     Exemple: (function () {
     // ... code à exécuter ici ...
@@ -244,7 +243,7 @@ identifiant spécifique ?__
     Elle est pratique pour exécuter du code qui n’est utilisé qu’à un seul endroit dans notre script et qui ne sera pas réutilisé ailleurs.
     Elle permet de gagner du temps et de rendre notre code plus clair en évitant d’encombrer l’espace avec des noms inutiles.
 
-13) __Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?__
+14) __Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?__
     On utilise la méthode push()
       // Exemple : Initialisation d'un tableau
          let monTableau = [1, 2, 3];
@@ -256,14 +255,14 @@ identifiant spécifique ?__
         console.log(monTableau); // Affiche [1, 2, 3, 4]
 
 
-14) __Qu’est-ce qu’un « media query » ?__
+15) __Qu’est-ce qu’un « media query » ?__
     Le "media query" permet de changer le design d’un site Internet pour qu'il s'adapte à l’écran d'un autre appareil.
 
-15) __Qu’est-ce qu’un pseudo élément en CSS ?__
+16) __Qu’est-ce qu’un pseudo élément en CSS ?__
     Un pseudo-élément en CSS est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé.
     Par exemple, le pseudo-élément ::first-line permettra de ne cibler que la première ligne d’un élément visé par le sélecteur.
     
-16) __Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent__
+17) __Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent__
    C'est un outil qui permet de créer rapidement des sites web adaptatifs/responsive en fournissant des composants et des styles prédéfinis.
    Cela simplifie grandement la conception et la mise en page des pages web.
     Exemples équivalents:
