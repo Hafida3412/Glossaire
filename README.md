@@ -311,6 +311,8 @@ Par exemple, un bouton cliquable indique qu'on peut l'actionner.
 Les affordances aident à créer une expérience utilisateur intuitive et efficace.
 
 8) __Qu’est-ce qu’un « mobile first design » ?__
+Le "mobile first design" signifie concevoir un site web en commençant par la version mobile, puis l'adapter pour les écrans plus grands comme
+les tablettes et les ordinateurs. Cela assure une bonne expérience utilisateur sur les petits écrans d'abord.
 
  ## Programmation orientée objet (POO)
 
