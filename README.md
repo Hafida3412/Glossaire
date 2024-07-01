@@ -286,6 +286,7 @@ Les deux sont essentiels pour un produit numérique réussi.
 2) __Qu’est-ce qu’un wireframe ?__
 Un wireframe est un plan visuel simple d'un site web ou d'une interface, utilisé pour organiser les éléments avant la conception et le développement.
 Il montre l'emplacement des images, textes, boutons et liens, aidant à visualiser la disposition et l'expérience utilisateur.
+Exemple: Figma
 
 3) __Qu’est-ce qu’un prototype ?__
 Un prototype UX/UI est une maquette interactive utilisée pour tester et améliorer le design d'une application ou d'un site web avant son développement complet.
