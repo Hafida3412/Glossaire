@@ -373,9 +373,8 @@ public class Personne {
 Lorsqu'un nouvel objet "Personne" est créé en utilisant ce constructeur, les valeurs passées en paramètres seront utilisées pour initialiser les propriétés "nom" et "age" de l'objet.
 
 7) __Qu’est-ce que l’encapsulation ?__
-L'encapsulation consiste à protéger les données en les enfermant avec leurs méthodes dans une boîte verrouillée, permettant un contrôle total sur
-les modifications. Les données ne peuvent être modifiées que via des méthodes spécifiques.
-Par exemple, une classe "Personne" encapsule le nom et l'âge, offrant des méthodes pour les modifier de manière contrôlée.
+L'encapsulation, c'est comme mettre des données et des actions dans une boîte verrouillée. On ne peut accéder ou modifier ces données qu'en utilisant
+des clés spécifiques (méthodes), ce qui protège les données et contrôle les changements.
 
 9) __Définir l’opérateur de résolution de portée__
 L'opérateur de résolution de portée, souvent noté "::", permet d'accéder aux membres d'une classe ou d'un objet dans un programme orienté objet.
