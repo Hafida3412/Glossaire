@@ -777,7 +777,7 @@ Cela permet d'éviter les erreurs et les manipulations de données malveillantes
  
  ## RGPD
 
-1) Qu’est-ce que le RGPD ?
+1) __Qu’est-ce que le RGPD ?__
 Règlement Général sur la Protection des Données
 
 2) Quel est son objectif principal ?
