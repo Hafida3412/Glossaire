@@ -674,7 +674,7 @@ Doctrine est l'ORM principal utilisé dans Symfony pour simplifier la manipulati
 7) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
 contient l’intégralité des dépendances du projet ?
 
-8) Que permet le bundle Maker au sein de Symfony ?
+8) __Que permet le bundle Maker au sein de Symfony ?__
 Le bundle Maker de Symfony permet de créer rapidement des éléments de code comme des entités, des contrôleurs et des formulaires, ce qui facilite le développement
 en automatisant des tâches récurrentes.
 
