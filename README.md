@@ -321,7 +321,7 @@ les tablettes et les ordinateurs. Cela assure une bonne expérience utilisateur 
    Par exemple, un objet 'voiture' peut avoir des attributs comme la couleur et des méthodes comme 'démarrer'.
    Cette approche permet une organisation logique et structurée du code, facilitant sa gestion, sa compréhension et sa réutilisation.
 
-3) __Qu’est-ce qu’une classe ? Comment la déclare-t-on ?__
+2) __Qu’est-ce qu’une classe ? Comment la déclare-t-on ?__
 Une classe en POO est comme une boîte à outils qui contient des outils (attributs) et des actions que tu peux faire avec ces outils (méthodes).
 
 class Personne { // propriétés de la classe public $nom; public $prenom; public $age;
@@ -349,11 +349,11 @@ Une classe est un modèle pour créer des objets. Un objet est une instance de c
 des méthodes (fonctions). Par exemple, une classe "Voiture" peut créer un objet "voiture1" avec des attributs comme
 la couleur et des méthodes comme démarrer.
 
-5) __Définir la notion de propriété / attribut / méthode__
+4) __Définir la notion de propriété / attribut / méthode__
 En programmation orientée objet, on utilise des propriétés pour garder des informations sur un objet, des attributs pour décrire cet objet
 et des méthodes pour dire à l'objet comment se comporter. Ces idées aident à bien représenter les objets dans un programme informatique.
 
-6) __Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité__
+5) __Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité__
 La visibilité d'une propriété ou d'une méthode d'une classe en programmation détermine si celle-ci peut être accédée depuis l'extérieur de la classe.
 Les différents types de visibilité sont :
 - Public : la propriété ou la méthode peut être accédée depuis n'importe quel endroit dans le programme, que ce soit à l'intérieur ou à l'extérieur de la classe.
@@ -378,30 +378,30 @@ Lorsqu'un nouvel objet "Personne" est créé en utilisant ce constructeur, les v
 L'encapsulation, c'est comme mettre des données et des actions dans une boîte verrouillée. On ne peut accéder ou modifier ces données qu'en utilisant
 des clés spécifiques (méthodes), ce qui protège les données et contrôle les changements.
 
-9) __Définir l’opérateur de résolution de portée__
+8) __Définir l’opérateur de résolution de portée__
 L'opérateur de résolution de portée "::" permet d'accéder aux membres d'une classe ou d'un objet depuis une autre partie du programme.
 Il aide à organiser le code et éviter les conflits en appelant des fonctions ou variables spécifiques d'une classe.
 
-11) __Définir une méthode / propriété statique__
+9) __Définir une méthode / propriété statique__
 Une méthode ou propriété statique est une fonction ou une variable spécifique à une classe qui peut être appelée ou utilisée sans avoir besoin d'instancier
 un objet de cette classe.
 Cela signifie que la méthode ou propriété statique est partagée entre toutes les instances de la classe et peut être appelée directement en utilisant le nom de la classe.
 
-12) __Définir le polymorphisme en POO__
+10) __Définir le polymorphisme en POO__
 C'est un concept qui permet à un objet de se comporter de différentes manières, en fonction du contexte dans lequel il est utilisé.
 Cela signifie qu'un même nom de méthode peut avoir des implémentations différentes dans différentes classes.
 Cela permet d'écrire un code plus générique et flexible, car on peut utiliser un objet de différentes manières sans avoir à connaître sa classe exacte.
 
-13) __Définir une méthode / classe abstraite ?__
+11) __Définir une méthode / classe abstraite ?__
 Une méthode abstraite est une méthode qui n'a pas de corps ou d'implémentation dans une classe, mais qui doit être définie dans les classes qui en héritent.
 Une classe abstraite est une classe qui contient au moins une méthode abstraite et qui ne peut pas être instanciée directement, mais qui sert de modèle pour
 d'autres classes qui vont en hériter et implémenter les méthodes abstraites.
 
-14) __Définir le chaînage de méthodes__
+12) __Définir le chaînage de méthodes__
 C'est une technique qui consiste à appeler plusieurs méthodes d'un objet les unes après les autres dans une seule instruction. Cela permet de simplifier
 le code et d'améliorer la lisibilité en évitant la répétition de code.
 
-15) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
+13) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
 La méthode __toString() est une méthode spéciale en programmation orientée objet (POO) qui permet de définir comment un objet doit se comporter lorsqu'il
 est converti en chaîne de caractères. Elle est appelée automatiquement lorsque l'objet est utilisé dans un contexte où une chaîne de caractères est attendue.
 
