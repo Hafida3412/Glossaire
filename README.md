@@ -683,11 +683,11 @@ un projet Spring.
 Le bundle Maker de Symfony permet de créer rapidement des éléments de code comme des entités, des contrôleurs et des formulaires, ce qui facilite le développement
 en automatisant des tâches récurrentes.
 
-10) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+10) __Quel est le langage de requêtage exploité au sein d’un projet Symfony ?__
 Symfony utilise le langage SQL pour les requêtes dans un projet, mais grâce à Doctrine, il est possible de manipuler les données de la base de données en utilisant
 des objets PHP plutôt que du SQL directement.
 
-11) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+11) __Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?__
 Le composant qui garantit l'authentification et l'autorisation des utilisateurs est un système de gestion des identités, souvent abrégé en
 IAM (Identity and Access Management). Ce système permet de vérifier l'identité des utilisateurs, de gérer leurs droits d'accès à différents systèmes et ressources,
 et de garantir la sécurité des informations sensibles.
