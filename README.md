@@ -709,11 +709,12 @@ La faille CSRF (Cross-Site Request Forgery) est une attaque qui exploite la conf
 en son nom.
 L'attaque consiste à envoyer des requêtes HTTP légitimes à un site web en utilisant les informations d'identification de l'utilisateur sans son consentement.
 
-5) Définir l’attaque par force brute et l’attaque par dictionnaire
+5) __Définir l’attaque par force brute et l’attaque par dictionnaire__
 L'attaque par force brute teste toutes les combinaisons de caractères pour trouver un mot de passe, tandis que l'attaque par dictionnaire utilise une liste de mots
-courants pour deviner le mot de passe. Il est important de choisir des mots de passe complexes pour se protéger.
+courants pour deviner le mot de passe.
+Il est important de choisir des mots de passe complexes pour se protéger.
 
-6) Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
+7) __Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement__
 - Débordement de tampon (Buffer Overflow) : Cette faille se produit lorsqu'un programme écrit en mémoire en dehors de la zone prévue pour cela,
 ce qui peut conduire à l'exécution de code malveillant.
 
@@ -729,14 +730,14 @@ ou d'accéder à des données sensibles.
 - Contournement de l'authentification (Authentication Bypass) : Cette faille permet à un attaquant de contourner les mécanismes d'authentification d'une application pour
 accéder à des fonctionnalités ou des données privilégiées.
 
-6) A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
+6) __A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?__
 L'authentification vérifie l'identité de l'utilisateur avec un nom d'utilisateur et un mot de passe, tandis que l'autorisation détermine les actions autorisées
 en fonction du rôle de l'utilisateur.
 
 Ces deux processus permettent de contrôler l'accès aux fonctionnalités et données de l'application web, renforçant ainsi sa sécurité et préservant la confidentialité 
 des informations.
 
-En résumé, l'authentification vérifie l'identité, tandis que l'autorisation contrôle les actions permises, garantissant que seuls les utilisateurs légitimes accèdent 
+L'authentification vérifie l'identité, tandis que l'autorisation contrôle les actions permises, garantissant que seuls les utilisateurs légitimes accèdent 
 aux données et fonctionnalités appropriées.
 
 7) Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
