@@ -672,18 +672,22 @@ Le moteur de template utilisé par défaut dans Symfony est Twig.
 L'ORM (Object-Relational Mapping) est un outil qui relie une base de données à un langage de programmation objet.
 Doctrine est l'ORM principal utilisé dans Symfony pour simplifier la manipulation des données en les représentant sous forme d'objets PHP.
 
-7) Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
-contient l’intégralité des dépendances du projet ?
+7) __Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
+contient l’intégralité des dépendances du projet ?__
+L'injection de dépendances est un principe de développement logiciel où les dépendances d'un objet sont fournies plutôt que créées à l'intérieur de l'objet,
+rendant le code plus clair, modulable et facile à tester. Spring Framework est l'outil le plus utilisé pour gérer l'injection de dépendances en Java,
+grâce à son module Spring IoC. Le fichier applicationContext.xml définit les beans (objets gérés par Spring) et leurs dépendances pour l'injection de dépendances dans
+un projet Spring.
 
-8) __Que permet le bundle Maker au sein de Symfony ?__
+9) __Que permet le bundle Maker au sein de Symfony ?__
 Le bundle Maker de Symfony permet de créer rapidement des éléments de code comme des entités, des contrôleurs et des formulaires, ce qui facilite le développement
 en automatisant des tâches récurrentes.
 
-9) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
+10) Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
 Symfony utilise le langage SQL pour les requêtes dans un projet, mais grâce à Doctrine, il est possible de manipuler les données de la base de données en utilisant
 des objets PHP plutôt que du SQL directement.
 
-10) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
+11) Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 Le composant qui garantit l'authentification et l'autorisation des utilisateurs est un système de gestion des identités, souvent abrégé en
 IAM (Identity and Access Management). Ce système permet de vérifier l'identité des utilisateurs, de gérer leurs droits d'accès à différents systèmes et ressources,
 et de garantir la sécurité des informations sensibles.
