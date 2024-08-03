@@ -694,12 +694,12 @@ et de garantir la sécurité des informations sensibles.
 
 ## Sécurité
 
-1) Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
+1) __Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?__
 L'injection SQL est une attaque informatique qui utilise du code malveillant pour accéder, modifier ou supprimer des données en infiltrant un système.
 Pour se protéger, il est important d'utiliser des requêtes préparées, valider et nettoyer les données entrantes, limiter les privilèges d'accès,
 installer un pare-feu d'application web et mettre à jour régulièrement les logiciels et applications.
 
-2) Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+2) __Qu’est-ce que la faille XSS ? Comment s’en prémunir ?__
 Une faille XSS (Cross-Site Scripting) est une faille de sécurité courante sur les sites web qui permet à un attaquant d'injecter du code malveillant dans des
 pages web consultées par d'autres utilisateurs. Ce code peut être du JavaScript, du HTML ou d'autres langages et peut être utilisé pour voler des informations sensibles,
 rediriger les utilisateurs vers des sites malveillants, ou détourner des sessions utilisateurs.
