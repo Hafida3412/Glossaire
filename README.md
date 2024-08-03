@@ -548,12 +548,13 @@ Dans une base de données, les données sont stockées dans des TABLES (chaque t
 lignes appelées ENREGISTREMENT (=lignes dans une table) et de colonnes appelées ATTRIBUTS (=colonne dans une table)
 
 9) __Quelle est la différence entre une base de données relationnelle et non relationnelle ?__
-Les bases de données relationnelles stockent des données sous forme de tables liées entre elles par des clés étrangères, suivent le modèle ACID et conviennent aux
-données structurées et aux relations complexes. Les bases de données non relationnelles stockent des données de manière flexible, sont conçues pour être
-hautement évolutives et adaptées aux données semi-structurées ou non structurées. Elles ne suivent pas nécessairement le modèle ACID et sont adaptées aux environnements
-nécessitant une haute performance et disponibilité.
+Les bases de données relationnelles sont composées de tables reliées entre elles par des clés étrangères et suivent le modèle ACID (Atomicité, Cohérence, Isolation,
+Durabilité). C'est un ensemble de propriétés garantissant la fiabilité et la cohérence des transactions dans les bases de données relationnelles.
+En revanche, les bases de données non relationnelles sont flexibles et conçues pour être très évolutives. Ces technologies sont très efficaces pour organiser des
+informations qui ne sont pas rangées de manière très organisée, et elles sont également idéales pour les situations où il est crucial d'obtenir des résultats rapidement
+et de manière constante.
 
-10) __Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?__
+11) __Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?__
 Une jointure dans une base de données est une opération qui permet de combiner des données provenant de deux tables différentes en fonction d'une condition commune entre les deux. Il existe plusieurs types de jointures, les principales sont :
 
 - Jointure interne : Elle ne renvoie que les lignes des tables qui ont une correspondance dans les deux tables.
