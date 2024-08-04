@@ -740,16 +740,16 @@ des informations.
 L'authentification vérifie l'identité, tandis que l'autorisation contrôle les actions permises, garantissant que seuls les utilisateurs légitimes accèdent 
 aux données et fonctionnalités appropriées.
 
-7) Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
+7) __Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage__
 Le hachage d'un mot de passe transforme le mot de passe en une chaîne aléatoire pour le protéger.
 Il existe plusieurs algorithmes de hachage, certains obsolètes et d'autres sécurisés comme SHA-256 ou bcrypt.
 Il est important d'utiliser des algorithmes sécurisés pour protéger les données en ligne.
 
-8) Qu’est-ce qu’une politique de mots de passe forts ?
+8) __Qu’est-ce qu’une politique de mots de passe forts ?__
 Une politique de mots de passe forts aide à protéger les comptes en imposant des règles comme des mots de passe complexes
 et leur changement régulier, pour éviter les piratages.
 
-9) Qu’est-ce que l’hameçonnage ?
+9) __Qu’est-ce que l’hameçonnage ?__
 L'hameçonnage est une arnaque où les fraudeurs se font passer pour des entités légitimes pour voler des informations personnelles,
 en utilisant des e-mails ou des messages qui semblent réels. Il faut être vigilant et ne jamais donner ses informations en réponse à ces messages.
 
