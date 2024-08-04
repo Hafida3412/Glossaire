@@ -782,20 +782,20 @@ La Commission nationale de l'informatique et des libertés (CNIL)
 Pour utiliser les informations personnelles d'une personne, il faut son autorisation.
 Cette autorisation doit être donnée librement, clairement, et de manière explicite. La personne doit être bien au courant de ce qu'elle autorise.
 
-8) Qu’est-ce qu’une politique de confidentialité ?
-C'est un document qui informe les individus sur la manière dont une organisation collecte, stocke et protège leurs informations personnelles.
-Elle est souvent utilisée sur les sites internet, les applications et les plateformes en ligne. Les entreprises doivent respecter leur propre politique
-de confidentialité et se conformer aux lois en vigueur en matière de protection des données.
+8) __Qu’est-ce qu’une politique de confidentialité ?__
+Une politique de confidentialité est un document qui explique comment une entreprise gère les informations personnelles de ses utilisateurs.
+Elle décrit comment l'entreprise collecte, conserve et protège ces informations.
+C'est comme un contrat entre l'entreprise et ses utilisateurs, qui explique comment les informations seront utilisées et protégées.
 
-9) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+10) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
 Le RGPD stipule que les données personnelles ne doivent être conservées que le temps nécessaire à leur finalité et impose aux entreprises de déterminer une
 durée de conservation raisonnable en fonction de divers critères. Il est essentiel de définir une politique de conservation des données pour respecter les principes
 de minimisation et de limitation de la durée de conservation.
 
-10) Quels sont les droits des utilisateurs selon le RGPD ?
+11) Quels sont les droits des utilisateurs selon le RGPD ?
 Le droit d'accès, le droit de rectification, le droit à l'effacement, le droit à la limitation du traitement, le droit à la portabilité des données, le droit d'opposition et le droit de ne pas faire l'objet d'une décision individuelle automatisée. Ces droits visent à protéger la vie privée des utilisateurs et à leur donner plus de contrôle sur leurs informations personnelles.
 
-11) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+12) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
 Les organisations doivent réfléchir soigneusement à quelles données elles collectent, pourquoi elles en ont besoin et pendant combien de temps elles doivent les conserver.
 Elles doivent également informer les individus de la manière dont leurs données seront utilisées et obtenir leur consentement avant de collecter leurs données.
 
