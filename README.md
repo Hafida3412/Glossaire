@@ -767,34 +767,35 @@ Règlement Général sur la Protection des Données
 2) __Quel est son objectif principal ?__
 Protéger les données personnelles des citoyens de l'Union européenne.
 
-3) Quelle est la date d’entrée en vigueur du RGPD ?
+3) __Quelle est la date d’entrée en vigueur du RGPD ?__
    En mai 2018
 
-4) Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
+4) __Quelles sont les sanctions possibles en cas de non-respect du RGPD ?__
 En cas de non-respect du RGPD, les sanctions possibles incluent des avertissements, des mises en demeure, des restrictions sur le traitement des données,
 des amendes administratives pouvant aller jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires annuel mondial de l'organisme, et des actions
-en justice pour obtenir réparation du préjudice. Il est crucial pour les organismes de se conformer au RGPD pour éviter ces conséquences sévères.
+en justice pour obtenir réparation du préjudice.
 
-5) En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
+5) __En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?__
 La Commission nationale de l'informatique et des libertés (CNIL) 
 
-6) Quel est le consentement valide selon le RPGD ?
-Le consentement valide selon le RGPD doit être donné librement, spécifiquement, de manière éclairée et univoque par la personne concernée, et doit être explicite. Les organisations doivent s'assurer de recueillir un tel consentement pour se conformer à la législation sur la protection des données.
+6) __Quel est le consentement valide selon le RPGD ?__
+Pour utiliser les informations personnelles d'une personne, il faut son autorisation.
+Cette autorisation doit être donnée librement, clairement, et de manière explicite. La personne doit être bien au courant de ce qu'elle autorise.
 
-7) Qu’est-ce qu’une politique de confidentialité ?
+8) Qu’est-ce qu’une politique de confidentialité ?
 C'est un document qui informe les individus sur la manière dont une organisation collecte, stocke et protège leurs informations personnelles.
 Elle est souvent utilisée sur les sites internet, les applications et les plateformes en ligne. Les entreprises doivent respecter leur propre politique
 de confidentialité et se conformer aux lois en vigueur en matière de protection des données.
 
-8) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+9) Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
 Le RGPD stipule que les données personnelles ne doivent être conservées que le temps nécessaire à leur finalité et impose aux entreprises de déterminer une
 durée de conservation raisonnable en fonction de divers critères. Il est essentiel de définir une politique de conservation des données pour respecter les principes
 de minimisation et de limitation de la durée de conservation.
 
-9) Quels sont les droits des utilisateurs selon le RGPD ?
+10) Quels sont les droits des utilisateurs selon le RGPD ?
 Le droit d'accès, le droit de rectification, le droit à l'effacement, le droit à la limitation du traitement, le droit à la portabilité des données, le droit d'opposition et le droit de ne pas faire l'objet d'une décision individuelle automatisée. Ces droits visent à protéger la vie privée des utilisateurs et à leur donner plus de contrôle sur leurs informations personnelles.
 
-10) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+11) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
 Les organisations doivent réfléchir soigneusement à quelles données elles collectent, pourquoi elles en ont besoin et pendant combien de temps elles doivent les conserver.
 Elles doivent également informer les individus de la manière dont leurs données seront utilisées et obtenir leur consentement avant de collecter leurs données.
 
