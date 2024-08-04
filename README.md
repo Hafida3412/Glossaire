@@ -753,7 +753,7 @@ et leur changement régulier, pour éviter les piratages.
 L'hameçonnage est une arnaque où les fraudeurs se font passer pour des entités légitimes pour voler des informations personnelles,
 en utilisant des e-mails ou des messages qui semblent réels. Il faut être vigilant et ne jamais donner ses informations en réponse à ces messages.
 
-10) Définir la « validation des entrées »
+10) __Définir la « validation des entrées »__
 La validation des entrées consiste à vérifier et filtrer les données de l'utilisateur avant de les utiliser dans un système informatique pour
 assurer la sécurité et l'intégrité du système.
 Cela permet d'éviter les erreurs et les manipulations de données malveillantes.   
@@ -764,7 +764,7 @@ Cela permet d'éviter les erreurs et les manipulations de données malveillantes
 1) __Qu’est-ce que le RGPD ?__
 Règlement Général sur la Protection des Données
 
-2) Quel est son objectif principal ?
+2) __Quel est son objectif principal ?__
 Protéger les données personnelles des citoyens de l'Union européenne.
 
 3) Quelle est la date d’entrée en vigueur du RGPD ?
