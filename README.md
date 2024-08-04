@@ -791,10 +791,12 @@ C'est comme un contrat entre l'entreprise et ses utilisateurs, qui explique comm
 Le RGPD stipule que les données personnelles ne doivent être conservées que le temps nécessaire à leur finalité et impose aux entreprises de déterminer une
 durée de conservation raisonnable en fonction de divers critères.
 
-12) Quels sont les droits des utilisateurs selon le RGPD ?
-Le droit d'accès, le droit de rectification, le droit à l'effacement, le droit à la limitation du traitement, le droit à la portabilité des données, le droit d'opposition et le droit de ne pas faire l'objet d'une décision individuelle automatisée. Ces droits visent à protéger la vie privée des utilisateurs et à leur donner plus de contrôle sur leurs informations personnelles.
+12) __Quels sont les droits des utilisateurs selon le RGPD ?__
+Le droit d'accès, le droit de rectification, le droit à l'effacement, le droit à la limitation du traitement, le droit à la portabilité des données,
+le droit d'opposition et le droit de ne pas faire l'objet d'une décision individuelle automatisée.
+Ces droits visent à protéger la vie privée des utilisateurs et à leur donner plus de contrôle sur leurs informations personnelles.
 
-13) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
+14) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
 Les organisations doivent réfléchir soigneusement à quelles données elles collectent, pourquoi elles en ont besoin et pendant combien de temps elles doivent les conserver.
 Elles doivent également informer les individus de la manière dont leurs données seront utilisées et obtenir leur consentement avant de collecter leurs données.
 
