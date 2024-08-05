@@ -441,10 +441,10 @@ Trois exemples de design pattern couramment utilisés sont:
 3) __Qu’est-ce que l’architecture MVC ?__
 L'architecture MVC (Modèle-Vue-Contrôleur) est un modèle de conception utilisé dans le développement de logiciels.
 Il divise une application en trois composants : le modèle, qui gère les données, la vue, qui affiche les données à l'utilisateur,
-et le contrôleur, qui traite les actions de l'utilisateur et met à jour le modèle. Cette séparation des responsabilités permet de
-rendre le code plus modulaire, maintenable et évolutif.
+et le contrôleur, qui traite les actions de l'utilisateur et met à jour le modèle.
+Cette séparation des responsabilités permet de rendre le code plus modulaire, maintenable et évolutif.
 
-4) __Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?__
+5) __Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?__
 - Le modèle (Model) : C'est la couche qui représente les données de l'application et la logique métier. Elle traite les requêtes et les modifications des données.
 - La vue (View) : C'est la couche qui affiche les données au utilisateur et gère l'interface graphique de l'application.
 - Le contrôleur (Controller) : C'est la couche qui fait le lien entre le modèle et la vue. Il récupère les requêtes de l'utilisateur, traite les données en conséquence,
