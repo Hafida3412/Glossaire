@@ -675,9 +675,9 @@ Doctrine est l'ORM principal utilisé dans Symfony pour simplifier la manipulati
 7) __Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
 contient l’intégralité des dépendances du projet ?__
 L'injection de dépendances est un principe de développement logiciel où les dépendances d'un objet sont fournies plutôt que créées à l'intérieur de l'objet,
-rendant le code plus clair, modulable et facile à tester. Spring Framework est l'outil le plus utilisé pour gérer l'injection de dépendances en Java,
-grâce à son module Spring IoC. Le fichier applicationContext.xml définit les beans (objets gérés par Spring) et leurs dépendances pour l'injection de dépendances dans
-un projet Spring.
+rendant le code plus clair, modulable et facile à tester.
+Spring Framework est l'outil le plus utilisé pour gérer l'injection de dépendances en Java, grâce à son module Spring IoC.
+Le fichier applicationContext.xml définit les beans (objets gérés par Spring) et leurs dépendances pour l'injection de dépendances dans un projet Spring.
 
 9) __Que permet le bundle Maker au sein de Symfony ?__
 Le bundle Maker de Symfony permet de créer rapidement des éléments de code comme des entités, des contrôleurs et des formulaires, ce qui facilite le développement
