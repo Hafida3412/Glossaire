@@ -796,13 +796,11 @@ Le droit d'accès, le droit de rectification, le droit à l'effacement, le droit
 le droit d'opposition et le droit de ne pas faire l'objet d'une décision individuelle automatisée.
 Ces droits visent à protéger la vie privée des utilisateurs et à leur donner plus de contrôle sur leurs informations personnelles.
 
-14) Qu’est-ce que le principe de minimisation des données selon le RGPD ?
-Les organisations doivent réfléchir soigneusement à quelles données elles collectent, pourquoi elles en ont besoin et pendant combien de temps elles doivent les conserver.
-Elles doivent également informer les individus de la manière dont leurs données seront utilisées et obtenir leur consentement avant de collecter leurs données.
+14) __Qu’est-ce que le principe de minimisation des données selon le RGPD ?__
+Le principe de minimisation des données signifie que les organisations doivent uniquement collecter les données nécessaires pour leur objectif
+et ne doivent pas conserver les données plus longtemps que nécessaire. Cela permet de protéger la vie privée des personnes et de réduire les risques de fuite de données.
+ 
 
-En appliquant le principe de minimisation des données, les organisations peuvent réduire les risques de violation de la vie privée et de fuite de données, tout en renforçant la confiance des individus dans la manière dont leurs données sont traitées. Il s'agit d'un élément clé de la conformité au RGPD et de la protection efficace des données personnelles.
- 
- 
  ## SEO
 
 1) Qu’est-ce que le SEO ?
