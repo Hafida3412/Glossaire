@@ -452,16 +452,17 @@ et décide quelle vue afficher.
 
 5) __Quels sont les avantages de l’architecture MVC ?__
 L'architecture MVC permet de séparer clairement les différents éléments d'une application : le modèle qui représente les données, la vue qui affiche ces données
-à l'utilisateur et le contrôleur qui gère les interactions entre le modèle et la vue. Cela facilite la maintenance, la réutilisation du code et la collaboration
-entre les développeurs. De plus, cela permet une meilleure organisation du code et une plus grande flexibilité dans le développement de l'application.
+à l'utilisateur et le contrôleur qui gère les interactions entre le modèle et la vue.
+Cela facilite la maintenance, la réutilisation du code et la collaboration entre les développeurs.
+De plus, cela permet une meilleure organisation du code et une plus grande flexibilité dans le développement de l'application.
 
-6) __Existe-t-il des variantes à l’architecture MVC ?__
+7) __Existe-t-il des variantes à l’architecture MVC ?__
 Oui, il existe des variantes à l'architecture MVC, telles que MVVM (Modèle-Vue-VueModèle) et MVP (Modèle-Vue-Présentateur).
 Ces variantes sont des adaptations de l'architecture MVC pour répondre à des besoins spécifiques ou pour améliorer la séparation
 des préoccupations dans une application.
 Elles sont utilisées dans le développement de logiciels pour organiser le code de manière claire et modulaire.
 
-7) __Qu’est-ce qu’une API ? Définir l’architecture REST__
+8) __Qu’est-ce qu’une API ? Définir l’architecture REST__
 Une API est comme un langage commun que les différents logiciels utilisent pour se parler et échanger des informations.
 Imaginez un groupe de personnes qui parlent différentes langues : une API est comme un traducteur qui permet à tout le monde de se comprendre.
 
