@@ -807,9 +807,9 @@ Cela permet de protéger la vie privée des personnes et de réduire les risques
 1) __Qu’est-ce que le SEO ?__
 Search Engine Optimization
 
-2) Quel est l’objectif principal du SEO ?
+2) __Quel est l’objectif principal du SEO ?__
 Le SEO vise à améliorer le classement d'un site web dans les résultats des moteurs de recherche en optimisant divers aspects tels que le contenu,
-les balises, les liens et la vitesse de chargement, afin d'attirer plus de trafic organique et augmenter sa visibilité en ligne.
+les balises, les liens et la vitesse de chargement, afin d'attirer plus de visiteur sur le site (sans payer) et augmenter sa visibilité en ligne.
 
 3) Existe-t-il plusieurs types de référencement ? Lesquels ?
 Il existe plusieurs types de référencement, tels que le référencement naturel (SEO), le référencement payant (SEA), le référencement local, le référencement
