@@ -804,7 +804,7 @@ Cela permet de protéger la vie privée des personnes et de réduire les risques
 
  ## SEO
 
-1) Qu’est-ce que le SEO ?
+1) __Qu’est-ce que le SEO ?__
 Search Engine Optimization
 
 2) Quel est l’objectif principal du SEO ?
