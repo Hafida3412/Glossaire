@@ -798,7 +798,8 @@ Ces droits visent à protéger la vie privée des utilisateurs et à leur donner
 
 14) __Qu’est-ce que le principe de minimisation des données selon le RGPD ?__
 Le principe de minimisation des données signifie que les organisations doivent uniquement collecter les données nécessaires pour leur objectif
-et ne doivent pas conserver les données plus longtemps que nécessaire. Cela permet de protéger la vie privée des personnes et de réduire les risques de fuite de données.
+et ne doivent pas conserver les données plus longtemps que nécessaire.
+Cela permet de protéger la vie privée des personnes et de réduire les risques de fuite de données.
  
 
  ## SEO
