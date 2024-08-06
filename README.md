@@ -814,11 +814,9 @@ les balises, les liens et la vitesse de chargement, afin d'attirer plus de visit
 3) __Existe-t-il plusieurs types de référencement ? Lesquels ?__
 Il existe plusieurs types de référencement, tels que le référencement naturel (SEO), le référencement payant (SEA), le référencement local, le référencement
 sur les réseaux sociaux, le référencement vidéo et le référencement mobile.
-Chacun de ces types vise à améliorer la visibilité d'une entreprise en ligne sur les moteurs de recherche, les réseaux sociaux ou les plateformes vidéo, en
-fonction de ses besoins et objectifs spécifiques. Ces différentes stratégies de référencement peuvent être utilisées de manière complémentaire pour renforcer
-la présence en ligne d'une entreprise et augmenter son audience.
+Ces stratégies peuvent être combinées pour renforcer la présence en ligne d'une entreprise et augmenter son audience.
 
-5) Qu’est-ce que la densité de mots-clés en SEO ?
+5) __Qu’est-ce que la densité de mots-clés en SEO ?__
 La densité de mots-clés en SEO est la fréquence à laquelle un mot-clé est utilisé par rapport au nombre total de mots sur une page web.
 C'est un facteur important pour l'optimisation des moteurs de recherche, mais l'abus de mots-clés peut être préjudiciable au classement.
 Il est essentiel de maintenir une densité naturelle tout en offrant un contenu pertinent et utile aux utilisateurs.
