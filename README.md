@@ -23,7 +23,7 @@ de chaque lettre initiale.
 
 1) __Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels 
 permettant ce contexte?__
-   Pour exécuter un script PHP (Hypertext Preprocessor), il faut installer Laragon ou XAMMPP.
+   Pour exécuter un script PHP (Hypertext Preprocessor), il faut installer Laragon ou XAMPP(Cross-platform, Apache, MySQL, PHP et Perl).
 
 2) __Qu’est-ce qu’un algorithme?__
    C'est la description d'une suite d'étapes permettant d'obtenir un résultat à partir d'éléments fournis au départ.
