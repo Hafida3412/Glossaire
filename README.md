@@ -26,9 +26,8 @@ permettant ce contexte?__
    Pour exécuter un script PHP (Hypertext Preprocessor), il faut installer Laragon ou XAMPP(Cross-platform, Apache, MySQL, PHP et Perl).
 
 2) __Qu’est-ce qu’un algorithme?__
-   C'est la description d'une suite d'étapes permettant d'obtenir un résultat à partir d'éléments fournis au départ.
-   Exemple: une recette de cuisine est un algorithme permettant d'obtenir un plat à partir d'ingrédients.
-
+   C'est un ensemble d'instructions pour résoudre un problème ou effectuer une tâche, semblable à une recette de cuisine pour obtenir un résultat précis.
+  
 3) __Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?__
    Une variable est un élément mesurable qui peut prendre différentes valeurs.
    Exemple: taille, âge, poids...
