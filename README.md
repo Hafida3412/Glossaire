@@ -816,11 +816,12 @@ sur les réseaux sociaux, le référencement vidéo et le référencement mobile
 Ces stratégies peuvent être combinées pour renforcer la présence en ligne d'une entreprise et augmenter son audience.
 
 5) __Qu’est-ce que la densité de mots-clés en SEO ?__
-La densité de mots-clés en SEO est la fréquence à laquelle un mot-clé est utilisé par rapport au nombre total de mots sur une page web.
-C'est un facteur important pour l'optimisation des moteurs de recherche, mais l'abus de mots-clés peut être préjudiciable au classement.
-Il est essentiel de maintenir une densité naturelle tout en offrant un contenu pertinent et utile aux utilisateurs.
+La densité de mots-clés en SEO mesure combien un mot-clé est utilisé par rapport au nombre de mots sur une page web.
+Il est important de l'utiliser de manière équilibrée pour améliorer le classement sur les moteurs de recherche, sans en abuser,
+pour ne pas nuire à la visibilité.
+Il est primordial d'offrir un contenu pertinent et utile aux utilisateurs.
 
-6) __Qu’est-ce qu’une balise « alt » ?__
+7) __Qu’est-ce qu’une balise « alt » ?__
 La balise "alt" en HTML décrit les images pour les personnes aveugles et pour les moteurs de recherche. Elle est importante pour l'accessibilité
 et le référencement naturel.
 
