@@ -563,26 +563,26 @@ Une jointure dans une base de données est une opération qui permet de combiner
 - Jointure droite : Elle renvoie toutes les lignes de la table de droite et les lignes correspondantes dans la table de gauche.
 
 11) __A quoi sert une vue dans une base de données ?__
-Une vue dans une base de données permet de voir les données d'une ou plusieurs tables de manière organisée et structure, et de manipuler ces données plus facilement.
-On peut aussi limiter l'accès à certaines données en cachant des champs ou en ne montrant que certaines lignes qui correspondent à des critères spécifiques.
+Une vue dans une base de données montre les données de façon organisée et facilite leur manipulation. On peut restreindre l'accès à certaines informations
+en cachant des champs ou en filtrant les lignes selon des critères spécifiques.
 
-12) __Qu’est-ce que l’intégrité référentielle dans une base de données ?__
+13) __Qu’est-ce que l’intégrité référentielle dans une base de données ?__
 L'intégrité référentielle en base de données consiste à s'assurer que les liens entre les différentes tables sont respectés.
 Par exemple, si une table contient une clé étrangère qui fait référence à une clé primaire dans une autre table, il est important que la valeur de
 la clé étrangère corresponde toujours à une valeur existante dans la clé primaire. Cela permet d'éviter les erreurs et les incohérences dans les
 données de la base de données.
 
-13) __Quelles sont les fonctions d’agrégation en SQL ?__
+14) __Quelles sont les fonctions d’agrégation en SQL ?__
 En SQL, les fonctions d'agrégation sont utilisées pour effectuer des calculs sur un ensemble de valeurs, telles que la somme, la moyenne, le maximum, le minimum, etc.
 Elles permettent de regrouper et de résumer les données d'une table en fonction de critères spécifiques, comme par exemple regrouper les ventes par mois ou par catégorie.
 Les fonctions d'agrégation sont souvent utilisées avec la clause GROUP BY pour regrouper les données avant d'appliquer les calculs.
 
-14) __Qu’est ce qu’un CRUD dans le contexte d’une base de données ?__
+15) __Qu’est ce qu’un CRUD dans le contexte d’une base de données ?__
 Le terme CRUD est un acronyme pour Create, Read, Update et Delete. Il fait référence aux opérations de base que l'on peut effectuer sur une base de données :
 créer des données, lire des données, mettre à jour des données et supprimer des données.
 Ces opérations permettent de gérer les informations stockées dans une base de données de manière simple et efficace.
 
-15) __Quelles sont les clauses qui permettent de :__
+16) __Quelles sont les clauses qui permettent de :__
 a. __Insérer un nouvel enregistrement dans une table__
 On utilise généralement la clause INSERT INTO. On spécifie le nom de la table dans laquelle on veut insérer les données, puis on précise les valeurs à insérer dans chaque colonne de la table. Par exemple :
 
