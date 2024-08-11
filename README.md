@@ -821,46 +821,45 @@ C'est un facteur important pour l'optimisation des moteurs de recherche, mais l'
 Il est essentiel de maintenir une densité naturelle tout en offrant un contenu pertinent et utile aux utilisateurs.
 
 6) __Qu’est-ce qu’une balise « alt » ?__
-La balise "alt" en HTML est utilisée pour décrire le contenu des images aux personnes aveugles ou malvoyantes, ainsi qu'aux navigateurs qui ne peuvent
-pas charger les images.
-Elle est également bénéfique pour le référencement naturel car elle permet aux moteurs de recherche de mieux comprendre le contenu des images.
+La balise "alt" en HTML décrit les images pour les personnes aveugles et pour les moteurs de recherche. Elle est importante pour l'accessibilité
+et le référencement naturel.
 
-7) __Qu’est-ce que la balise « meta description » ?__
+8) __Qu’est-ce que la balise « meta description » ?__
 La balise meta description est une étiquette HTML permettant de définir une courte description du contenu d'une page web.
 Elle apparaît dans les résultats des moteurs de recherche, sous le titre de la page, afin de donner aux utilisateurs une idée du contenu avant de cliquer.
 Elle influence également le référencement naturel de la page, les moteurs de recherche l'utilisant pour déterminer la pertinence de la page par rapport à
 une requête de recherche.
 
-8) Qu’est-ce que le « nofollow » en SEO ?
+9) Qu’est-ce que le « nofollow » en SEO ?
 Le "nofollow" en SEO est une valeur d'attribut dans les balises HTML qui indique aux moteurs de recherche de ne pas suivre les liens d'une page web,
 ce qui peut aider à éviter les pénalités liées à des liens de faible qualité ou non naturels.
 
-9) Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
+10) Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
 En résumé, un contenu de qualité est crucial pour le référencement d'un site web car il améliore la pertinence, attire du trafic organique, augmente le temps
 passé par les utilisateurs sur le site, réduit le taux de rebond, favorise les liens entrants naturels, et améliore l'autorité et la crédibilité du site.
 Cela contribue à un meilleur classement dans les résultats des moteurs de recherche.
 
-10) Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
+11) Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
 L'utilisation structurée des balises de titre est essentielle pour améliorer l'accessibilité, le référencement, la clarté du contenu et la cohérence visuelle d'un site web.
 Cela facilite la navigation pour les utilisateurs malvoyants, améliore le classement dans les moteurs de recherche, rend le contenu plus clair et organisé, et assure une présentation uniforme.
 
-11) Quelle est la recommandation pour les URL d'un site web bien référencé ?
+12) Quelle est la recommandation pour les URL d'un site web bien référencé ?
 Pour un bon référencement de votre site web, utilisez des URL conviviales, simples, descriptives et contenant des mots-clés pertinents. Évitez les URL complexes,
 privilégiez les tirets pour séparer les mots et maintenez des URLs cohérentes et statiques. Évitez les redirections et modifications fréquentes qui pourraient
 affecter le référencement.
 
-12) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
+13) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
 Le maillage interne d'un site web consiste en la structure des liens internes entre les différentes pages, ce qui aide les moteurs de recherche à indexer et classer les pages.
 Il favorise le transfert de pertinence et de popularité entre les pages, améliorant ainsi le référencement et l'expérience utilisateur.
 En résumé, le maillage interne est essentiel pour l'optimisation du site, son référencement et la navigation des visiteurs.
 
-13) Qu'est-ce que l'optimisation des images pour le référencement ?
+14) Qu'est-ce que l'optimisation des images pour le référencement ?
 L'optimisation des images pour le référencement vise à améliorer la visibilité et la pertinence des images sur un site web afin d'optimiser leur référencement dans
 les moteurs de recherche. Cela implique l'optimisation du balisage des images, la compression des fichiers, le choix de noms de fichiers pertinents et des dimensions
 adaptées, ainsi que la création de sitemaps dédiés aux images. Cette pratique permet d'améliorer le positionnement des images dans les résultats de recherche et d'attirer
 plus de trafic qualifié sur le site.
 
-14) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+15) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
 Un plan de site (sitemap) est un fichier XML qui répertorie toutes les pages d'un site web et indique leur structure, leur organisation et leurs liens entre elles.
 Il permet aux moteurs de recherche de comprendre en profondeur le contenu du site et de l'indexer de manière plus efficace.
 Un plan de site bien conçu est essentiel pour optimiser le référencement d'un site web en aidant les moteurs de recherche à indexer efficacement son contenu et à
