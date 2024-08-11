@@ -519,7 +519,6 @@ La relation "Many To Many" est modélisée par une table intermédiaire qui faci
    C'est comme une grande bibliothèqte numérique où on peut ranger des livres (=données) pour les retrouver facilement 
    plus tard. Elles sont essentielles pour les applications Web, les systèmes de gestion...
 
-
 8) __Définir les notions suivantes :__
 a. SQL
    Structured Query Language: « langage de requêtes structurées »
@@ -821,12 +820,12 @@ La densité de mots-clés en SEO est la fréquence à laquelle un mot-clé est u
 C'est un facteur important pour l'optimisation des moteurs de recherche, mais l'abus de mots-clés peut être préjudiciable au classement.
 Il est essentiel de maintenir une densité naturelle tout en offrant un contenu pertinent et utile aux utilisateurs.
 
-6) Qu’est-ce qu’une balise « alt » ?
+6) __Qu’est-ce qu’une balise « alt » ?__
 La balise "alt" en HTML est utilisée pour décrire le contenu des images aux personnes aveugles ou malvoyantes, ainsi qu'aux navigateurs qui ne peuvent
 pas charger les images.
 Elle est également bénéfique pour le référencement naturel car elle permet aux moteurs de recherche de mieux comprendre le contenu des images.
 
-7) Qu’est-ce que la balise « meta description » ?
+7) __Qu’est-ce que la balise « meta description » ?__
 La balise meta description est une étiquette HTML permettant de définir une courte description du contenu d'une page web.
 Elle apparaît dans les résultats des moteurs de recherche, sous le titre de la page, afin de donner aux utilisateurs une idée du contenu avant de cliquer.
 Elle influence également le référencement naturel de la page, les moteurs de recherche l'utilisant pour déterminer la pertinence de la page par rapport à
