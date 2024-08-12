@@ -396,21 +396,22 @@ Une méthode abstraite n'a pas de corps et doit être définie dans les classes 
 et sert de modèle pour d'autres classes.
 
 13) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
-La méthode __toString() est une méthode spéciale en programmation orientée objet (POO) qui permet de définir comment un objet doit se comporter lorsqu'il
-est converti en chaîne de caractères. Elle est appelée automatiquement lorsque l'objet est utilisé dans un contexte où une chaîne de caractères est attendue.
+La méthode __toString() permet de définir comment un objet doit se comporter lorsqu'il est converti en chaîne de caractères en POO.
+Elle est appelée automatiquement dans certains cas.
 
-Il existe d'autres méthodes magiques en POO, telles que __construct() pour le constructeur de la classe, __destruct() pour le destructeur, __get() et __set() 
-pour la surcharge des accesseurs, etc. Ces méthodes sont appelées automatiquement dans certaines circonstances spécifiques.
+Il existe d'autres méthodes magiques en POO, telles que __construct() pour le constructeur de la classe, __destruct() pour le destructeur, __get() et __set()
+pour la surcharge des accesseurs, etc. 
+Ces méthodes sont appelées automatiquement dans certaines circonstances spécifiques.
 
-14) __Qu’est-ce qu’un « autoload » ?__
+15) __Qu’est-ce qu’un « autoload » ?__
 L'autoload est une fonctionnalité qui permet de charger automatiquement les classes ou les fichiers nécessaires au bon fonctionnement d'un programme.
 Cela évite d'avoir à inclure manuellement chaque classe ou fichier à chaque fois qu'ils sont nécessaires, ce qui simplifie le processus de développement
 et rend le code plus clair et facile à maintenir.
 
-15) __Comment appelle-t-on en français les « getters » et les « setters » ?__
+16) __Comment appelle-t-on en français les « getters » et les « setters » ?__
 On appelle les « getters » des « accesseurs » et les « setters » des « mutateurs ».
 
-16) __Qu’est-ce que la sérialisation en PHP ?__
+17) __Qu’est-ce que la sérialisation en PHP ?__
 La sérialisation en PHP est le processus de conversion d'objets ou de tableaux en une chaîne de caractères afin de les stocker ou de les transférer plus facilement.
 Cela permet de transformer des données complexes en une forme simple qui peut être utilisée ultérieurement.
 La désérialisation est l'opération inverse qui consiste à convertir la chaîne de caractères en objet ou en tableau d'origine.
