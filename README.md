@@ -392,13 +392,8 @@ Cela signifie qu'un même nom de méthode peut avoir des implémentations diffé
 Cela permet d'écrire un code plus générique et flexible, car on peut utiliser un objet de différentes manières sans avoir à connaître sa classe exacte.
 
 11) __Définir une méthode / classe abstraite ?__
-Une méthode abstraite est une méthode qui n'a pas de corps ou d'implémentation dans une classe, mais qui doit être définie dans les classes qui en héritent.
-Une classe abstraite est une classe qui contient au moins une méthode abstraite et qui ne peut pas être instanciée directement, mais qui sert de modèle pour
-d'autres classes qui vont en hériter et implémenter les méthodes abstraites.
-
-12) __Définir le chaînage de méthodes__
-C'est une technique qui consiste à appeler plusieurs méthodes d'un objet les unes après les autres dans une seule instruction. Cela permet de simplifier
-le code et d'améliorer la lisibilité en évitant la répétition de code.
+Une méthode abstraite n'a pas de corps et doit être définie dans les classes héritées, tandis qu'une classe abstraite contient au moins une méthode abstraite
+et sert de modèle pour d'autres classes.
 
 13) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
 La méthode __toString() est une méthode spéciale en programmation orientée objet (POO) qui permet de définir comment un objet doit se comporter lorsqu'il
