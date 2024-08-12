@@ -404,14 +404,13 @@ pour la surcharge des accesseurs, etc.
 Ces méthodes sont appelées automatiquement dans certaines circonstances spécifiques.
 
 15) __Qu’est-ce qu’un « autoload » ?__
-L'autoload est une fonctionnalité qui permet de charger automatiquement les classes ou les fichiers nécessaires au bon fonctionnement d'un programme.
-Cela évite d'avoir à inclure manuellement chaque classe ou fichier à chaque fois qu'ils sont nécessaires, ce qui simplifie le processus de développement
-et rend le code plus clair et facile à maintenir.
+L'autoload est une fonctionnalité qui charge automatiquement les classes ou fichiers nécessaires pour un programme, évitant ainsi de devoir les inclure
+manuellement à chaque utilisation. Cela simplifie le développement et rend le code plus clair et facile à gérer.
 
-16) __Comment appelle-t-on en français les « getters » et les « setters » ?__
+17) __Comment appelle-t-on en français les « getters » et les « setters » ?__
 On appelle les « getters » des « accesseurs » et les « setters » des « mutateurs ».
 
-17) __Qu’est-ce que la sérialisation en PHP ?__
+18) __Qu’est-ce que la sérialisation en PHP ?__
 La sérialisation en PHP est le processus de conversion d'objets ou de tableaux en une chaîne de caractères afin de les stocker ou de les transférer plus facilement.
 Cela permet de transformer des données complexes en une forme simple qui peut être utilisée ultérieurement.
 La désérialisation est l'opération inverse qui consiste à convertir la chaîne de caractères en objet ou en tableau d'origine.
