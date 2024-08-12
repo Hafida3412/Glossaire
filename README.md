@@ -567,16 +567,16 @@ la clé étrangère corresponde toujours à une valeur existante dans la clé pr
 données de la base de données.
 
 14) __Quelles sont les fonctions d’agrégation en SQL ?__
-En SQL, les fonctions d'agrégation sont utilisées pour effectuer des calculs sur un ensemble de valeurs, telles que la somme, la moyenne, le maximum, le minimum, etc.
-Elles permettent de regrouper et de résumer les données d'une table en fonction de critères spécifiques, comme par exemple regrouper les ventes par mois ou par catégorie.
-Les fonctions d'agrégation sont souvent utilisées avec la clause GROUP BY pour regrouper les données avant d'appliquer les calculs.
+En SQL, les fonctions d'agrégation sont utilisées pour calculer des valeurs sur un ensemble de données, comme la somme, la moyenne, le maximum ou le minimum.
+Elles aident à résumer les données d'une table en fonction de critères spécifiques, comme regrouper les ventes par mois ou par catégorie, en les combinant avec
+la clause GROUP BY.
 
-15) __Qu’est ce qu’un CRUD dans le contexte d’une base de données ?__
+16) __Qu’est ce qu’un CRUD dans le contexte d’une base de données ?__
 Le terme CRUD est un acronyme pour Create, Read, Update et Delete. Il fait référence aux opérations de base que l'on peut effectuer sur une base de données :
 créer des données, lire des données, mettre à jour des données et supprimer des données.
 Ces opérations permettent de gérer les informations stockées dans une base de données de manière simple et efficace.
 
-16) __Quelles sont les clauses qui permettent de :__
+17) __Quelles sont les clauses qui permettent de :__
 a. __Insérer un nouvel enregistrement dans une table__
 On utilise généralement la clause INSERT INTO. On spécifie le nom de la table dans laquelle on veut insérer les données, puis on précise les valeurs à insérer dans chaque colonne de la table. Par exemple :
 
