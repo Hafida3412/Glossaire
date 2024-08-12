@@ -395,7 +395,7 @@ Cela permet d'écrire un code plus générique et flexible, car on peut utiliser
 Une méthode abstraite n'a pas de corps et doit être définie dans les classes héritées, tandis qu'une classe abstraite contient au moins une méthode abstraite
 et sert de modèle pour d'autres classes.
 
-13) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
+12) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
 La méthode __toString() permet de définir comment un objet doit se comporter lorsqu'il est converti en chaîne de caractères en POO.
 Elle est appelée automatiquement dans certains cas.
 
@@ -403,14 +403,14 @@ Il existe d'autres méthodes magiques en POO, telles que __construct() pour le c
 pour la surcharge des accesseurs, etc. 
 Ces méthodes sont appelées automatiquement dans certaines circonstances spécifiques.
 
-15) __Qu’est-ce qu’un « autoload » ?__
+13) __Qu’est-ce qu’un « autoload » ?__
 L'autoload est une fonctionnalité qui charge automatiquement les classes ou fichiers nécessaires pour un programme, évitant ainsi de devoir les inclure
 manuellement à chaque utilisation. Cela simplifie le développement et rend le code plus clair et facile à gérer.
 
-17) __Comment appelle-t-on en français les « getters » et les « setters » ?__
+14) __Comment appelle-t-on en français les « getters » et les « setters » ?__
 On appelle les « getters » des « accesseurs » et les « setters » des « mutateurs ».
 
-18) __Qu’est-ce que la sérialisation en PHP ?__
+15) __Qu’est-ce que la sérialisation en PHP ?__
 La sérialisation en PHP est le processus de conversion d'objets ou de tableaux en une chaîne de caractères afin de les stocker ou de les transférer plus facilement.
 Cela permet de transformer des données complexes en une forme simple qui peut être utilisée ultérieurement.
 La désérialisation est l'opération inverse qui consiste à convertir la chaîne de caractères en objet ou en tableau d'origine.
