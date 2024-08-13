@@ -382,20 +382,17 @@ L'opérateur de résolution de portée "::" permet d'accéder aux membres d'une 
 Il aide à organiser le code et éviter les conflits en appelant des fonctions ou variables spécifiques d'une classe.
 
 9) __Définir une méthode / propriété statique__
-Une méthode ou propriété statique est une fonction ou une variable spécifique à une classe qui peut être appelée ou utilisée sans avoir besoin d'instancier
-un objet de cette classe.
-Cela signifie que la méthode ou propriété statique est partagée entre toutes les instances de la classe et peut être appelée directement en utilisant le nom de la classe.
+Les méthodes ou propriétés statiques sont des outils spécifiques à une classe qui peuvent être utilisés sans avoir à créer un objet de cette classe.
+Ils sont communs à toutes les instances de la classe et peuvent être appelés directement en utilisant le nom de la classe.
 
-10) __Définir le polymorphisme en POO__
-C'est un concept qui permet à un objet de se comporter de différentes manières, en fonction du contexte dans lequel il est utilisé.
-Cela signifie qu'un même nom de méthode peut avoir des implémentations différentes dans différentes classes.
-Cela permet d'écrire un code plus générique et flexible, car on peut utiliser un objet de différentes manières sans avoir à connaître sa classe exacte.
+11) __Définir le polymorphisme en POO__
+Cela signifie qu'une méthode peut avoir des implementations différentes dans différentes classes, ce qui facilite l'écriture de code sans avoir à connaître la classe exacte de l'objet.
 
-11) __Définir une méthode / classe abstraite ?__
+12) __Définir une méthode / classe abstraite ?__
 Une méthode abstraite n'a pas de corps et doit être définie dans les classes héritées, tandis qu'une classe abstraite contient au moins une méthode abstraite
 et sert de modèle pour d'autres classes.
 
-12) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
+13) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
 La méthode __toString() permet de définir comment un objet doit se comporter lorsqu'il est converti en chaîne de caractères en POO.
 Elle est appelée automatiquement dans certains cas.
 
