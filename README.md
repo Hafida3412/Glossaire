@@ -316,11 +316,11 @@ les tablettes et les ordinateurs. Cela assure une bonne expérience utilisateur 
  ## Programmation orientée objet (POO)
 
 1) __Donner une définition de la programmation orientée objet__
-   Elle regroupe des informations et des actions liées dans des objets, dotés d'attributs et de méthodes.
-   Par exemple, un objet 'voiture' peut avoir des attributs comme la couleur et des méthodes comme 'démarrer'.
-   Cette approche permet une organisation logique et structurée du code, facilitant sa gestion, sa compréhension et sa réutilisation.
+  Cela signifie que dans la programmation orientée objet, on regroupe des informations (comme la couleur d'une voiture) et des actions (comme démarrer)
+  dans des boîtes appelées objets. Chaque objet a ses propres caractéristiques et actions spécifiques. Cette organisation facilite la gestion et la compréhension
+  du code, car tout est regroupé de manière logique. Cela permet également de réutiliser plus facilement et efficacement le code existant.
 
-2) __Qu’est-ce qu’une classe ? Comment la déclare-t-on ?__
+3) __Qu’est-ce qu’une classe ? Comment la déclare-t-on ?__
 Une classe en POO est comme une boîte à outils qui contient des outils (attributs) et des actions que tu peux faire avec ces outils (méthodes).
 
 class Personne { // propriétés de la classe public $nom; public $prenom; public $age;
