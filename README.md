@@ -320,7 +320,7 @@ les tablettes et les ordinateurs. Cela assure une bonne expérience utilisateur 
   dans des boîtes appelées objets. Chaque objet a ses propres caractéristiques et actions spécifiques. Cette organisation facilite la gestion et la compréhension
   du code, car tout est regroupé de manière logique. Cela permet également de réutiliser plus facilement et efficacement le code existant.
 
-3) __Qu’est-ce qu’une classe ? Comment la déclare-t-on ?__
+2) __Qu’est-ce qu’une classe ? Comment la déclare-t-on ?__
 Une classe en POO est comme une boîte à outils qui contient des outils (attributs) et des actions que tu peux faire avec ces outils (méthodes).
 
 class Personne { // propriétés de la classe public $nom; public $prenom; public $age;
@@ -385,14 +385,14 @@ Il aide à organiser le code et éviter les conflits en appelant des fonctions o
 Les méthodes ou propriétés statiques sont des outils spécifiques à une classe qui peuvent être utilisés sans avoir à créer un objet de cette classe.
 Ils sont communs à toutes les instances de la classe et peuvent être appelés directement en utilisant le nom de la classe.
 
-11) __Définir le polymorphisme en POO__
+10) __Définir le polymorphisme en POO__
 Cela signifie qu'une méthode peut avoir des implementations différentes dans différentes classes, ce qui facilite l'écriture de code sans avoir à connaître la classe exacte de l'objet.
 
-12) __Définir une méthode / classe abstraite ?__
+11) __Définir une méthode / classe abstraite ?__
 Une méthode abstraite n'a pas de corps et doit être définie dans les classes héritées, tandis qu'une classe abstraite contient au moins une méthode abstraite
 et sert de modèle pour d'autres classes.
 
-13) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
+12) __Qu’est-ce que la méthode__ __toString() ? Existe-t-il d’autres méthodes « magiques »__
 La méthode __toString() permet de définir comment un objet doit se comporter lorsqu'il est converti en chaîne de caractères en POO.
 Elle est appelée automatiquement dans certains cas.
 
@@ -435,7 +435,7 @@ Il divise une application en trois composants : le modèle, qui gère les donné
 et le contrôleur, qui traite les actions de l'utilisateur et met à jour le modèle.
 Cette séparation des responsabilités permet de rendre le code plus modulaire, maintenable et évolutif.
 
-5) __Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?__
+4) __Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?__
 - Le modèle (Model) : C'est la couche qui représente les données de l'application et la logique métier. Elle traite les requêtes et les modifications des données.
 - La vue (View) : C'est la couche qui affiche les données au utilisateur et gère l'interface graphique de l'application.
 - Le contrôleur (Controller) : C'est la couche qui fait le lien entre le modèle et la vue. Il récupère les requêtes de l'utilisateur, traite les données en conséquence,
@@ -447,13 +447,13 @@ L'architecture MVC permet de séparer clairement les différents éléments d'un
 Cela facilite la maintenance, la réutilisation du code et la collaboration entre les développeurs.
 De plus, cela permet une meilleure organisation du code et une plus grande flexibilité dans le développement de l'application.
 
-7) __Existe-t-il des variantes à l’architecture MVC ?__
+6) __Existe-t-il des variantes à l’architecture MVC ?__
 Oui, il existe des variantes à l'architecture MVC, telles que MVVM (Modèle-Vue-VueModèle) et MVP (Modèle-Vue-Présentateur).
 Ces variantes sont des adaptations de l'architecture MVC pour répondre à des besoins spécifiques ou pour améliorer la séparation
 des préoccupations dans une application.
 Elles sont utilisées dans le développement de logiciels pour organiser le code de manière claire et modulaire.
 
-8) __Qu’est-ce qu’une API ? Définir l’architecture REST__
+7) __Qu’est-ce qu’une API ? Définir l’architecture REST__
 Une API est comme un langage commun que les différents logiciels utilisent pour se parler et échanger des informations.
 Imaginez un groupe de personnes qui parlent différentes langues : une API est comme un traducteur qui permet à tout le monde de se comprendre.
 
