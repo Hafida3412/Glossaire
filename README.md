@@ -349,8 +349,8 @@ des méthodes (fonctions). Par exemple, une classe "Voiture" peut créer un obje
 la couleur et des méthodes comme démarrer.
 
 4) __Définir la notion de propriété / attribut / méthode__
-En programmation orientée objet, on utilise des propriétés pour garder des informations sur un objet, des attributs pour décrire cet objet
-et des méthodes pour dire à l'objet comment se comporter. Ces idées aident à bien représenter les objets dans un programme informatique.
+En programmation orientée objet, les propriétés stockent des informations sur un objet, les attributs décrivent l'objet en détail et les méthodes sont des actions
+que l'objet peut effectuer.
 
 5) __Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité__
 La visibilité d'une propriété ou d'une méthode d'une classe en programmation détermine si celle-ci peut être accédée depuis l'extérieur de la classe.
