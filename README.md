@@ -575,10 +575,10 @@ Ces opérations permettent de gérer les informations stockées dans une base de
 
 17) __Quelles sont les clauses qui permettent de :__
 a. __Insérer un nouvel enregistrement dans une table__
-On utilise généralement la clause INSERT INTO. On spécifie le nom de la table dans laquelle on veut insérer les données, puis on précise les valeurs à insérer dans chaque colonne de la table. Par exemple :
-
+On utilise généralement la clause __INSERT INTO__. On spécifie le nom de la table dans laquelle on veut insérer les données, puis on précise les valeurs à insérer
+dans chaque colonne de la table.
+Par exemple :
 INSERT INTO nom_table (colonne1, colonne2, colonne3) VALUES (valeur1, valeur2, valeur3);
-
 Cette requête permet d'ajouter un nouvel enregistrement dans la table "nom_table" en spécifiant les valeurs à insérer dans les colonnes "colonne1", "colonne2" et "colonne3".
 
 b. __Modifier un enregistrement dans une table__
@@ -587,30 +587,30 @@ Ensuite, on utilise la clause "SET" pour spécifier les nouvelles valeurs pour c
 On peut également ajouter une clause "WHERE" pour spécifier les enregistrements à modifier en fonction de certaines conditions.
 
 c. __Supprimer un enregistrement dans une table__
-Il faut utiliser la clause DELETE FROM suivi du nom de la table et de la clause WHERE pour spécifier les critères de suppression. 
+Il faut utiliser la clause __DELETE FROM__ suivi du nom de la table et de la clause __WHERE__ pour spécifier les critères de suppression. 
 Par exemple, DELETE FROM table_nom WHERE condition_de_suppression.
 
 d. __Supprimer la base de données__
 Il existe deux types de clauses pour supprimer une base de données:
-- Clauses DROP DATABASE : Ces clauses permettent de supprimer complètement une base de données et tous ses objets (tables, index, procédures stockées, etc.).
-- Clauses DROP TABLE : Ces clauses permettent de supprimer uniquement une table spécifique de la base de données, sans supprimer la base de données elle-même.
+- Clauses __DROP DATABASE__ : Ces clauses permettent de supprimer complètement une base de données et tous ses objets (tables, index, procédures stockées, etc.).
+- Clauses __DROP TABLE__ : Ces clauses permettent de supprimer uniquement une table spécifique de la base de données, sans supprimer la base de données elle-même.
 
 e. __Filtrer les résultats d’une requête SQL:__
--> on utilise les clauses WHERE et HAVING.
+-> on utilise les clauses __WHERE__ et __HAVING__.
 
-- La clause WHERE permet de spécifier des critères de sélection pour les lignes à récupérer dans une table. Par exemple, on peut filtrer les résultats en définissant une condition comme "WHERE nom = 'Dupont'".
+- La clause __WHERE__ permet de spécifier des critères de sélection pour les lignes à récupérer dans une table. Par exemple, on peut filtrer les résultats en définissant une condition comme "WHERE nom = 'Dupont'".
 
-- La clause HAVING permet de filtrer les résultats d'une requête qui contient une fonction d'agrégation comme SUM, AVG, COUNT, etc.
+- La clause __HAVING__ permet de filtrer les résultats d'une requête qui contient une fonction d'agrégation comme SUM, AVG, COUNT, etc.
 Par exemple, on peut utiliser la clause HAVING pour filtrer les résultats en spécifiant une condition sur le résultat d'une fonction d'agrégation
-comme "HAVING SUM(quantite) > 100".
+comme __"HAVING SUM(quantite) > 100"__.
 
 f. __Trier les résultats d’une requête SELECT__
-Pour trier les résultats d'une requête SELECT, on utilise la clause ORDER BY. 
+Pour trier les résultats d'une requête SELECT, on utilise la clause __ORDER BY__. 
 Cette clause permet de spécifier sur quelle colonne ou ensemble de colonnes les résultats doivent être triés, et aussi dans quel ordre (croissant ou décroissant). 
 Par exemple, ORDER BY nom ASC triera les résultats par ordre alphabétique croissant du champ nom.
 
 g. __Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique__
-Pour regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique, on utilise la clause GROUP BY dans la requête SQL. 
+Pour regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique, on utilise la clause __GROUP BY__ dans la requête SQL. 
 Cette clause permet de spécifier la colonne sur laquelle on souhaite regrouper les données. 
 Une fois regroupées, on peut utiliser des fonctions d'agrégation comme COUNT, SUM, AVG, etc. pour obtenir des informations sur les groupes de données.
 
