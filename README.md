@@ -482,11 +482,12 @@ Le MCD est un schéma clair qui montrent comment les données sont liées entre 
 leurs propriétés (=données) et leurs relations. C'est une base de travail avant de créer une base de données.
 
 4) __Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?__
-Il décrit les entités, les relations entre les entités, les attributs des entités, ainsi que les contraintes et les règles
-métier liées aux données. Il permet de modéliser les données d'un système de manière logique et structurée afin de
-faciliter leur manipulation et leur gestion.
+Un modèle de données est comme un plan ou un schéma qui montre comment sont organisées et interconnectées les informations dans un système.
+Il indique quels sont les éléments (entités) présents, comment ils sont liés les uns aux autres (relations), quelles sont les caractéristiques de
+ces éléments (attributs), et quelles sont les règles ou contraintes à respecter pour ces données.
+Cela aide à organiser et gérer les données de manière efficace.
 
-5) __Donner la définition des mots suivants :__
+6) __Donner la définition des mots suivants :__
 a. Entité
  C'est comme un petit dossier où vous pouvez ranger des informations similaires. 
  -> exemple: l'entité "clients"contiendrait des info telles que le nom, l'adresse... 
