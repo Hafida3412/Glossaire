@@ -39,12 +39,11 @@ permettant ce contexte?__
    Une constante contient toujours la même valeur. A la différence d'une variable qui peut changer ou varier.
 
 6) __Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation?__
-   Les superglobales $_GET et $_POST sont des arrays automatiquement créées par PHP lors du chargement de chaque page.
-   Elles sont accessibles partout et existent sur toutes les pages, que ce soit au milieu du code, au début ou dans les fonctions.
-   Ces variables permettent de récupérer respectivement les données envoyées en GET et en POST dans les requêtes HTTP.
+   Les superglobales $_GET et $_POST sont comme des boîtes où PHP garde les informations envoyées depuis un formulaire sur une page web.
+   $_GET récupère les données visibles dans l'URL de la page, tandis que $_POST récupère les données invisibles envoyées de manière sécurisée.
+   Et ces boîtes sont disponibles partout dans le code pour que vous puissiez utiliser ces informations comme vous le souhaitez.
 
-
-7) __Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
+8) __Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer 
    et en donner des exemples (ne pas oublier le type d’une variable sans valeur)__
    Les différents types primitifs que l'on peut associer à une variable en PHP sont:
    null.
@@ -54,12 +53,12 @@ permettant ce contexte?__
    string.
    array.
 
-8) __Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?__
+9) __Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?__
    Il existe 2 types de tabeau:
    - les tableaux à index numériques
    - les tableaux associatifs
 
-9) __Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
+10) __Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un 
 exemple pour chacune d’entre elles__
   
    - Il existe 3 principales structures de contrôle:
@@ -109,14 +108,14 @@ exemple pour chacune d’entre elles__
         }
 
 
-10) __Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?__
+11) __Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?__
     La fonction PHP permettant de demander la longueur d’une chaîne de caractères est strlen().
         Exemple:
         $chaine = "Hello!";
         $longueur = strlen($chaine);
         echo "La longueur de la chaîne est : " . $longueur;
 
-11) __Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
+12) __Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un 
 exemple d’utilisation en PHP__
    Une session en PHP permet de stocker des informations sur un utilisateur et de les rendre disponibles sur toutes les pages
    d'un site web durant sa visite. 
