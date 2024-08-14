@@ -487,7 +487,7 @@ Il indique quels sont les éléments (entités) présents, comment ils sont lié
 ces éléments (attributs), et quelles sont les règles ou contraintes à respecter pour ces données.
 Cela aide à organiser et gérer les données de manière efficace.
 
-6) __Donner la définition des mots suivants :__
+5) __Donner la définition des mots suivants :__
 a. Entité
  C'est comme un petit dossier où vous pouvez ranger des informations similaires. 
  -> exemple: l'entité "clients"contiendrait des info telles que le nom, l'adresse... 
@@ -504,7 +504,7 @@ d. Clé primaire / clé étrangère
 2.La clé étrangère permet de récupérer des données de plusieurs tables en même temps.
 
 6) __Que devient une relation de type « Many To Many » dans le modèle logique de données ?__
-La relation "Many To Many" est modélisée par une table intermédiaire qui facilite la gestion des associations entre les entités concernées.
+Une relation de type "Many To Many" devient une table de liaison supplémentaire dans le modèle logique de données.
 
 7) __Qu’est-ce qu’une base de données ?__
    C'est un endroit où on peut stocker et organiser des informations de manière structurée.
