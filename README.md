@@ -454,7 +454,7 @@ Elles sont utilisées dans le développement de logiciels pour organiser le code
 
 7) __Qu’est-ce qu’une API ? Définir l’architecture REST__
 Une API est comme un langage commun que les différents logiciels utilisent pour se parler et échanger des informations.
-Imaginez un groupe de personnes qui parlent différentes langues : une API est comme un traducteur qui permet à tout le monde de se comprendre.
+Exemple: pour un groupe de personnes qui parlent différentes langues : une API est comme un traducteur qui permet à tout le monde de se comprendre.
 
 L'architecture REST est une manière spécifique d'organiser et de structurer une API. Elle utilise des URLs pour identifier les informations et des commandes simples 
 (GET, POST, PUT, DELETE) pour les manipuler. C'est comme un menu avec des plats différents (les informations) et des instructions simples pour les commander (GET, POST, PUT, DELETE).
