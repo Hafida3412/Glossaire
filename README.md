@@ -407,10 +407,10 @@ manuellement à chaque utilisation. Cela simplifie le développement et rend le 
 On appelle les « getters » des « accesseurs » et les « setters » des « mutateurs ».
 
 15) __Qu’est-ce que la sérialisation en PHP ?__
-La sérialisation en PHP est le processus de conversion d'objets ou de tableaux en une chaîne de caractères afin de les stocker ou de les transférer plus facilement.
-Cela permet de transformer des données complexes en une forme simple qui peut être utilisée ultérieurement.
-La désérialisation est l'opération inverse qui consiste à convertir la chaîne de caractères en objet ou en tableau d'origine.
+La sérialisation en PHP consiste à transformer des données compliquées en une simple chaîne de caractères pour les stocker ou les envoyer plus facilement.
+La désérialisation consiste à reconvertir cette chaîne en données d'origine.
 
+ 
  ##  Architecture 
 
 1) __Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le 
