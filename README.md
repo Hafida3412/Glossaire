@@ -568,7 +568,6 @@ la clause GROUP BY.
 16) __Qu’est ce qu’un CRUD dans le contexte d’une base de données ?__
 Le terme CRUD est un acronyme pour Create, Read, Update et Delete. Il fait référence aux opérations de base que l'on peut effectuer sur une base de données :
 créer des données, lire des données, mettre à jour des données et supprimer des données.
-Ces opérations permettent de gérer les informations stockées dans une base de données de manière simple et efficace.
 
 17) __Quelles sont les clauses qui permettent de :__
 a. __Insérer un nouvel enregistrement dans une table__
