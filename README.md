@@ -506,8 +506,7 @@ Une relation de type "Many To Many" devient une table de liaison supplémentaire
 
 7) __Qu’est-ce qu’une base de données ?__
    C'est un endroit où on peut stocker et organiser des informations de manière structurée.
-   C'est comme une grande bibliothèqte numérique où on peut ranger des livres (=données) pour les retrouver facilement 
-   plus tard. Elles sont essentielles pour les applications Web, les systèmes de gestion...
+   C'est comme une grande bibliothèqte numérique où on peut ranger des livres (=données) pour les retrouver facilement plus tard. 
 
 8) __Définir les notions suivantes :__
 a. SQL
