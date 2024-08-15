@@ -666,19 +666,20 @@ Doctrine est l'ORM principal utilisé dans Symfony pour simplifier la manipulati
 
 7) __Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier 
 contient l’intégralité des dépendances du projet ?__
-L'injection de dépendances consiste à fournir les dépendances d'un objet plutôt que de les créer à l'intérieur de celui-ci, rendant le code plus clair,
-modulable et facile à tester. Spring Framework est l'outil le plus utilisé pour gérer l'injection de dépendances en Java, avec son module Spring IoC.
-Le fichier applicationContext.xml définit les beans et leurs dépendances pour l'injection de dépendances dans un projet Spring.
+L'injection de dépendances, c'est donner à un objet les éléments dont il a besoin plutôt que de les créer à l'intérieur.
+Cela rend le code plus facile à lire et à modifier. Spring Framework est un outil très utilisé en Java pour gérer ce processus.
+Dans un projet Spring, le fichier applicationContext.xml est utilisé pour définir les objets (beans) et les éléments dont ils ont besoin (leurs dépendances)
+pour que l'injection de dépendances fonctionne correctement.
 
-8) __Que permet le bundle Maker au sein de Symfony ?__
+9) __Que permet le bundle Maker au sein de Symfony ?__
 Le bundle Maker de Symfony permet de créer rapidement des éléments de code comme des entités, des contrôleurs et des formulaires, ce qui facilite le développement
 en automatisant des tâches récurrentes.
 
-9) __Quel est le langage de requêtage exploité au sein d’un projet Symfony ?__
+10) __Quel est le langage de requêtage exploité au sein d’un projet Symfony ?__
 Symfony utilise le langage SQL pour les requêtes dans un projet, mais grâce à Doctrine, il est possible de manipuler les données de la base de données en utilisant
 des objets PHP plutôt que du SQL directement.
 
-10) __Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?__
+11) __Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?__
 Le composant qui garantit l'authentification et l'autorisation des utilisateurs est un système de gestion des identités, souvent abrégé en
 IAM (Identity and Access Management). Ce système permet de vérifier l'identité des utilisateurs, de gérer leurs droits d'accès à différents systèmes et ressources,
 et de garantir la sécurité des informations sensibles.
