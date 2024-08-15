@@ -774,21 +774,21 @@ La Commission nationale de l'informatique et des libertés (CNIL)
 Pour utiliser les informations personnelles d'une personne, il faut son autorisation.
 Cette autorisation doit être donnée librement, clairement, et de manière explicite. La personne doit être bien au courant de ce qu'elle autorise.
 
-8) __Qu’est-ce qu’une politique de confidentialité ?__
+7) __Qu’est-ce qu’une politique de confidentialité ?__
 Une politique de confidentialité est un document qui explique comment une entreprise gère les informations personnelles de ses utilisateurs.
 Elle décrit comment l'entreprise collecte, conserve et protège ces informations.
 C'est comme un contrat entre l'entreprise et ses utilisateurs, qui explique comment les informations seront utilisées et protégées.
 
-10) __Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?__
+8) __Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?__
 Le RGPD stipule que les données personnelles ne doivent être conservées que le temps nécessaire à leur finalité et impose aux entreprises de déterminer une
 durée de conservation raisonnable en fonction de divers critères.
 
-12) __Quels sont les droits des utilisateurs selon le RGPD ?__
+9) __Quels sont les droits des utilisateurs selon le RGPD ?__
 Le droit d'accès, le droit de rectification, le droit à l'effacement, le droit à la limitation du traitement, le droit à la portabilité des données,
 le droit d'opposition et le droit de ne pas faire l'objet d'une décision individuelle automatisée.
 Ces droits visent à protéger la vie privée des utilisateurs et à leur donner plus de contrôle sur leurs informations personnelles.
 
-14) __Qu’est-ce que le principe de minimisation des données selon le RGPD ?__
+10) __Qu’est-ce que le principe de minimisation des données selon le RGPD ?__
 Le principe de minimisation des données signifie que les organisations doivent uniquement collecter les données nécessaires pour leur objectif
 et ne doivent pas conserver les données plus longtemps que nécessaire.
 Cela permet de protéger la vie privée des personnes et de réduire les risques de fuite de données.
