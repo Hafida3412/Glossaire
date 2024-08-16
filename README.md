@@ -899,7 +899,7 @@ Un livrable dans un projet est un élément concret ou tangible qui doit être p
 Il contribue à l'atteinte des objectifs du projet et peut prendre différentes formes, telles que des rapports, des prototypes, des plans, des documentations,
 des logiciels, des installations, etc. Les livrables sont définis dès le début du projet et font l'objet de validations et de vérifications tout au long du projet.
 
-9) Quels sont les 3 piliers SCRUM ? Définir chacun d’entre eux
+9) __Quels sont les 3 piliers SCRUM ?Définir chacun d’entre eux__
 les 3 piliers de SCRUM sont la transparence, l'inspection et l'adaptation. Ils sont essentiels pour assurer le bon déroulement d'un projet SCRUM en favorisant
 la communication, l'évaluation continue du travail et la capacité d'ajustement face aux changem
 
