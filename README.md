@@ -819,7 +819,7 @@ Elle apparaît dans les résultats des moteurs de recherche, sous le titre de la
 Elle influence également le référencement naturel de la page, les moteurs de recherche l'utilisant pour déterminer la pertinence de la page par rapport à
 une requête de recherche.
 
-9) Qu’est-ce que le « nofollow » en SEO ?
+9) __Qu’est-ce que le « nofollow » en SEO ?__
 Le "nofollow" en SEO est une valeur d'attribut dans les balises HTML qui indique aux moteurs de recherche de ne pas suivre les liens d'une page web,
 ce qui peut aider à éviter les pénalités liées à des liens de faible qualité ou non naturels.
 
