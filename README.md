@@ -828,7 +828,7 @@ En résumé, un contenu de qualité est crucial pour le référencement d'un sit
 passé par les utilisateurs sur le site, réduit le taux de rebond, favorise les liens entrants naturels, et améliore l'autorité et la crédibilité du site.
 Cela contribue à un meilleur classement dans les résultats des moteurs de recherche.
 
-11) Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?
+11) __Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?__
 L'utilisation structurée des balises de titre est essentielle pour améliorer l'accessibilité, le référencement, la clarté du contenu et la cohérence visuelle d'un site web.
 Cela facilite la navigation pour les utilisateurs malvoyants, améliore le classement dans les moteurs de recherche, rend le contenu plus clair et organisé, et assure une présentation uniforme.
 
