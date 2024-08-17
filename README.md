@@ -828,25 +828,27 @@ Cela contribue à un meilleur classement dans les résultats des moteurs de rech
 
 13) __Pourquoi est-il important d'utiliser des balises de titre (h1, h2, h3, etc.) de manière structurée ?__
 L'utilisation structurée des balises de titre est essentielle pour améliorer l'accessibilité, le référencement, la clarté du contenu et la cohérence visuelle d'un site web.
-Cela facilite la navigation pour les utilisateurs malvoyants, améliore le classement dans les moteurs de recherche, rend le contenu plus clair et organisé, et assure une présentation uniforme.
+Cela facilite la navigation pour les utilisateurs malvoyants, améliore le classement dans les moteurs de recherche, rend le contenu plus clair et organisé,
+et assure une présentation uniforme.
 
-14) __Quelle est la recommandation pour les URL d'un site web bien référencé ?__
-Pour un bon référencement de votre site web, utilisez des URL conviviales, simples, descriptives et contenant des mots-clés pertinents. Évitez les URL complexes,
-privilégiez les tirets pour séparer les mots et maintenez des URLs cohérentes et statiques. Évitez les redirections et modifications fréquentes qui pourraient
-affecter le référencement.
+15) __Quelle est la recommandation pour les URL d'un site web bien référencé ?__
+Pour améliorer le référencement de votre site web, il faut:
+- utiliser des URL simples, descriptives et contenant des mots-clés pertinents.
+- favoriser les tirets pour séparer les mots et gardez les URLs constantes.
+- éviter les redirections et les modifications fréquentes qui peuvent nuire au référencement.
 
-15) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
+17) Qu'est-ce que le maillage interne et pourquoi est-il important pour le référencement ?
 Le maillage interne d'un site web consiste en la structure des liens internes entre les différentes pages, ce qui aide les moteurs de recherche à indexer et classer les pages.
 Il favorise le transfert de pertinence et de popularité entre les pages, améliorant ainsi le référencement et l'expérience utilisateur.
 En résumé, le maillage interne est essentiel pour l'optimisation du site, son référencement et la navigation des visiteurs.
 
-16) Qu'est-ce que l'optimisation des images pour le référencement ?
+18) Qu'est-ce que l'optimisation des images pour le référencement ?
 L'optimisation des images pour le référencement vise à améliorer la visibilité et la pertinence des images sur un site web afin d'optimiser leur référencement dans
 les moteurs de recherche. Cela implique l'optimisation du balisage des images, la compression des fichiers, le choix de noms de fichiers pertinents et des dimensions
 adaptées, ainsi que la création de sitemaps dédiés aux images. Cette pratique permet d'améliorer le positionnement des images dans les résultats de recherche et d'attirer
 plus de trafic qualifié sur le site.
 
-17) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+19) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
 Un plan de site (sitemap) est un fichier XML qui répertorie toutes les pages d'un site web et indique leur structure, leur organisation et leurs liens entre elles.
 Il permet aux moteurs de recherche de comprendre en profondeur le contenu du site et de l'indexer de manière plus efficace.
 Un plan de site bien conçu est essentiel pour optimiser le référencement d'un site web en aidant les moteurs de recherche à indexer efficacement son contenu et à
