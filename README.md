@@ -832,7 +832,7 @@ Cela contribue à un meilleur classement dans les résultats des moteurs de rech
 L'utilisation structurée des balises de titre est essentielle pour améliorer l'accessibilité, le référencement, la clarté du contenu et la cohérence visuelle d'un site web.
 Cela facilite la navigation pour les utilisateurs malvoyants, améliore le classement dans les moteurs de recherche, rend le contenu plus clair et organisé, et assure une présentation uniforme.
 
-12) Quelle est la recommandation pour les URL d'un site web bien référencé ?
+12) __Quelle est la recommandation pour les URL d'un site web bien référencé ?__
 Pour un bon référencement de votre site web, utilisez des URL conviviales, simples, descriptives et contenant des mots-clés pertinents. Évitez les URL complexes,
 privilégiez les tirets pour séparer les mots et maintenez des URLs cohérentes et statiques. Évitez les redirections et modifications fréquentes qui pourraient
 affecter le référencement.
