@@ -841,12 +841,12 @@ Pour améliorer le référencement de votre site web, il faut:
 Le maillage interne d'un site web consiste à organiser les liens entre les pages pour aider les moteurs de recherche à les trouver et les classer.
 Cela améliore le référencement et l'expérience des utilisateurs en facilitant la navigation.
 
-13) __Qu'est-ce que l'optimisation des images pour le référencement ?__
+12) __Qu'est-ce que l'optimisation des images pour le référencement ?__
 L'optimisation des images pour le référencement consiste à rendre les images d'un site web plus visibles et pertinentes pour les moteurs de recherche,
 en utilisant des balises appropriées, des fichiers compressés, des noms de fichiers pertinents et des dimensions adaptées. Cela améliore le positionnement
 des images dans les résultats de recherche et attire plus de visiteurs qualifiés sur le site.
 
-15) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
+13) Qu'est-ce qu'un plan de site (sitemap) et pourquoi est-il important pour le référencement ?
 Un plan de site (sitemap) est un fichier XML qui répertorie toutes les pages d'un site web et indique leur structure, leur organisation et leurs liens entre elles.
 Il permet aux moteurs de recherche de comprendre en profondeur le contenu du site et de l'indexer de manière plus efficace.
 Un plan de site bien conçu est essentiel pour optimiser le référencement d'un site web en aidant les moteurs de recherche à indexer efficacement son contenu et à
