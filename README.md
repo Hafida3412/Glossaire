@@ -877,55 +877,54 @@ La planification itérative divise le travail en cycles répétitifs, permettant
 Cela aide à obtenir des résultats rapidement et à s'adapter aux changements. Bien que courante dans le développement logiciel, cette méthode peut aussi être
 utilisée pour d'autres projets.
 
-8) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+6) __Citer 3 méthodes Agiles dans le cadre d’un projet informatique__
 - Scrum est une méthode agile populaire basée sur des itérations de développement appelées "sprints"
 - Kanban est une méthode visuelle de gestion du travail basée sur des cartes
 - Extreme Programming se concentre sur la qualité du code et la collaboration au sein de l'équipe de développement.
 
-7) Qu’est-ce qu’une réunion de revue de projet ?
+7) __Qu’est-ce qu’une réunion de revue de projet ?__
 La réunion de revue de projet est un moment clé pour évaluer, ajuster et prendre des décisions importantes afin de garantir la réussite du projet.
 Elle favorise la transparence, la communication et la collaboration au sein de l'équipe.
 
-8) Qu’est-ce qu’un livrable dans un projet ?
-Un livrable dans un projet est un élément concret ou tangible qui doit être produit, achevé ou remis à un moment donné lors du déroulement du projet.
-Il contribue à l'atteinte des objectifs du projet et peut prendre différentes formes, telles que des rapports, des prototypes, des plans, des documentations,
-des logiciels, des installations, etc. Les livrables sont définis dès le début du projet et font l'objet de validations et de vérifications tout au long du projet.
+8) __Qu’est-ce qu’un livrable dans un projet ?__
+Un livrable est un résultat concret à produire dans un projet, comme un document ou un produit. Au début, on définit ce qui est attendu, puis on vérifie
+régulièrement que tout est conforme. Cela aide à suivre l'avancement et à atteindre les objectifs du projet.
 
 9) __Quels sont les 3 piliers SCRUM ?Définir chacun d’entre eux__
 les 3 piliers de SCRUM sont la transparence, l'inspection et l'adaptation. Ils sont essentiels pour assurer le bon déroulement d'un projet SCRUM en favorisant
 la communication, l'évaluation continue du travail et la capacité d'ajustement face aux changem
 
-10) Qu’est-ce que le DevOps et quel est son objectif principal ?
+11) Qu’est-ce que le DevOps et quel est son objectif principal ?
 Le DevOps favorise la collaboration entre les équipes de développement et d'opérations pour améliorer la qualité et la rapidité de livraison des logiciels
 en automatisant les processus de développement, de test et de déploiement. Son objectif est d'assurer une livraison continue et rapide des produits logiciels
 tout en garantissant leur stabilité et leur fiabilité, et de promouvoir une culture de collaboration et de responsabilité partagée au sein des équipes.
 
-11) Qu’est-ce que l’intégration continue ?
+12) Qu’est-ce que l’intégration continue ?
 L'intégration continue est une pratique qui vise à automatiser le processus d'intégration des codes source pour détecter et résoudre rapidement les erreurs,
 assurer la cohérence et la qualité du code, et réduire les risques liés au développement logiciel. Cette méthode repose sur l'utilisation d'outils et de
 processus automatisés pour compiler, tester et déployer les modifications du code source dans un environnement de développement partagé.
 
-12) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+13) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
 Docker est une plateforme logicielle permettant de créer, déployer et gérer des conteneurs logiciels, facilitant ainsi le déploiement et la gestion des
 applications dans le cadre du DevOps. En utilisant des conteneurs Docker, les équipes de développement peuvent garantir une uniformité de fonctionnement sur
 tous les environnements, évitant ainsi les problèmes liés aux différences entre ces environnements. Docker permet également de mettre en place des
 pipelines CI/CD efficaces, d'automatiser le déploiement des applications et de réaliser des économies en termes de ressources matérielles tout en facilitant
 la scalabilité des applications.
 
-13) Qu’est-ce qu’un test unitaire ?
+14) Qu’est-ce qu’un test unitaire ?
 Les tests unitaires sont une pratique de programmation visant à tester de manière isolée et automatique une partie spécifique du code source d'un logiciel,
 afin de garantir son bon fonctionnement et de détecter rapidement les erreurs. Cette approche permet d'assurer la qualité du logiciel, d'améliorer sa maintenance
 et sa fiabilité, tout en favorisant le développement agile.
 
-14) Quelle est l'unité de code testée lors d'un test unitaire ?
+15) Quelle est l'unité de code testée lors d'un test unitaire ?
 L'unité de code testée lors d'un test unitaire est généralement une fonction ou une méthode spécifique dans le code source. Cette unité de code est testée
 de manière isolée pour vérifier son bon fonctionnement dans différentes conditions.
 
-15) Quelles sont les caractéristiques d'un bon test unitaire ?
+16) Quelles sont les caractéristiques d'un bon test unitaire ?
 Les bons tests unitaires sont indépendants, isolés, répétables, rapides, lisibles, pertinents, fiables et bien documentés.
 Ils aident à améliorer la qualité du code et à réduire les erreurs dans les applications logicielles.
 
-16) Qu'est-ce qu'une assertion dans un test unitaire ?
+17) Qu'est-ce qu'une assertion dans un test unitaire ?
 Avec les assertions, on vérifie si une partie du code se comporte comme prévu lors d'un test unitaire. Si une assertion échoue,
 le test échoue et le code ne fonctionne pas correctement. Les assertions sont importantes pour garantir la qualité du code.
 
