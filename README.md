@@ -691,17 +691,17 @@ Une faille XSS permet à un attaquant d'injecter du code malveillant sur un site
 Pour se protéger, il est important de filtrer et valider les données utilisateur, utiliser des outils de sécurité, d'échapper les caractères spéciaux et
 d'utiliser les en-têtes HTTP de sécurité. 
 
-4) __Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?__
+3) __Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?__
 La faille CSRF (Cross-Site Request Forgery) est une attaque qui exploite la confiance d'un site web envers l'utilisateur pour effectuer des actions non autorisées
 en son nom.
 L'attaque consiste à envoyer des requêtes HTTP légitimes à un site web en utilisant les informations d'identification de l'utilisateur sans son consentement.
 
-5) __Définir l’attaque par force brute et l’attaque par dictionnaire__
+4) __Définir l’attaque par force brute et l’attaque par dictionnaire__
 L'attaque par force brute teste toutes les combinaisons de caractères pour trouver un mot de passe, tandis que l'attaque par dictionnaire utilise une liste de mots
 courants pour deviner le mot de passe.
 Il est important de choisir des mots de passe complexes pour se protéger.
 
-7) __Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement__
+5) __Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement__
 - Débordement de tampon (Buffer Overflow) : Cette faille se produit lorsqu'un programme écrit en mémoire en dehors de la zone prévue pour cela,
 ce qui peut conduire à l'exécution de code malveillant.
 
@@ -862,21 +862,20 @@ La méthode Agile est une façon de gérer des projets qui met l'accent sur la c
 Elle aide les équipes à mieux faire face aux imprévus et à répondre aux besoins des clients. En livrant régulièrement des produits de bonne qualité,
 cette méthode rend le travail plus efficace et permet à tout le monde de mieux comprendre ce qui se passe.
 
-4) __Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages__
+3) __Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages__
 La méthode MoSCoW est un moyen de décider quelles fonctionnalités sont les plus importantes en les classant en quatre groupes : indispensables, souhaitables,
 optionnelles et rejetées (Must have, Should have, Could have et Won't have). Elle aide à clarifier les priorités et à gérer efficacement le temps et les ressources.
 Cela améliore la communication et réduit les risques dans les projets.
 
-5) __A quoi sert la méthodologie MVP ? Citer les caractéristiques clés__
+4) __A quoi sert la méthodologie MVP ? Citer les caractéristiques clés__
 La méthode MVP (Minimum Viable Product) consiste à créer un produit basique avec seulement les fonctionnalités essentielles pour écouter les besoins des utilisateurs.
 Cela permet de réduire les coûts, d'obtenir rapidement des retours et d'améliorer le produit rapidement. En gros, c'est une façon d'économiser temps et argent
 tout en testant une idée.
 
-7) Qu’est-ce que la planification itérative ?
-La planification itérative est une méthode de gestion de projet qui consiste à diviser le travail en cycles répétitifs. Chaque itération correspond à une période
-pendant laquelle une partie du travail est réalisée et évaluée. Cette approche permet d'obtenir des résultats plus rapidement, de s'adapter aux changements
-et d'améliorer la planification grâce aux retours d'expérience. Utilisée principalement dans le développement logiciel, elle peut être appliquée à d'autres
-types de projets.
+5) __Qu’est-ce que la planification itérative ?__
+La planification itérative divise le travail en cycles répétitifs, permettant de réaliser et d'évaluer une partie du projet à la fois.
+Cela aide à obtenir des résultats rapidement et à s'adapter aux changements. Bien que courante dans le développement logiciel, cette méthode peut aussi être
+utilisée pour d'autres projets.
 
 8) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
 - Scrum est une méthode agile populaire basée sur des itérations de développement appelées "sprints"
