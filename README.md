@@ -867,10 +867,10 @@ La méthode MoSCoW est un moyen de décider quelles fonctionnalités sont les pl
 optionnelles et rejetées (Must have, Should have, Could have et Won't have). Elle aide à clarifier les priorités et à gérer efficacement le temps et les ressources.
 Cela améliore la communication et réduit les risques dans les projets.
 
-6) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
-La méthodologie MVP consiste à développer un produit ou un service avec un minimum de fonctionnalités pour répondre aux besoins des utilisateurs.
-Les avantages incluent des coûts réduits, une rapide acquisition de retours des utilisateurs, des tests de viabilité et une rapide itération pour optimiser
-le produit, ainsi qu'une économie de temps dans la conception et le développement.
+5) __A quoi sert la méthodologie MVP ? Citer les caractéristiques clés__
+La méthode MVP (Minimum Viable Product) consiste à créer un produit basique avec seulement les fonctionnalités essentielles pour écouter les besoins des utilisateurs.
+Cela permet de réduire les coûts, d'obtenir rapidement des retours et d'améliorer le produit rapidement. En gros, c'est une façon d'économiser temps et argent
+tout en testant une idée.
 
 7) Qu’est-ce que la planification itérative ?
 La planification itérative est une méthode de gestion de projet qui consiste à diviser le travail en cycles répétitifs. Chaque itération correspond à une période
