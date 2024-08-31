@@ -862,24 +862,23 @@ La méthode Agile est une façon de gérer des projets qui met l'accent sur la c
 Elle aide les équipes à mieux faire face aux imprévus et à répondre aux besoins des clients. En livrant régulièrement des produits de bonne qualité,
 cette méthode rend le travail plus efficace et permet à tout le monde de mieux comprendre ce qui se passe.
 
-4) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
-La méthode MoSCoW est une technique de priorisation des besoins qui consiste à classer les fonctionnalités en quatre catégories : Must have, Should have, Could have
-et Won't have. Elle permet de définir clairement les besoins essentiels, de hiérarchiser les fonctionnalités et de faciliter la prise de décision, la gestion des
-attentes et la planification des ressources. Ses avantages incluent une meilleure compréhension des priorités, une approche pragmatique pour gérer les contraintes
-de temps et de ressources, une communication claire et une réduction des risques.
+4) __Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages__
+La méthode MoSCoW est un moyen de décider quelles fonctionnalités sont les plus importantes en les classant en quatre groupes : indispensables, souhaitables,
+optionnelles et rejetées (Must have, Should have, Could have et Won't have). Elle aide à clarifier les priorités et à gérer efficacement le temps et les ressources.
+Cela améliore la communication et réduit les risques dans les projets.
 
-5) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+6) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
 La méthodologie MVP consiste à développer un produit ou un service avec un minimum de fonctionnalités pour répondre aux besoins des utilisateurs.
 Les avantages incluent des coûts réduits, une rapide acquisition de retours des utilisateurs, des tests de viabilité et une rapide itération pour optimiser
 le produit, ainsi qu'une économie de temps dans la conception et le développement.
 
-6) Qu’est-ce que la planification itérative ?
+7) Qu’est-ce que la planification itérative ?
 La planification itérative est une méthode de gestion de projet qui consiste à diviser le travail en cycles répétitifs. Chaque itération correspond à une période
 pendant laquelle une partie du travail est réalisée et évaluée. Cette approche permet d'obtenir des résultats plus rapidement, de s'adapter aux changements
 et d'améliorer la planification grâce aux retours d'expérience. Utilisée principalement dans le développement logiciel, elle peut être appliquée à d'autres
 types de projets.
 
-7) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+8) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
 - Scrum est une méthode agile populaire basée sur des itérations de développement appelées "sprints"
 - Kanban est une méthode visuelle de gestion du travail basée sur des cartes
 - Extreme Programming se concentre sur la qualité du code et la collaboration au sein de l'équipe de développement.
