@@ -852,7 +852,7 @@ meilleur référencement.
 
 ## Gestion de projets / DevOps
 
-1) Qu’est-ce que la gestion de projet ?
+1) __Qu’est-ce que la gestion de projet ?__
 La gestion de projet en programmation consiste à planifier, organiser et contrôler les différentes tâches pour mener à bien un projet de développement logiciel.
 Cela implique de définir les objectifs, estimer les ressources, créer un calendrier, suivre la progression et garantir l'efficacité et la qualité du processus
 de développement.
