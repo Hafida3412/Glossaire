@@ -891,8 +891,11 @@ Un livrable est un résultat concret à produire dans un projet, comme un docume
 régulièrement que tout est conforme. Cela aide à suivre l'avancement et à atteindre les objectifs du projet.
 
 9) __Quels sont les 3 piliers SCRUM ?Définir chacun d’entre eux__
-les 3 piliers de SCRUM sont la transparence, l'inspection et l'adaptation. Ils sont essentiels pour assurer le bon déroulement d'un projet SCRUM en favorisant
-la communication, l'évaluation continue du travail et la capacité d'ajustement face aux changem
+Les trois piliers de SCRUM:
+- La transparence permet à l'équipe et aux parties prenantes de voir et comprendre le processus de travail.
+- L'inspection consiste à vérifier régulièrement les progrès lors de réunions comme les revues de sprint, permettant d'identifier des problèmes.
+- L'adaptation implique que l'équipe ajuste ses méthodes et priorités en fonction des résultats inspectés.
+Ensemble, ces principes favorisent l'amélioration continue dans les projets complexes.
 
 11) Qu’est-ce que le DevOps et quel est son objectif principal ?
 Le DevOps favorise la collaboration entre les équipes de développement et d'opérations pour améliorer la qualité et la rapidité de livraison des logiciels
