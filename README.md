@@ -857,31 +857,29 @@ La gestion de projet en programmation consiste à planifier, organiser et contr�
 Cela implique de définir les objectifs, estimer les ressources, créer un calendrier, suivre la progression et garantir l'efficacité et la qualité du processus
 de développement.
 
-2) Qu’est-ce qu’une méthode Agile de gestion de projet ?
-Grâce à sa flexibilité et sa capacité à s'adapter aux changements, la méthode Agile est devenue de plus en plus populaire dans de nombreux secteurs,
-notamment le développement logiciel, le marketing, la gestion de projet, les ressources humaines, etc. En adoptant une approche Agile, les équipes peuvent
-mieux gérer les risques et les imprévus, tout en restant focalisées sur la satisfaction des clients et la livraison de produits de qualité.
+2) __Qu’est-ce qu’une méthode Agile de gestion de projet ?__
+La méthode Agile est une façon de gérer des projets qui met l'accent sur la capacité à s'adapter et à travailler ensemble.
+Elle aide les équipes à mieux faire face aux imprévus et à répondre aux besoins des clients. En livrant régulièrement des produits de bonne qualité,
+cette méthode rend le travail plus efficace et permet à tout le monde de mieux comprendre ce qui se passe.
 
-En résumé, la méthode Agile est une approche de gestion de projet innovante qui favorise la collaboration, l'adaptabilité et la livraison continue de produits de haute qualité. Elle permet aux équipes de travailler de manière efficace et transparente, en s'adaptant rapidement aux changements et aux retours des parties prenantes.
-
-3) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+4) Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
 La méthode MoSCoW est une technique de priorisation des besoins qui consiste à classer les fonctionnalités en quatre catégories : Must have, Should have, Could have
 et Won't have. Elle permet de définir clairement les besoins essentiels, de hiérarchiser les fonctionnalités et de faciliter la prise de décision, la gestion des
 attentes et la planification des ressources. Ses avantages incluent une meilleure compréhension des priorités, une approche pragmatique pour gérer les contraintes
 de temps et de ressources, une communication claire et une réduction des risques.
 
-4) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
+5) A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
 La méthodologie MVP consiste à développer un produit ou un service avec un minimum de fonctionnalités pour répondre aux besoins des utilisateurs.
 Les avantages incluent des coûts réduits, une rapide acquisition de retours des utilisateurs, des tests de viabilité et une rapide itération pour optimiser
 le produit, ainsi qu'une économie de temps dans la conception et le développement.
 
-5) Qu’est-ce que la planification itérative ?
+6) Qu’est-ce que la planification itérative ?
 La planification itérative est une méthode de gestion de projet qui consiste à diviser le travail en cycles répétitifs. Chaque itération correspond à une période
 pendant laquelle une partie du travail est réalisée et évaluée. Cette approche permet d'obtenir des résultats plus rapidement, de s'adapter aux changements
 et d'améliorer la planification grâce aux retours d'expérience. Utilisée principalement dans le développement logiciel, elle peut être appliquée à d'autres
 types de projets.
 
-6) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
+7) Citer 3 méthodes Agiles dans le cadre d’un projet informatique
 - Scrum est une méthode agile populaire basée sur des itérations de développement appelées "sprints"
 - Kanban est une méthode visuelle de gestion du travail basée sur des cartes
 - Extreme Programming se concentre sur la qualité du code et la collaboration au sein de l'équipe de développement.
