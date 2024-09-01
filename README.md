@@ -920,8 +920,17 @@ Un test unitaire vérifie le bon fonctionnement d'une petite partie d'un program
 L'objectif est de s'assurer qu'elle produit les résultats attendus dans différentes situations. En résumé, c'est un contrôle ciblé pour garantir la fiabilité d'un
 morceau de code.
 
-17) Quelles sont les caractéristiques d'un bon test unitaire ?
-Les bons tests unitaires sont indépendants, isolés, répétables, rapides, lisibles, pertinents, fiables et bien documentés.
+15) __Quelles sont les caractéristiques d'un bon test unitaire ?__
+Les bons tests unitaires sont des vérifications que l'on fait sur de petites parties d'un programme pour s'assurer qu'elles fonctionnent correctement. 
+Ils sont:
+- Indépendants : Pas d'impact d'un test à l'autre.
+- Isolés : Un seul point de vérification par test.
+- Répétables : Résultats constants à chaque exécution.
+- Rapides : Exécution rapide pour un développement fluide.
+- Lisibles : Code de test clair et compréhensible.
+- Pertinents : Vérification des fonctionnalités essentielles.
+- Fiables : Résultats cohérents et précis.
+- Bien documentés : Explications claires pour chaque test.
 Ils aident à améliorer la qualité du code et à réduire les erreurs dans les applications logicielles.
 
 18) Qu'est-ce qu'une assertion dans un test unitaire ?
