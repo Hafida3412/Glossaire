@@ -453,7 +453,7 @@ Exemple: pour un groupe de personnes qui parlent différentes langues : une API 
 L'architecture REST est une manière spécifique d'organiser et de structurer une API. Elle utilise des URLs pour identifier les informations et des commandes simples 
 (GET, POST, PUT, DELETE) pour les manipuler. C'est comme un menu avec des plats différents (les informations) et des instructions simples pour les commander (GET, POST, PUT, DELETE).
 
-En résumé, l'API est le langage commun, et REST est une façon spécifique de l'organiser pour faciliter la communication entre les logiciels.
+L'API est le langage commun, et REST est une façon spécifique de l'organiser pour faciliter la communication entre les logiciels.
 
 
 ## Modélisation / Base de données
