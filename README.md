@@ -396,8 +396,7 @@ et sert de modèle pour d'autres classes.
 La méthode __toString() permet de définir comment un objet doit se comporter lorsqu'il est converti en chaîne de caractères en POO.
 Elle est appelée automatiquement dans certains cas.
 
-Il existe d'autres méthodes magiques en POO, telles que __construct() pour le constructeur de la classe, __destruct() pour le destructeur, __get() et __set()
-pour la surcharge des accesseurs, etc. 
+Il existe d'autres méthodes magiques en POO, telles que ____construct()__ pour le constructeur de la classe, __ __destruct()__ pour le destructeur,  ____get()__ et __ __set()__ pour la surcharge des accesseurs, etc. 
 Ces méthodes sont appelées automatiquement dans certaines circonstances spécifiques.
 
 13) __Qu’est-ce qu’un « autoload » ?__
