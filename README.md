@@ -902,32 +902,31 @@ Le DevOps encourage la coopération entre les équipes de développement et d'op
 Il automatise les étapes de développement, de test et de déploiement. L’objectif est d'assurer une livraison continue tout en maintenant la stabilité et
 en favorisant un esprit d'équipe.
 
-12) Qu’est-ce que l’intégration continue ?
-L'intégration continue est une pratique qui vise à automatiser le processus d'intégration des codes source pour détecter et résoudre rapidement les erreurs,
-assurer la cohérence et la qualité du code, et réduire les risques liés au développement logiciel. Cette méthode repose sur l'utilisation d'outils et de
-processus automatisés pour compiler, tester et déployer les modifications du code source dans un environnement de développement partagé.
+12) __Qu’est-ce que l’intégration continue ?__
+L'intégration continue est une méthode qui automatise l'intégration des codes sources pour repérer et corriger rapidement les erreurs. Elle garantit la qualité
+et la cohérence du code en utilisant des outils pour compiler, tester et déployer les modifications. Cela aide à réduire les risques dans le développement logiciel.
 
-13) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
+14) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
 Docker est une plateforme logicielle permettant de créer, déployer et gérer des conteneurs logiciels, facilitant ainsi le déploiement et la gestion des
 applications dans le cadre du DevOps. En utilisant des conteneurs Docker, les équipes de développement peuvent garantir une uniformité de fonctionnement sur
 tous les environnements, évitant ainsi les problèmes liés aux différences entre ces environnements. Docker permet également de mettre en place des
 pipelines CI/CD efficaces, d'automatiser le déploiement des applications et de réaliser des économies en termes de ressources matérielles tout en facilitant
 la scalabilité des applications.
 
-14) Qu’est-ce qu’un test unitaire ?
+15) Qu’est-ce qu’un test unitaire ?
 Les tests unitaires sont une pratique de programmation visant à tester de manière isolée et automatique une partie spécifique du code source d'un logiciel,
 afin de garantir son bon fonctionnement et de détecter rapidement les erreurs. Cette approche permet d'assurer la qualité du logiciel, d'améliorer sa maintenance
 et sa fiabilité, tout en favorisant le développement agile.
 
-15) Quelle est l'unité de code testée lors d'un test unitaire ?
+16) Quelle est l'unité de code testée lors d'un test unitaire ?
 L'unité de code testée lors d'un test unitaire est généralement une fonction ou une méthode spécifique dans le code source. Cette unité de code est testée
 de manière isolée pour vérifier son bon fonctionnement dans différentes conditions.
 
-16) Quelles sont les caractéristiques d'un bon test unitaire ?
+17) Quelles sont les caractéristiques d'un bon test unitaire ?
 Les bons tests unitaires sont indépendants, isolés, répétables, rapides, lisibles, pertinents, fiables et bien documentés.
 Ils aident à améliorer la qualité du code et à réduire les erreurs dans les applications logicielles.
 
-17) Qu'est-ce qu'une assertion dans un test unitaire ?
+18) Qu'est-ce qu'une assertion dans un test unitaire ?
 Avec les assertions, on vérifie si une partie du code se comporte comme prévu lors d'un test unitaire. Si une assertion échoue,
 le test échoue et le code ne fonctionne pas correctement. Les assertions sont importantes pour garantir la qualité du code.
 
