@@ -911,10 +911,9 @@ Docker est une plateforme qui aide à créer, déployer et gérer des conteneurs
 environnements, évitant les problèmes de compatibilité. Avec Docker, les équipes peuvent automatiser le déploiement et rendre les processus de développement
 plus efficaces, tout en économisant des ressources et en rendant les applications plus faciles à adapter.
 
-15) Qu’est-ce qu’un test unitaire ?
-Les tests unitaires sont une pratique de programmation visant à tester de manière isolée et automatique une partie spécifique du code source d'un logiciel,
-afin de garantir son bon fonctionnement et de détecter rapidement les erreurs. Cette approche permet d'assurer la qualité du logiciel, d'améliorer sa maintenance
-et sa fiabilité, tout en favorisant le développement agile.
+13) __Qu’est-ce qu’un test unitaire ?__
+Les tests unitaires consistent à vérifier automatiquement des parties spécifiques d'un logiciel pour s'assurer qu'elles fonctionnent correctement.
+Cela aide à détecter les erreurs rapidement et à garantir la qualité du code. Cette méthode facilite également la maintenance et soutient le développement agile.
 
 16) Quelle est l'unité de code testée lors d'un test unitaire ?
 L'unité de code testée lors d'un test unitaire est généralement une fonction ou une méthode spécifique dans le code source. Cette unité de code est testée
