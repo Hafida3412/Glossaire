@@ -156,10 +156,8 @@ exemple d’utilisation en PHP__
 
 13) __Quelle est la différence entre les instructions « require » et « include » en PHP__
     Elles sont utilisées pour inclure des fichiers externes dans un script.
-    Lorsque nous utilisons <<include>>, si le fichier n'est pas trouvé, il affiche un avertissement et continue 
-    l'exécution du script.
-    Lorsque nous utilisons <<require>>, si le fichier n'est pas trouvé, PHP génère une erreur fatale et arrête
-    l'exécution du script.
+    Lorsque nous utilisons <<include>>, si le fichier n'est pas trouvé, il affiche un avertissement et continue l'exécution du script.
+    Lorsque nous utilisons <<require>>, si le fichier n'est pas trouvé, PHP génère une erreur fatale et arrête l'exécution du script.
     <<require>> est généralement utilisé pour les fichiers essentiels, tandis qu'include est utilisé pour les fichiers optionnels.
 
 
@@ -203,8 +201,7 @@ exemple d’utilisation en PHP__
       Les données sont présentées sous forme de paires clé/valeur.
 
    -> Le JSON est couramment utilisé pour transmettre des données entre un serveur et un client web.
-      Par exemple, lorsque vous consultez une page web, le serveur peut envoyer des données au format JSON pour que 
-      votre navigateur puisse les afficher.
+      Par exemple, lorsque vous consultez une page web, le serveur peut envoyer des données au format JSON pour que votre navigateur puisse les afficher.
 
 5) __Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?__
    Oui, on peut utiliser JavaScript sur des ordinateurs serveurs grâce à un outil appelé Node.js.
@@ -458,6 +455,7 @@ L'architecture REST est une manière spécifique d'organiser et de structurer un
 
 En résumé, l'API est le langage commun, et REST est une façon spécifique de l'organiser pour faciliter la communication entre les logiciels.
 
+
 ## Modélisation / Base de données
 
 1) __Qu’est-ce que la modélisation de données ? Définir la méthode Merise1__
@@ -535,13 +533,11 @@ Dans une base de données, les données sont stockées dans des TABLES (chaque t
 lignes appelées ENREGISTREMENT (=lignes dans une table) et de colonnes appelées ATTRIBUTS (=colonne dans une table)
 
 9) __Quelle est la différence entre une base de données relationnelle et non relationnelle ?__
-Les bases de données relationnelles sont composées de tables reliées entre elles par des clés étrangères et suivent le modèle ACID (Atomicité, Cohérence, Isolation,
-Durabilité). C'est un ensemble de propriétés garantissant la fiabilité et la cohérence des transactions dans les bases de données relationnelles.
-En revanche, les bases de données non relationnelles sont flexibles et conçues pour être très évolutives. Ces technologies sont très efficaces pour organiser des
-informations qui ne sont pas rangées de manière très organisée, et elles sont également idéales pour les situations où il est crucial d'obtenir des résultats rapidement
-et de manière constante.
+Les bases de données relationnelles utilisent des tables liées par des clés étrangères et suivent un modèle qui assure la fiabilité des transactions (appelé ACID).
+Les bases de données non relationnelles sont plus flexibles, faciles à faire évoluer et adaptées pour gérer des informations désorganisées. Elles sont également
+meilleures pour obtenir rapidement des résultats fiables.
 
-11) __Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?__
+10) __Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?__
 Une jointure dans une base de données est une opération qui permet de combiner des données provenant de deux tables différentes en fonction d'une condition commune entre les deux. Il existe plusieurs types de jointures, les principales sont :
 
 - Jointure interne : Elle ne renvoie que les lignes des tables qui ont une correspondance dans les deux tables.
@@ -553,22 +549,22 @@ Une jointure dans une base de données est une opération qui permet de combiner
 Une vue dans une base de données montre les données de façon organisée et facilite leur manipulation. On peut restreindre l'accès à certaines informations
 en cachant des champs ou en filtrant les lignes selon des critères spécifiques.
 
-13) __Qu’est-ce que l’intégrité référentielle dans une base de données ?__
+12) __Qu’est-ce que l’intégrité référentielle dans une base de données ?__
 L'intégrité référentielle en base de données consiste à s'assurer que les liens entre les différentes tables sont respectés.
 Par exemple, si une table contient une clé étrangère qui fait référence à une clé primaire dans une autre table, il est important que la valeur de
 la clé étrangère corresponde toujours à une valeur existante dans la clé primaire. Cela permet d'éviter les erreurs et les incohérences dans les
 données de la base de données.
 
-14) __Quelles sont les fonctions d’agrégation en SQL ?__
+13) __Quelles sont les fonctions d’agrégation en SQL ?__
 En SQL, les fonctions d'agrégation sont utilisées pour calculer des valeurs sur un ensemble de données, comme la somme, la moyenne, le maximum ou le minimum.
 Elles aident à résumer les données d'une table en fonction de critères spécifiques, comme regrouper les ventes par mois ou par catégorie, en les combinant avec
 la clause GROUP BY.
 
-16) __Qu’est ce qu’un CRUD dans le contexte d’une base de données ?__
+14) __Qu’est ce qu’un CRUD dans le contexte d’une base de données ?__
 Le terme CRUD est un acronyme pour Create, Read, Update et Delete. Il fait référence aux opérations de base que l'on peut effectuer sur une base de données :
 créer des données, lire des données, mettre à jour des données et supprimer des données.
 
-17) __Quelles sont les clauses qui permettent de :__
+15) __Quelles sont les clauses qui permettent de :__
 a. __Insérer un nouvel enregistrement dans une table__
 On utilise généralement la clause __INSERT INTO__. On spécifie le nom de la table dans laquelle on veut insérer les données, puis on précise les valeurs à insérer
 dans chaque colonne de la table.
