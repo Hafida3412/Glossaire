@@ -934,35 +934,35 @@ le test échoue et le code ne fonctionne pas correctement. Les assertions sont i
 
  
  ## English
-
-1) What does JavaScript enable you to do on a website ?
+_
+1) __What does JavaScript enable you to do on a website ?__
 a. Add interactive behavior and dynamic content
 
-2) Which programming language is primarily used for server-side web development ?
+2) __Which programming language is primarily used for server-side web development ?__
 a. PHP
 
-3) What is the purpose of a web browser ?
+3) __What is the purpose of a web browser ?__
 a. To render and display web pages
 
-4) What is the difference between GET and POST methods in HTTP ?
+4) __What is the difference between GET and POST methods in HTTP ?__
 a. GET retrieves data from a server, while POST submits data to a server
 GET method is used to retrieve data from a server without modifying it, while POST method is used to submit data to a server to create or update resources.
 GET requests are less secure and have limitations on the amount of data that can be sent, while POST requests are more secure and have no limitations on data size.
 
-5) What is the purpose of version control systems (e.g., Git) in web development ?
+5) __What is the purpose of version control systems (e.g., Git) in web development ?__
 a. To track changes and manage collaborative development
 Version control systems like Git are essential in web development to track changes made to the codebase, allowing developers to revert to previous versions if
 needed and maintain an organized record of changes. It also enables collaboration between team members by managing simultaneous edits to the codebase and merging
 changes seamlessly. Overall, version control systems help streamline the development process and ensure code quality and consistency.
 
-6) What is the purpose of a framework in web development ?
+6) __What is the purpose of a framework in web development ?__
 a. To provide a structured environment for building web applications
 Frameworks in web development provide a pre-built structure and set of tools to streamline the process of building web applications. They offer libraries,
 templates, and best practices that help developers organize code, improve efficiency, and maintain consistency throughout a project.Frameworks also often include
 built-in security features, database access, and other functionalities that can help developers create robust and reliable web applications.
 
-7) What does NoSQL stand for ?
+7) __What does NoSQL stand for ?__
 a. Not Only SQL
 
-8) Which of the following is a characteristic of NoSQL databases ?
+8) __Which of the following is a characteristic of NoSQL databases ?__
 c. Scalability and flexible data models
