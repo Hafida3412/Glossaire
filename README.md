@@ -902,16 +902,14 @@ Le DevOps encourage la coopération entre les équipes de développement et d'op
 Il automatise les étapes de développement, de test et de déploiement. L’objectif est d'assurer une livraison continue tout en maintenant la stabilité et
 en favorisant un esprit d'équipe.
 
-12) __Qu’est-ce que l’intégration continue ?__
+11) __Qu’est-ce que l’intégration continue ?__
 L'intégration continue est une méthode qui automatise l'intégration des codes sources pour repérer et corriger rapidement les erreurs. Elle garantit la qualité
 et la cohérence du code en utilisant des outils pour compiler, tester et déployer les modifications. Cela aide à réduire les risques dans le développement logiciel.
 
-14) Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?
-Docker est une plateforme logicielle permettant de créer, déployer et gérer des conteneurs logiciels, facilitant ainsi le déploiement et la gestion des
-applications dans le cadre du DevOps. En utilisant des conteneurs Docker, les équipes de développement peuvent garantir une uniformité de fonctionnement sur
-tous les environnements, évitant ainsi les problèmes liés aux différences entre ces environnements. Docker permet également de mettre en place des
-pipelines CI/CD efficaces, d'automatiser le déploiement des applications et de réaliser des économies en termes de ressources matérielles tout en facilitant
-la scalabilité des applications.
+12) __Qu’est-ce que Docker ? Et en quoi est-il utile dans le cadre du DevOps ?__
+Docker est une plateforme qui aide à créer, déployer et gérer des conteneurs logiciels. Elle facilite le fonctionnement des applications dans différents
+environnements, évitant les problèmes de compatibilité. Avec Docker, les équipes peuvent automatiser le déploiement et rendre les processus de développement
+plus efficaces, tout en économisant des ressources et en rendant les applications plus faciles à adapter.
 
 15) Qu’est-ce qu’un test unitaire ?
 Les tests unitaires sont une pratique de programmation visant à tester de manière isolée et automatique une partie spécifique du code source d'un logiciel,
