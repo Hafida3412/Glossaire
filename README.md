@@ -897,10 +897,10 @@ Les trois piliers de SCRUM:
 - L'adaptation implique que l'équipe ajuste ses méthodes et priorités en fonction des résultats inspectés.
 Ensemble, ces principes favorisent l'amélioration continue dans les projets complexes.
 
-11) Qu’est-ce que le DevOps et quel est son objectif principal ?
-Le DevOps favorise la collaboration entre les équipes de développement et d'opérations pour améliorer la qualité et la rapidité de livraison des logiciels
-en automatisant les processus de développement, de test et de déploiement. Son objectif est d'assurer une livraison continue et rapide des produits logiciels
-tout en garantissant leur stabilité et leur fiabilité, et de promouvoir une culture de collaboration et de responsabilité partagée au sein des équipes.
+10) __Qu’est-ce que le DevOps et quel est son objectif principal ?__
+Le DevOps encourage la coopération entre les équipes de développement et d'opérations pour livrer rapidement des logiciels de qualité.
+Il automatise les étapes de développement, de test et de déploiement. L’objectif est d'assurer une livraison continue tout en maintenant la stabilité et
+en favorisant un esprit d'équipe.
 
 12) Qu’est-ce que l’intégration continue ?
 L'intégration continue est une pratique qui vise à automatiser le processus d'intégration des codes source pour détecter et résoudre rapidement les erreurs,
