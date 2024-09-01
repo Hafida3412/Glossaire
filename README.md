@@ -933,7 +933,7 @@ Ils sont:
 - Bien documentés : Explications claires pour chaque test.
 Ils aident à améliorer la qualité du code et à réduire les erreurs dans les applications logicielles.
 
-18) Qu'est-ce qu'une assertion dans un test unitaire ?
+16) __Qu'est-ce qu'une assertion dans un test unitaire ?__
 Avec les assertions, on vérifie si une partie du code se comporte comme prévu lors d'un test unitaire. Si une assertion échoue,
 le test échoue et le code ne fonctionne pas correctement. Les assertions sont importantes pour garantir la qualité du code.
 
