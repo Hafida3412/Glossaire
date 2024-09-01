@@ -915,9 +915,10 @@ plus efficaces, tout en économisant des ressources et en rendant les applicatio
 Les tests unitaires consistent à vérifier automatiquement des parties spécifiques d'un logiciel pour s'assurer qu'elles fonctionnent correctement.
 Cela aide à détecter les erreurs rapidement et à garantir la qualité du code. Cette méthode facilite également la maintenance et soutient le développement agile.
 
-16) Quelle est l'unité de code testée lors d'un test unitaire ?
-L'unité de code testée lors d'un test unitaire est généralement une fonction ou une méthode spécifique dans le code source. Cette unité de code est testée
-de manière isolée pour vérifier son bon fonctionnement dans différentes conditions.
+14) __Quelle est l'unité de code testée lors d'un test unitaire ?__
+Un test unitaire vérifie le bon fonctionnement d'une petite partie d'un programme, comme une fonction ou une méthode, en se concentrant uniquement sur celle-ci.
+L'objectif est de s'assurer qu'elle produit les résultats attendus dans différentes situations. En résumé, c'est un contrôle ciblé pour garantir la fiabilité d'un
+morceau de code.
 
 17) Quelles sont les caractéristiques d'un bon test unitaire ?
 Les bons tests unitaires sont indépendants, isolés, répétables, rapides, lisibles, pertinents, fiables et bien documentés.
