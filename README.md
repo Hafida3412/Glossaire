@@ -30,7 +30,7 @@ permettant ce contexte?__
   
 3) __Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?__
    Une variable est un élément mesurable qui peut prendre différentes valeurs.
-   Exemple: taille, âge, poids...
+   Exemple: taille, âge, poids...Une variable est préfixée par le symbole: $
 
 4) __Qu’est-ce que la portée d’une variable ?__
    La portée d'une variable correspond à l'espace du script dans laquelle elle va être accessible. 
